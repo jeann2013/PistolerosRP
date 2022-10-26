@@ -56,6 +56,21 @@ Config = {
         Animation= "eat"
     },
     {
+        Name= "bread",
+        Thirst= 0,
+        Hunger= 500,
+        Metabolism= 250,
+        Stamina= 200,
+        InnerCoreHealth= 10,
+        OuterCoreHealth= 5,
+        InnerCoreHealthGold= 0.0,
+        OuterCoreHealthGold= 500.0,
+        InnerCoreStaminaGold= 200.0,
+        OuterCoreStaminaGold= 1000.0,
+        PropName= "s_canbeansused01x",
+        Animation= "eat"
+    },
+    {
         Name= "bandage",
         Thirst= 0,
         Hunger= 500,
