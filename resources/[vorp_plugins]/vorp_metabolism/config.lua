@@ -52,14 +52,14 @@ Config = {
         OuterCoreHealthGold= 500.0,
         InnerCoreStaminaGold= 200.0,
         OuterCoreStaminaGold= 1000.0,
-        PropName= "p_bottle01x",
+        PropName= "s_canbeansused01x",
         Animation= "eat"
     },
     {
         Name= "bandage",
         Thirst= 0,
         Hunger= 500,
-        Metabolism= 250,
+        Metabolism= 350,
         Stamina= 200,
         InnerCoreHealth= 10,
         OuterCoreHealth= 5,
