@@ -1,6 +1,6 @@
 Config = {}
 
-Config.defaultlang = "en_lang"
+Config.defaultlang = "es_lang"
 
 -- Crafting Key
 Config.Keys = {

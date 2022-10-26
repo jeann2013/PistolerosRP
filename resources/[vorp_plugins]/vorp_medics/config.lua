@@ -5,7 +5,7 @@ Config = {
         Sheriff = "sheriff"
     }, --Add or delete jobs to allow revive knocked players. ALL OTHER ACTIONS ARE ONLY FOR DOCTORS
 
-    defaultlang = "en",
+    defaultlang = "es",
     Align = "center",
 
     Key = 0x760A9C6F, --[G]
