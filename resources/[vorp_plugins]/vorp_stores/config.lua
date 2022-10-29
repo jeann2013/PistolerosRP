@@ -6,7 +6,7 @@ Config = {}
 
 --menu position
 -- "center" / "top-left" / "top-right"
-Config.Align = "top-left"
+Config.Align = "top-right"
 
 --Webhook Section, description is in translation
 Config.UseWebhook = false -- Use webhook
@@ -43,14 +43,17 @@ Config.Stores = {
         JobGrade = 0, -- rank allowed
         category = { "food", "tools", "meds" }, -- you need to add the same words to the sellitems and buyitems category you can add new categories as long the items have the category names
         storeType = { "sell", "buy" }, -- choose the storetype if you translate this you must do the same in the client.lua file
-        StoreHoursAllowed = true, -- if you want the stores to use opening and closed hours
-        RandomPrices = true,
+        StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
+        RandomPrices = false,
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
             {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bandage", amount=10, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=10, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=10, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
         }
     },
 
@@ -348,9 +351,12 @@ Config.SellItems = {
 ------------------------------------------------------ BUY ITEMS ---------------------------------------------------------
 Config.BuyItems = {
     Valentine = {
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 55), desc = "buy Pick Axe", category = "tools" },
-        { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 1, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
+        { itemLabel = "Bread", itemName = "bread", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy bread", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.50, randomprice = 0.50, desc = "buy bandage", category = "meds" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy water", category = "food" },
+        { itemLabel = "Peach", itemName = "consumable_peach", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy water", category = "food" },        
     },
 
     Rhodes = {

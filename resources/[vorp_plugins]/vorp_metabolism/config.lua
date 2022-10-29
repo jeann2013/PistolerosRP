@@ -3,7 +3,7 @@
 -- VORP METABOLISM LUA
 
 Config = {
-    defaultlang= "Es",
+    defaultlang= "En",
 
   UseMetabolism= true, --Experimental Function
 
@@ -73,7 +73,7 @@ Config = {
     {
         Name= "bandage",
         Thirst= 0,
-        Hunger= 500,
+        Hunger= 0,
         Metabolism= 350,
         Stamina= 200,
         InnerCoreHealth= 10,
