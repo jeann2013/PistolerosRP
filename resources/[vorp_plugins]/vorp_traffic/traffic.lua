@@ -3,9 +3,9 @@
 -- x must be a float type
 
 local config = {
-    pedFrequency = 1,
-    trafficFrequency = 1,
-    animalFrequency = 1,
+    pedFrequency = 1.0,
+    trafficFrequency = 1.0,
+    animalFrequency = 1.0,
 }
 
 Citizen.CreateThread(function()
