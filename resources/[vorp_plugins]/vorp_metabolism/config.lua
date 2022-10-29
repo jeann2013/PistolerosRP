@@ -5,7 +5,7 @@
 Config = {
     defaultlang= "En",
 
-  UseMetabolism= false, --Experimental Function
+  UseMetabolism= true, --Experimental Function
 
   --Status amount rate drop
   EveryTimeStatusDown= 3600, -- 3,6 seconds
