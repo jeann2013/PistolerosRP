@@ -45,13 +45,22 @@ RegisterCommand('me', function(source, args, rawCommand)
     TriggerClientEvent('poke_rpchat:sendProximityMe', -1, source, playerName, args, {255, 0, 0})
 end, false)
 
+-- RegisterCommand('do', function(source, args, rawCommand)
+--     local source = source
+--     args = table.concat(args, ' ')
+--     local User = VorpCore.getUser(source)
+--     local Character = User.getUsedCharacter
+--     local playerName = Character.firstname..' '..Character.lastname
+--     TriggerClientEvent('poke_rpchat:sendProximityMessage', -1, source, playerName, args, {0, 0, 255})
+-- end, false)
+
 RegisterCommand('do', function(source, args, rawCommand)
     local source = source
     args = table.concat(args, ' ')
     local User = VorpCore.getUser(source)
     local Character = User.getUsedCharacter
     local playerName = Character.firstname..' '..Character.lastname
-    TriggerClientEvent('poke_rpchat:sendProximityMessage', -1, source, playerName, args, {0, 0, 255})
+    TriggerClientEvent('poke_rpchat:sendProximityDo', -1, source, playerName, args, {0, 0, 255})
 end, false)
 
 -- COMMERCE COMMAND
