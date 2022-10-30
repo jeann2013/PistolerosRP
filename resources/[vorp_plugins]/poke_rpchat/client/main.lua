@@ -69,18 +69,17 @@ AddEventHandler('poke_rpchat:sendReport', function(id, name, message)
     end
 end)
 
-RegisterNetEvent('esx_rpchat:proximidadme')
-AddEventHandler('esx_rpchat:proximidadme', function(pedOr, coords, title, message, color)
-    local sourcePed = pedOr
-    local sourceCoords = coords
-    local target = PlayerId()
-    local targetPed = GetPlayerPed(target)
-    local targetCoords = GetEntityCoords(targetPed)
+RegisterNetEvent('poke_rpchat:sendProximityMe')
+AddEventHandler('poke_rpchat:sendProximityMe', function(playerId, title, message, color)
+    local player = PlayerId()
+    local target = GetPlayerFromServerId(playerId)
 
-    if GetDistanceBetweenCoords(sourceCoords, targetCoords, true) < 20 then
+    local playerPed, targetPed = PlayerPedId(), GetPlayerPed(target)
+    local playerCoords, targetCoords = GetEntityCoords(playerPed), GetEntityCoords(targetPed)
+
+    if target == player or #(playerCoords - targetCoords) < 20 then
         TriggerEvent('chat:addMessage', {
             template = '<div style="padding: 2px; border: 2px solid rgba(249, 79, 0, 0.3); margin: 1px; size : 10px; background-color: rgba(249, 79, 0, 0.2); border-radius: 3px;"><i class="fas fa-user"></i> ^8{0} ^0{1}</div>',
-            args = { title, message }
-        })
+            args = {title, message}, color = color})
     end
-end)
+end) 
