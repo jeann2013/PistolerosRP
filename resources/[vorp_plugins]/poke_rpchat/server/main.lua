@@ -27,14 +27,14 @@ RegisterCommand('ayuda', function(source, args, rawCommand)
 end, false)
 
 -- PROXIMITY CHAT
-RegisterCommand('me', function(source, args, rawCommand)
-    local source = source
-    args = table.concat(args, ' ')
-    local User = VorpCore.getUser(source)
-    local Character = User.getUsedCharacter
-    local playerName = Character.firstname..' '..Character.lastname
-    TriggerClientEvent('poke_rpchat:sendProximityMessage', -1, source, playerName, args, {255, 0, 0})
-end, false)
+-- RegisterCommand('me', function(source, args, rawCommand)
+--     local source = source
+--     args = table.concat(args, ' ')
+--     local User = VorpCore.getUser(source)
+--     local Character = User.getUsedCharacter
+--     local playerName = Character.firstname..' '..Character.lastname
+--     TriggerClientEvent('poke_rpchat:sendProximityMessage', -1, source, playerName, args, {255, 0, 0})
+-- end, false)
 
 RegisterCommand('do', function(source, args, rawCommand)
     local source = source
@@ -67,6 +67,19 @@ RegisterCommand('pm', function(source, args, user)
             TriggerClientEvent("chatMessage", source, "[Sistema]", {255, 0, 0}, "Tu mensaje privado ha sido enviado")
         end
     end
+end, false)
+
+RegisterCommand('me', function(source, args, rawCommand)
+    if source == 0 then
+        return
+    end
+
+    args = table.concat(args, ' ')
+    local identif = source
+    local name = GetCharacterName(source).."["..identif.."]"
+    pedOr = GetPlayerPed(source)
+    coords = GetEntityCoords(pedOr)
+    TriggerClientEvent('esx_rpchat:proximidadme', -1, pedOr, coords, _U('me_prefix', '['..source..'] '), args, { 204, 0, 104 })
 end, false)
 
 -- SEND CALL
