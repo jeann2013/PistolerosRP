@@ -38,30 +38,30 @@ AddEventHandler("vorp_lumberjack:axecheck", function(tree)
 	elseif Axe2 ~= nil then 
 		local meta =  Axe2["metadata"]
 		if next(meta) == nil then 
-			VorpInv.subItem(_source, "lumberaxe", 1,{})
-			VorpInv.addItem(_source, "lumberaxe", 1,{description = "Durability = 98",durability = 99})
+			VorpInv.subItem(_source, "hatchet", 1,{})
+			VorpInv.addItem(_source, "hatchet", 1,{description = "Durability = 98",durability = 99})
 			TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
 		else
 			local durability = meta.durability - 1
 			local description = "Durability = "
-			VorpInv.subItem(_source, "lumberaxe", 1,meta)
+			VorpInv.subItem(_source, "hatchet", 1,meta)
 			if 0 >= durability then 
 				local random = math.random(1,2)
 				if random == 1 then 
 					TriggerClientEvent("vorp:TipRight", _source, "Your Axe broke", 2000)
 					TriggerClientEvent("vorp_lumberjack:noaxe", _source)
 				else
-					VorpInv.addItem(_source, "lumberaxe", 1,{description = description.."1",durability = 1})
+					VorpInv.addItem(_source, "hatchet", 1,{description = description.."1",durability = 1})
 					TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
 				end
 			else
-				VorpInv.addItem(_source, "lumberaxe", 1,{description = description..durability,durability = durability})
+				VorpInv.addItem(_source, "hatchet", 1,{description = description..durability,durability = durability})
 				TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
 			end
 		end
 	else
 		TriggerClientEvent("vorp_lumberjack:noaxe", _source)
-		TriggerClientEvent("vorp:TipRight", _source, "You don't have an axe", 2000)
+		TriggerClientEvent("vorp:TipRight", _source, "You don't have an hatchet", 2000)
 	end
 
 end)
@@ -87,14 +87,12 @@ AddEventHandler('vorp_lumberjack:addItem', function()
 	end
 	local chance2 = math.random(1,keysx(reward))
 	local count = math.random(1,reward[chance2].amount)
-	TriggerEvent("vorpCore:canCarryItems", tonumber(_source), count, function(canCarry)
-		TriggerEvent("vorpCore:canCarryItem", tonumber(_source), reward[chance2].name,count, function(canCarry2)
-			if canCarry and canCarry2 then
-				VorpInv.addItem(_source, reward[chance2].name, count)
-				TriggerClientEvent("vorp:TipRight", _source, "You got "..reward[chance2].label, 3000)
-			else
-				TriggerClientEvent("vorp:TipRight", _source, "You can't carry any more "..reward[chance2].label, 3000)
-			end
-		end)
+	TriggerEvent("vorpCore:canCarryItems", tonumber(_source), count, function(canCarry)		
+		if canCarry and canCarry2 then
+			VorpInv.addItem(_source, reward[chance2].name, count)
+			TriggerClientEvent("vorp:TipRight", _source, "You got "..reward[chance2].label, 3000)
+		else
+			TriggerClientEvent("vorp:TipRight", _source, "You can't carry any more "..reward[chance2].label, 3000)
+		end		
 	end) 
 end)
