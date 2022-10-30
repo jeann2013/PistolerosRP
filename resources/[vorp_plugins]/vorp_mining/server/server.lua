@@ -55,7 +55,7 @@ AddEventHandler('vorp_mining:addItem', function()
 	local Character = VorpCore.getUser(_source).getUsedCharacter
 	local chance =  math.random(1,10)
 	local reward = {}
-	for k,v in pairs(Config.Items) do 
+	for k,v in pairs(Config.Items) do
 		if v.chance >= chance then
 			table.insert(reward,v)
 		end
@@ -63,13 +63,15 @@ AddEventHandler('vorp_mining:addItem', function()
 	local chance2 = math.random(1,keysx(reward))
 	local count = math.random(1,reward[chance2].amount)
 	TriggerEvent("vorpCore:canCarryItems", tonumber(_source), count, function(canCarry)
-		TriggerEvent("vorpCore:canCarryItem", tonumber(_source), reward[chance2].name,count, function(canCarry2)
-			if canCarry and canCarry2 then
+		-- TriggerEvent("vorpCore:canCarryItem", tonumber(_source), reward[chance2].name,count, function(canCarry2)
+
+			print("canCarry and canCarry2",canCarry, canCarry2)
+			if canCarry then
 				VorpInv.addItem(_source, reward[chance2].name, count)
 				TriggerClientEvent("vorp:TipRight", _source, "You found "..reward[chance2].label, 3000)
 			else
 				TriggerClientEvent("vorp:TipRight", _source, "You can't carry any more "..reward[chance2].label, 3000)
 			end
-		end)
+		-- end)
 	end) 
 end)

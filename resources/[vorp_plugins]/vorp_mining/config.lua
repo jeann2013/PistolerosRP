@@ -18,9 +18,11 @@ Config.Items = {
     {name = "copper", label = "Copper", chance = 6, amount = 8},
     {name = "iron", label = "Iron", chance = 6, amount = 12},
     {name = "nitrite", label = "Nitrite", chance = 8, amount = 4},
-    {name = "rock", label = "Rocks", chance = 10, amount = 4},
+    {name = "stone", label = "Rocks", chance = 10, amount = 4},
     {name = "salt", label = "Salt", chance = 10, amount = 4},
     {name = "goldnugget", label = "Gold Nuggets", chance = 3, amount = 2},
+    {name = "sulfur", label = "Sulfur", chance = 3, amount = 1},
+    
 }
 
 Config.Rocks = {

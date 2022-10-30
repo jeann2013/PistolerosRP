@@ -6,3 +6,7 @@ INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('sulfur', 'Brass Bar', 50, 1, 'item_standard', 0);
 INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('stone', 'Lead Bar', 50, 1, 'item_standard', 0);
 INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('pickaxe', 'Pickaxe', 1, 1, 'item_standard', 0);
+INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('salt', 'Salt', 50, 1, 'item_standard', 0);
+INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('nitrite', 'Nitrite', 50, 1, 'item_standard', 0);
+INSERT INTO items  (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('coal', 'Coal', 50, 1, 'item_standard', 0);
+
