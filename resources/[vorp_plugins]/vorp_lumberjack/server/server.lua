@@ -88,7 +88,7 @@ AddEventHandler('vorp_lumberjack:addItem', function()
 	local chance2 = math.random(1,keysx(reward))
 	local count = math.random(1,reward[chance2].amount)
 	TriggerEvent("vorpCore:canCarryItems", tonumber(_source), count, function(canCarry)		
-		if canCarry and canCarry2 then
+		if canCarry then
 			VorpInv.addItem(_source, reward[chance2].name, count)
 			TriggerClientEvent("vorp:TipRight", _source, "You got "..reward[chance2].label, 3000)
 		else
