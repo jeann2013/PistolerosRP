@@ -1,6 +1,6 @@
 
 
-ServerFramework = "redemrp" -- "redemrp" or "vorp" or "qbr"
+ServerFramework = "vorp" -- "redemrp" or "vorp" or "qbr"
 
 local VorpCore
 
