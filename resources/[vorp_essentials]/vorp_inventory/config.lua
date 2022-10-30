@@ -7,7 +7,7 @@ Config = {
   Debug = false, -- if your server is live set this to false.  to true only if you are testing things
   DevMode = false, -- if your server is live set this to false.  to true only if you are testing things (auto load inventory when script restart and before character selection. Alos add /getInv command)
 
-  defaultlang = "en_lang",
+  defaultlang = "es_lang",
   dbupdater = true,
   ShowCharacterNameOnGive = false, -- when giving an item, show the character name of nearby players instead of their player ID. if set to false, show the player ID
 
