@@ -38,30 +38,30 @@ AddEventHandler("vorp_lumberjack:axecheck", function(tree)
 	elseif Axe2 ~= nil then 
 		local meta =  Axe2["metadata"]
 		if next(meta) == nil then 
-			VorpInv.subItem(_source, "lumberaxe", 1,{})
-			VorpInv.addItem(_source, "lumberaxe", 1,{description = "Durability = 98",durability = 99})
+			VorpInv.subItem(_source, "hatchet", 1,{})
+			VorpInv.addItem(_source, "hatchet", 1,{description = "Durability = 98",durability = 99})
 			TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
 		else
 			local durability = meta.durability - 1
 			local description = "Durability = "
-			VorpInv.subItem(_source, "lumberaxe", 1,meta)
+			VorpInv.subItem(_source, "hatchet", 1,meta)
 			if 0 >= durability then 
 				local random = math.random(1,2)
 				if random == 1 then 
 					TriggerClientEvent("vorp:TipRight", _source, "Your Axe broke", 2000)
 					TriggerClientEvent("vorp_lumberjack:noaxe", _source)
 				else
-					VorpInv.addItem(_source, "lumberaxe", 1,{description = description.."1",durability = 1})
+					VorpInv.addItem(_source, "hatchet", 1,{description = description.."1",durability = 1})
 					TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
 				end
 			else
-				VorpInv.addItem(_source, "lumberaxe", 1,{description = description..durability,durability = durability})
+				VorpInv.addItem(_source, "hatchet", 1,{description = description..durability,durability = durability})
 				TriggerClientEvent("vorp_lumberjack:axechecked", _source, choppingtree)
 			end
 		end
 	else
 		TriggerClientEvent("vorp_lumberjack:noaxe", _source)
-		TriggerClientEvent("vorp:TipRight", _source, "You don't have an axe", 2000)
+		TriggerClientEvent("vorp:TipRight", _source, "You don't have an hatchet", 2000)
 	end
 
 end)
