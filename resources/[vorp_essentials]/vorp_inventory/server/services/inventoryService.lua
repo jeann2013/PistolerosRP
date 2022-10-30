@@ -52,7 +52,6 @@ InventoryService.UseItem = function(itemName, itemId, args)
 		print("[^2UseItem^7] ^1Error^7: Item [^3" .. tostring(itemName) .. "^7] does not exist in DB.")
 		return
 	end
-
 	if UsableItemsFunctions[itemName] ~= nil and userInventory[itemId] ~= nil then
 		local item = userInventory[itemId]
 		if item ~= nil then

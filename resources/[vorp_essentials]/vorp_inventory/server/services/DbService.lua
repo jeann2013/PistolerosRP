@@ -14,6 +14,8 @@ DbService.GetSharedInventory = function (inventoryId, cb)
 end
 
 DbService.GetInventory = function (charIdentifier, inventoryId, cb)
+    print("inventoryId",inventoryId)
+    print("charIdentifier",charIdentifier)
     exports.ghmattimysql:execute("SELECT ic.id, i.item, ci.amount, ic.metadata, ci.created_at FROM items_crafted ic\
 		LEFT JOIN character_inventories ci on ic.id = ci.item_crafted_id\
 		LEFT JOIN items i on ic.item_id = i.id\
