@@ -60,7 +60,7 @@ RegisterCommand('do', function(source, args, rawCommand)
     local User = VorpCore.getUser(source)
     local Character = User.getUsedCharacter
     local playerName = Character.firstname..' '..Character.lastname
-    TriggerClientEvent('poke_rpchat:sendProximityDo', -1, source, playerName, args, {0, 0, 255})
+    TriggerClientEvent('poke_rpchat:sendProximityDo', -1, source, playerName, args, {191, 255, 0})
 end, false)
 
 -- COMMERCE COMMAND
