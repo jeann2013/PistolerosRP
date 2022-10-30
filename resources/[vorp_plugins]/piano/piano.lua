@@ -30,7 +30,7 @@ Citizen.CreateThread(function()
 ---------------------------Valentine ----------------------------------------
         if IsPlayerNearCoords(-312.3, 799.01, 118.46) then
             if not play then 
-            DrawTxt("[~e~SPACEBAR~q~] to play piano for tips, [~e~]~q~] to stop", 0.50, 0.95, 0.7, 0.5, true, 223, 44, 53, 255, true)
+            DrawTxt("[~e~SPACEBAR~q~] para tocar el piano por propinas, [~e~W~q~] para detener", 0.50, 0.95, 0.7, 0.5, true, 223, 44, 53, 255, true)
             end
 
             if IsControlJustPressed(0, 0xD9D0E1C0) then
