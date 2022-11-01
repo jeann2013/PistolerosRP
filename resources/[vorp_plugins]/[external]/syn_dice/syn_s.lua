@@ -1,10 +1,13 @@
-RegisterCommand('dice', function(source, args, rawCommand)
-	if source == 0 or source == "Console" then return end
 
+TriggerEvent("chat:addSuggestion", "/" .. "dado 1", "/dado 1 y 3", {})
+RegisterCommand('dado', function(source, args, rawCommand)
+	if source == 0 or source == "Console" then return end
+	
 	local dices, c = tonumber(args[1]), 1
 	if dices then
+		
 		if dices > 3 then
-			TriggerClientEvent("vorp:TipRight", source, 'You can choose a number between 1 and 3 only', 5000)
+			TriggerClientEvent("vorp:TipRight", source, 'Debes de seleccionar entre 1 y 3', 5000)
 			return
 		end
 		local dice = {}
@@ -15,10 +18,12 @@ RegisterCommand('dice', function(source, args, rawCommand)
 		TriggerClientEvent('syn_dice:ToggleDiceAnim', source)
 		Citizen.Wait(2000)
 		TriggerClientEvent('syn_dice:ToggleDisplay', -1, source, dice, "dices")
+	else
+		TriggerClientEvent("vorp:TipRight", source, 'Debes de seleccionar entre 1 y 3', 5000)
 	end
 end, false)
 
-RegisterCommand('rps', function(source, args, rawCommand)
+RegisterCommand('ppt', function(source, args, rawCommand)
 	if source == 0 or source == "Console" then return end
 	TriggerClientEvent('syn_dice:TogglerpsAnim', source)
 	Citizen.Wait(2000)
@@ -35,7 +40,7 @@ RegisterCommand('rps', function(source, args, rawCommand)
 
 end, false)
 
-RegisterCommand('flipcoin', function(source, args, rawCommand)
+RegisterCommand('moneda', function(source, args, rawCommand)
 	if source == 0 or source == "Console" then return end
 	TriggerClientEvent('syn_dice:TogglecoinAnim', source)
 	Citizen.Wait(2000)
