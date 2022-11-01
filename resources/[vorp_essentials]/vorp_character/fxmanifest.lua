@@ -11,7 +11,8 @@ server_scripts {
 }
 
 files {
+  'Es.json',
   'Config.json',
   'MenuAPI.dll',
-  'Newtonsoft.Json.dll',
+  'Newtonsoft.Json.dll'  
 }
