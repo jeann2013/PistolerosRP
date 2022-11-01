@@ -1,5 +1,5 @@
 fx_version "cerulean"
-game "rdm3"
+game "rdr3"
 
 author "gegen#4674"
 
