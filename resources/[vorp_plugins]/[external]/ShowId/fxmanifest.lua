@@ -1,5 +1,6 @@
-fx_version "cerulean"
-game "rdr3"
+fx_version 'adamant'
+
+games { 'rdr3' }
 
 author "gegen#4674"
 
