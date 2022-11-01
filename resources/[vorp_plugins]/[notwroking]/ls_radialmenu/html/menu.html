@@ -88,10 +88,10 @@
                             // Add events for both navSlice and navTitle
                             const execCmd = wheelData.commands[j]
                             wheels[i].navItems[j].navSlice.mousedown(function () {
-                                $.post('http://'+resourceName+'/sliceclicked', JSON.stringify({command: execCmd}));
+                                $.post('https://'+resourceName+'/sliceclicked', JSON.stringify({command: execCmd}));
                             });
                             wheels[i].navItems[j].navTitle.mousedown(function () {
-                                $.post('http://'+resourceName+'/sliceclicked', JSON.stringify({command: execCmd}));
+                                $.post('https://'+resourceName+'/sliceclicked', JSON.stringify({command: execCmd}));
                             });
                         }
 
@@ -114,7 +114,7 @@
             window.addEventListener("keyup", function onEvent(event) {
                 // Close menu when key is released
                 if (event.key === menuKeybind) {
-                    $.post('http://'+resourceName+'/closemenu', JSON.stringify({}));
+                    $.post('https://'+resourceName+'/closemenu', JSON.stringify({}));
                 }
             });
         });
