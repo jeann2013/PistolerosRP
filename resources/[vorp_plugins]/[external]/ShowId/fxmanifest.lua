@@ -1,5 +1,5 @@
 fx_version "cerulean"
-game "gta5"
+game "rdm3"
 
 author "gegen#4674"
 
