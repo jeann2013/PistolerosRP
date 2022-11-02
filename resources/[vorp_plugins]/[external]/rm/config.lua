@@ -154,8 +154,8 @@ subMenuConfigs = {
                     navAngle = 270,
                     minRadiusPercent = 0.25,
                     maxRadiusPercent = 0.85,
-                    labels = {"Hud", "Delete Horse", "Delete Wagon", "Delete Campfire","Dado", "Delete Tent", "lanzar moneda", "Forecast", "Hide Chat", "Race Menu", "PPT", "Reload Plants","Horse Emote"},
-                    commands = {"hud", "dh", "dv", "dcampfire","dado", "dtent", "moneda", "forecast", "togglechat", "race", "ppt", "plant_load", "he"}
+                    labels = {"Hud", "Delete Horse", "Delete Wagon", "Delete Campfire","Dado 1","Dado 2","Dado 3", "Delete Tent", "moneda", "Forecast", "Hide Chat", "Race Menu", "PPT", "Reload Plants","Horse Emote"},
+                    commands = {"hud", "dh", "dv", "dcampfire","dado 1","dado 2","dado 3", "dtent", "moneda", "forecast", "togglechat", "race", "ppt", "plant_load", "he"}
                 },
                 
             }
