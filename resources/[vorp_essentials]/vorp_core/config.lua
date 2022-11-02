@@ -139,7 +139,7 @@ Config = {
     },
   },
   -----------------------------------------------------------------------------
-  HeadId = false,
+  HeadId = true,
   HeadIdDistance = 15,
   ModeKey = true,
   KeyShowIds = "0x8CC9CD42", -- Press X
