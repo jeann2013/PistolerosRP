@@ -141,7 +141,7 @@ Config = {
   -----------------------------------------------------------------------------
   HeadId = true,
   HeadIdDistance = 15,
-  ModeKey = true,
+  ModeKey = false,
   KeyShowIds = "0x8CC9CD42", -- Press X
   ActiveEagleEye = true,
   ActiveDeadEye = false,
