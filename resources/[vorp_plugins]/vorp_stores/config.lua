@@ -49,11 +49,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=10, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=10, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
         }
     },
 
@@ -77,8 +78,12 @@ Config.Stores = {
         StoreClose = 20, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     Strawberry = {
@@ -101,8 +106,12 @@ Config.Stores = {
         StoreClose = 23, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     Blackwater = {
@@ -125,8 +134,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     Armadillo = {
@@ -149,8 +162,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     Tumbleweed = {
@@ -173,8 +190,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     StDenis = {
@@ -197,8 +218,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     Vanhorn = {
@@ -221,8 +246,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     BlackwaterFishing = {
@@ -245,8 +274,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="bait", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bait", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bait", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bait", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     },
     Wapiti = {
@@ -269,8 +302,12 @@ Config.Stores = {
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
         LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="bait", amount=10, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bait", amount=10, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bait", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
+            {itemName="bait", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
+            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
+            {itemName="carrots", amount=100, type="buy"}
         }
     }
 }
@@ -288,70 +325,81 @@ Config.Stores = {
 ---------------------------------------------------- SELL ITEMS --------------------------------------------------------------
 Config.SellItems = {
     Valentine = {
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 10, randomprice = math.random(10), desc = "sell apples", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(25, 42), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.10, randomprice = math.random(10), desc = "sell apples", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(25, 42), desc = "sell bandage", category = "meds" },
     },
     Rhodes = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 55), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(15), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(32, 52), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.20, randomprice = math.random(40, 55), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(15), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(32, 52), desc = "sell pick axe", category = "tools" },
     },
     Strawberry = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(12), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     Blackwater = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(12), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     Armadillo = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(12), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     Tumbleweed = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(12), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     StDenis = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(12), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     Vanhorn = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 10, randomprice = math.random(12), desc = "sell", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     BlackwaterFishing = {
-        { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
-        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", sellprice = 10, randomprice = math.random(15), desc = "sell", category = "bait" },
-        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell", category = "bait" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", sellprice = 0.10, randomprice = math.random(15), desc = "sell", category = "bait" },
+        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 50), desc = "sell", category = "bait" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
     Wapiti = {
-        { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
-        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", sellprice = 10, randomprice = math.random(15), desc = "sell", category = "bait" },
-        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell", category = "bait" },
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 40, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
+        { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },        
+        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", sellprice = 0.10, randomprice = math.random(15), desc = "sell", category = "bait" },
+        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 50), desc = "sell", category = "bait" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
     },
 }
 
 ------------------------------------------------------ BUY ITEMS ---------------------------------------------------------
 Config.BuyItems = {
     Valentine = {
-        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 1, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
         { itemLabel = "Bread", itemName = "bread", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy bread", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.50, randomprice = 0.50, desc = "buy bandage", category = "meds" },
@@ -360,52 +408,61 @@ Config.BuyItems = {
     },
 
     Rhodes = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
     },
 
     Strawberry = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
     },
 
     Blackwater = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
     },
     Armadillo = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
     },
     Tumbleweed = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
     },
     StDenis = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
     },
     Vanhorn = {
-        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 10, randomprice = math.random(12), desc = "buy water", category = "food" },
-        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
+        { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
+        { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
     },
     BlackwaterFishing = {
-        { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
-        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 10, randomprice = math.random(14), desc = "buy", category = "bait" },
-        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
+        { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 0.10, randomprice = math.random(14), desc = "buy", category = "bait" },
+        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 0.40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
 
     },
     Wapiti = {
-        { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
-        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 10, randomprice = math.random(14), desc = "buy", category = "bait" },
-        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
+        { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 0.10, randomprice = math.random(14), desc = "buy", category = "bait" },
+        { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 0.40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
     }
 }
