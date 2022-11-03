@@ -17,36 +17,40 @@ Config3.Stores = {
             ["Melee"] = {
                 ["Tradders Knife"] = {	
                     hashname = "WEAPON_MELEE_KNIFE_TRADER",
-                    price = 5,    
+                    price = 1,    
                 
                 },
                 ["Knife"] = {	
                     hashname = "WEAPON_MELEE_KNIFE",  
-                    price = 5,      
+                    price = 1,      
                 
                 },
                 ["JawBone Knife"] = {	
-                    hashname = "WEAPON_MELEE_KNIFE_JAWBONE",  
-                    price = 2,   
-                
+                    hashname = "WEAPON_MELEE_KNIFE_JAWBONE",
+                    price = 0.20,
                 },
-                ["Cleaver"] = {	
-                    hashname = "WEAPON_MELEE_CLEAVER",    
-                    price = 2, 
-                
+                ["Cleaver"] = {
+                    hashname = "WEAPON_MELEE_CLEAVER",
+                    price = 0.20,
+              
                 },
                 ["Hunter Hatchet"] = {	
-                    hashname = "WEAPON_MELEE_HATCHET_HUNTER",  
-                    price = 8,   
+                    hashname = "WEAPON_MELEE_HATCHET_HUNTER",
+                    price = 0.80,
                 },
-                ["Machete"] = {	
-                    hashname = "WEAPON_MELEE_MACHETE",   
-                    price = 5.5,  
+                ["Machete"] = {
+                    hashname = "WEAPON_MELEE_MACHETE",
+                    price = 3,
                 },
-                ["Collector Machete"] = {	
-                    hashname = "WEAPON_MELEE_MACHETE_COLLECTOR",   
-                    price = 5.5,  
+                ["Collector Machete"] = {
+                    hashname = "WEAPON_MELEE_MACHETE_COLLECTOR",
+                    price = 3,
                 },
+                ["Fishing Rod"] = {	
+                    hashname = "WEAPON_FISHINGROD",   
+                    price = 2,  
+                },
+                
             },
             ["Bows"] = {
                 ["Bow"] = {	
@@ -2431,22 +2435,22 @@ Config3.Stores = {
                 },
                 ["Camera"] = {	
                     hashname = "WEAPON_KIT_CAMERA",    
-                    price = 40, 
+                    price = 0.40, 
                 
                 },
                 ["Advanced Camera"] = {	
                     hashname = "WEAPON_kIT_CAMERA_ADVANCED",    
-                    price = 200, 
+                    price = 20, 
                 
                 },
                 ["Lantern"] = {	
                     hashname = "WEAPON_MELEE_LANTERN",    
-                    price = 9.75, 
+                    price = 6, 
                 
                 },
                 ["Davy Lantern"] = {	
                     hashname = "WEAPON_MELEE_DAVY_LANTERN",    
-                    price = 15, 
+                    price = 0.15, 
                 
                 },
             },
