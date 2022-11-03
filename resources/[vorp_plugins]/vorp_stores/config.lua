@@ -48,14 +48,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-        }
+        LimitedItems = { }
     },
 
     Rhodes = {
