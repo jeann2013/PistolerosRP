@@ -132,7 +132,7 @@ local function giveReward(context, data, skipfinal)
 				total = total + nmb
 
 				-- Check if there is enough to add, if not send message
-				TriggerEvent("vorpCore:canCarryItem", tonumber(_source), v, nmb, function(canCarryItem)                
+				TriggerEvent("vorpCore:canCarryItems", tonumber(_source), v, nmb, function(canCarryItem)                
 					if canCarryItem ~= true then
 						itemsAvailable = false
 					end
