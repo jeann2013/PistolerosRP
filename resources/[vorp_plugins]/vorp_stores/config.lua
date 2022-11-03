@@ -98,14 +98,7 @@ Config.Stores = {
         StoreOpen = 6, -- am
         StoreClose = 23, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     Blackwater = {
         blipAllowed = true,
@@ -126,14 +119,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     Armadillo = {
         blipAllowed = true,
@@ -154,14 +140,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     Tumbleweed = {
         blipAllowed = true,
@@ -182,14 +161,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     StDenis = {
         blipAllowed = true,
@@ -210,14 +182,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     Vanhorn = {
         blipAllowed = true,
@@ -238,14 +203,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="apple", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bandage", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     BlackwaterFishing = {
         blipAllowed = true,
@@ -266,14 +224,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="bait", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bait", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     },
     Wapiti = {
         blipAllowed = true,
@@ -294,14 +245,7 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         DynamicStore = true, -- set to true if you want to increase buy limit again when someone has sold the same item to the store
-        LimitedItems = { --delete or leave empty if you don't want the store to to buy only a certain quantity of an item
-            {itemName="bait", amount=100, type="sell"},  --add as many items you want and set limit sell amount (obviously the item has to be in Config.SellItems)
-            {itemName="bait", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="bread", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="water", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)
-            {itemName="consumable_peach", amount=100, type="buy"},  --add as many items you want and set limit buy amount (obviously the item has to be in Config.BuyItems)            
-            {itemName="carrots", amount=100, type="buy"}
-        }
+        LimitedItems = {}
     }
 }
 
@@ -349,8 +293,6 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        
-
     },
     Rhodes = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.20, randomprice = math.random(40, 55), desc = "sell", category = "food" },
@@ -358,33 +300,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(15), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(32, 52), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     Strawberry = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -392,33 +334,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     Blackwater = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -426,33 +368,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -460,33 +402,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -494,33 +436,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -528,33 +470,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     Vanhorn = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -562,33 +504,33 @@ Config.SellItems = {
         { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 0.10, randomprice = math.random(12), desc = "sell", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 45), desc = "sell bandage", category = "meds" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
@@ -596,33 +538,33 @@ Config.SellItems = {
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", sellprice = 0.10, randomprice = math.random(15), desc = "sell", category = "bait" },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 50), desc = "sell", category = "bait" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
     Wapiti = {
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
@@ -630,33 +572,33 @@ Config.SellItems = {
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", sellprice = 0.10, randomprice = math.random(15), desc = "sell", category = "bait" },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", sellprice = 0.40, randomprice = math.random(30, 50), desc = "sell", category = "bait" },
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", sellprice = 3, randomprice = math.random(30, 50), desc = "sell pick axe", category = "tools" },
-        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat (Medium)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat (Small)", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel (Medium)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel (Small)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish (Extra Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon (Large)", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass (Medium)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike (Large)", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass (Small)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye (Medium-Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass (Large)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
-        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass (Medium)", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_ms", itemLabel = "Blue Gil M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbluegil_01_sm", itemLabel = "Blue Gil S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_ms", itemLabel = "Bullhead Cat M", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishbullheadcat_01_sm", itemLabel = "Bullhead Cat S", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_ms", itemLabel = "Chain Pickerel M", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchainpickerel_01_sm", itemLabel = "Chain Pickerel S", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_lg", itemLabel = "Channel Catfish L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishchannelcatfish_01_xl", itemLabel = "Channel Catfish EL", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlakesturgeon_01_lg", itemLabel = "Lake Sturgeon L", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_lg", itemLabel = "Large Mouth Bass L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlargemouthbass_01_ms", itemLabel = "Large Mouth Bass M", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishlongnosegar_01_lg", itemLabel = "Long Nose Gar L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishmuskie_01_lg", itemLabel = "Muskie L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishnorthernpike_01_lg", itemLabel = "Northern Pike L", currencyType = "cash", sellprice = 2, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_ms", itemLabel = "Perch Med", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishperch_01_sm", itemLabel = "Perch Sma", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_lg", itemLabel = "Rainbow Trout L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrainbowtrout_01_ms", itemLabel = "Rainbow Trout M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishredfinpickerel_01_ms", itemLabel = "Red Fin Pickerel S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_ms", itemLabel = "Rock Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishrockbass_01_sm", itemLabel = "Rock Bass S", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_lg", itemLabel = "Salmon Sockeye L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ml", itemLabel = "Salmon Sockeye ML", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
     },
 }
 
