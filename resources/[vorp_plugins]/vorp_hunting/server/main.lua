@@ -145,14 +145,14 @@ local function giveReward(context, data, skipfinal)
 			end
 
 			if itemsAvailable == false then
-				TriggerClientEvent("vorp:TipRight", _source,  Config.Language.FullInventory .. "123", 4000)
+				TriggerClientEvent("vorp:TipRight", _source,  Config.Language.FullInventory, 4000)
 				return
 			end
 
-			Check if there is enough room in inventory in general.
+			-- Check if there is enough room in inventory in general.
 			local invAvailable = VorpInv.canCarryItems(_source, total)
 			if invAvailable ~= true then
-				TriggerClientEvent("vorp:TipRight", _source, Config.Language.FullInventory .. "456", 4000)
+				TriggerClientEvent("vorp:TipRight", _source, Config.Language.FullInventory, 4000)
 				return
 			end
 
