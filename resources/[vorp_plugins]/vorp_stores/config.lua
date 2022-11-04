@@ -22,7 +22,7 @@ Config.WebhookLogo = ""
 Config.WebhookLogo2 = ""
 Config.WebhookAvatar = ""
 
-Config.defaultlang = "en_lang"
+Config.defaultlang = "es_lang"
 
 -- open stores
 Config.Key = 0x760A9C6F --[G]
