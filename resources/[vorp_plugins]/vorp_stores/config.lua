@@ -41,7 +41,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- empty everyone can use
         JobGrade = 0, -- rank allowed
-        category = { "food", "tools", "meds", "fishing" }, -- you need to add the same words to the sellitems and buyitems category you can add new categories as long the items have the category names
+        category = { "food", "tools", "meds", "fishing", "hunting", "lumberjack" }, -- you need to add the same words to the sellitems and buyitems category you can add new categories as long the items have the category names
         storeType = { "sell", "buy" }, -- choose the storetype if you translate this you must do the same in the client.lua file
         StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         RandomPrices = false,
@@ -63,7 +63,7 @@ Config.Stores = {
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = { "police", "sheriff" }, -- jobs allowed as many as you want
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" },
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -91,7 +91,7 @@ Config.Stores = {
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" },
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -112,7 +112,7 @@ Config.Stores = {
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -133,7 +133,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" },
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -154,7 +154,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -175,7 +175,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -196,7 +196,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -217,7 +217,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "bait", "tools", "fishing" },
+        category = { "bait", "tools", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -238,7 +238,7 @@ Config.Stores = {
         NpcModel = "CS_EagleFlies",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "fishing" },
+        category = { "food", "tools", "fishing", "lumberjack","hunting" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -248,7 +248,6 @@ Config.Stores = {
         LimitedItems = {}
     }
 }
-
 
 ----------------------------------------------- STORE ITEMS --------------------------------------------------------------
 
@@ -293,6 +292,19 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        
     },
     Rhodes = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.20, randomprice = math.random(40, 55), desc = "sell", category = "food" },
@@ -327,6 +339,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     Strawberry = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -361,6 +385,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     Blackwater = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -395,6 +431,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -429,6 +477,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -463,6 +523,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -497,6 +569,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     Vanhorn = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 50), desc = "sell", category = "food" },
@@ -531,6 +615,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
@@ -565,6 +661,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
     Wapiti = {
         { itemLabel = "Bait", itemName = "Bait", currencyType = "cash", sellprice = 0.50, randomprice = math.random(40, 65), desc = "sell Bait", category = "bait" },
@@ -599,6 +707,18 @@ Config.SellItems = {
         { itemName = "a_c_fishsalmonsockeye_01_ms", itemLabel = "Salmon Sockeye M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_lg", itemLabel = "Small Mouth Bass L", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
         { itemName = "a_c_fishsmallmouthbass_01_ms", itemLabel = "Small Mouth Bass M", currencyType = "cash", sellprice = 3, randomprice = math.random(25, 42), desc = "fish", category = "fishing" },
+        { itemName = "meat", itemLabel = "Meat", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "feather", itemLabel = "Feathers", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "wool", itemLabel = "Wool", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "BigGameMeat", itemLabel = "Big Meat", currencyType = "cash", sellprice = 1.5, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },        
+        { itemName = "fish", itemLabel = "Meat Fish", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "hunting", category = "hunting" },
+        { itemName = "sap", itemLabel = "Sap", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "honey", itemLabel = "Honey", currencyType = "cash", sellprice = 1, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "wood", itemLabel = "Wood", currencyType = "cash", sellprice = 1.10, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "hwood", itemLabel = "Hard Wood", currencyType = "cash", sellprice = 1.25, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "rubber", itemLabel = "Rubber", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "fibers", itemLabel = "Fibers", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
+        { itemName = "pulp", itemLabel = "Pulp", currencyType = "cash", sellprice = 0.95, randomprice = math.random(25, 42), desc = "lumberjack", category = "lumberjack" },
     },
 }
 
