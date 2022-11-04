@@ -33,7 +33,7 @@
       "OuterCoreHealthGold": 0.0,
       "InnerCoreStaminaGold": 0.0,
       "OuterCoreStaminaGold": 0.0,
-      "PropName": "p_bottlebeer01a_1",
+      "PropName": "p_bottlebeer01a",
       "Animation": "drink"
   },
   {
@@ -131,7 +131,7 @@
     "Thirst": 0,
     "Hunger": 0,
     "Metabolism": 0,
-    "Stamina": 500,
+    "Stamina": 250,
     "InnerCoreHealth": 60,
     "OuterCoreHealth": 40,
     "InnerCoreHealthGold": 500.0,
