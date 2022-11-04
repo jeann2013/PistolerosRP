@@ -1,6 +1,6 @@
-local entity2
+local entity
 local Panning = false
-local WaterTypes2 = {
+local WaterTypes = {
     [1] =  {["name"] = "Sea of Coronado",       ["waterhash"] = -247856387, ["watertype"] = "lake"},
     [2] =  {["name"] = "San Luis River",        ["waterhash"] = -1504425495, ["watertype"] = "river"},
     [3] =  {["name"] = "Lake Don Julio",        ["waterhash"] = -1369817450, ["watertype"] = "lake"},
@@ -27,7 +27,7 @@ local WaterTypes2 = {
     [24] =  {["name"] = "Random2",              ["waterhash"] = 2005774838, ["watertype"] = "river"},
     [25] =  {["name"] = "Random3",              ["waterhash"] = -1287619521, ["watertype"] = "river"},
     [26] =  {["name"] = "Random4",              ["waterhash"] = -1308233316, ["watertype"] = "river"},
-    [27] =  {["name"] = "Random5",              ["waterhash"] = -196675805, ["watertype"] = "river"}
+    [27] =  {["name"] = "Random5",              ["waterhash"] = -196675805, ["watertype"] = "river"},
 }
 
 RegisterNetEvent('goldpanner:StartPaning')
@@ -38,32 +38,34 @@ AddEventHandler('goldpanner:StartPaning', function()
         local coords = GetEntityCoords(ped)
         local Water = Citizen.InvokeNative(0x5BA7A68A346A5A91,coords.x, coords.y, coords.z)
         local foundwater = false
-        for k,v in pairs(WaterTypes2) do
-            if Water == WaterTypes2[k]["waterhash"]  then
+        for k,v in pairs(WaterTypes) do
+            if Water == WaterTypes[k]["waterhash"]  then
                 foundwater = true
                 CrouchAnimAndAttach()
                 Wait(6000)
                 ClearPedTasks(ped)
                 GoldShake()
-                for i = 1, 8 do
-                    TriggerEvent("vorp:NotifyTop", Config.oro_1, 500)
-                    Wait(435)
-                    TriggerEvent("vorp:NotifyTop", Config.oro_2, 500)
-                    Wait(435) 
-                    TriggerEvent("vorp:NotifyTop", Config.oro_3, 500)
-                    Wait(435) 
+                w = math.random(12,28)
+                local seconds = w/1
+                for i=1,seconds,1 do
+                    TriggerEvent("vorp:Tip", Config.oro_1, 500)
+                    Wait(335)
+                    TriggerEvent("vorp:Tip", Config.oro_2, 500)
+                    Wait(335) 
+                    TriggerEvent("vorp:Tip", Config.oro_3, 500)
+                    Wait(335) 
                 end
                 -- Wait(w)
                 ClearPedTasks(ped)
-                DeleteObject(entity2)
-                DeleteEntity(entity2)
+                DeleteObject(entity)
+                DeleteEntity(entity)
                 TriggerServerEvent("search")
                 break
             end
         end
         Panning = false
         if foundwater == false then
-            TriggerEvent("vorp:NotifyTop", Config.oro_no_recoger, 10000)
+            TriggerEvent("vorp:TipBottom", Config.oro_no_recoger, 10000)
         end
     end
 end)
@@ -80,12 +82,12 @@ function CrouchAnimAndAttach()
     local boneIndex = GetEntityBoneIndexByName(ped, "SKEL_R_HAND")
     local modelHash = GetHashKey("P_CS_MININGPAN01X")
     LoadModel(modelHash)
-    entity2 = CreateObject(modelHash, coords.x+0.3, coords.y,coords.z, true, false, false)
-    SetEntityVisible(entity2, true)
-    SetEntityAlpha(entity2, 255, false)
-    -- Citizen.InvokeNative(0x283978A15512B2FE, entity2, true)
+    entity = CreateObject(modelHash, coords.x+0.3, coords.y,coords.z, true, false, false)
+    SetEntityVisible(entity, true)
+    SetEntityAlpha(entity, 255, false)
+    Citizen.InvokeNative(0x283978A15512B2FE, entity, true)
     SetModelAsNoLongerNeeded(modelHash)
-    AttachEntityToEntity(entity2,ped, boneIndex, 0.2, 0.0, -0.2, -100.0, -50.0, 0.0, false, false, false, true, 2, true)
+    AttachEntityToEntity(entity,ped, boneIndex, 0.2, 0.0, -0.2, -100.0, -50.0, 0.0, false, false, false, true, 2, true)
 
     TaskPlayAnim(ped, dict, "inspectfloor_player", 1.0, 8.0, -1, 1, 0, false, false, false)
 end
