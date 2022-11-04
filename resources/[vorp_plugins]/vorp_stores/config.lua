@@ -727,6 +727,7 @@ Config.BuyItems = {
     Valentine = {
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
         { itemLabel = "Bread", itemName = "bread", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy bread", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.50, randomprice = 0.50, desc = "buy bandage", category = "meds" },
