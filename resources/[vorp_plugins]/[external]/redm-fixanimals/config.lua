@@ -180,7 +180,21 @@ Config.AttackTypes = {
 		radius = 3.0,
 		force = 3.0,
 		damage = 20
+	},
+	{
+		models = {
+			`a_c_buffalo_tatanka_01`
+		},
+		animation = {
+			dict = "creatures_mammal@wolf_small@melee@attacks@streamed_core",
+			name = "attack"
+		},
+		radius = 3.0,
+		force = 3.0,
+		damage = 20
 	}
+
+	
 }
 
 Config.AttackCooldown = 2000
