@@ -728,7 +728,7 @@ Config.BuyItems = {
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
-        { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
+        -- { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
         { itemLabel = "Bread", itemName = "bread", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy bread", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.50, randomprice = 0.50, desc = "buy bandage", category = "meds" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy water", category = "food" },
@@ -742,7 +742,7 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
+        -- { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
     },
 
