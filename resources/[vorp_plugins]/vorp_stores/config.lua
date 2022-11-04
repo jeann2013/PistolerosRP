@@ -737,7 +737,8 @@ Config.BuyItems = {
 
     Rhodes = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
-        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "tools", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
@@ -747,6 +748,7 @@ Config.BuyItems = {
     Strawberry = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
@@ -755,6 +757,7 @@ Config.BuyItems = {
     Blackwater = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
@@ -762,6 +765,7 @@ Config.BuyItems = {
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
@@ -769,6 +773,7 @@ Config.BuyItems = {
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
@@ -776,6 +781,7 @@ Config.BuyItems = {
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
@@ -790,6 +796,7 @@ Config.BuyItems = {
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 0.10, randomprice = math.random(14), desc = "buy", category = "bait" },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 0.40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
@@ -798,6 +805,7 @@ Config.BuyItems = {
     Wapiti = {
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
+        { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 0.10, randomprice = math.random(14), desc = "buy", category = "bait" },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 0.40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
         { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
