@@ -35,7 +35,7 @@ Config = {
   AddDollarItem = true, -- Should there be an item in inventory to represent dollars
   AddAmmoItem = true, -- Should there be an item in inventory to represent the gun belt
 
-  InventorySearchable = true, -- Should the search bar appear in inventories
+  InventorySearchable = false, -- Should the search bar appear in inventories
   InventorySearchAutoFocus = true, -- Search autoofocuses when you type
   -- DEATH FUNCTIONS
   DisableDeathInventory = true, -- prevent the ability to access inventory while dead
