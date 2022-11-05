@@ -1,0 +1,18 @@
+{
+  "application": {
+    "token": "MTAzNzg5ODMzMDI4NzY0ODc3OA.GMUDu9.k6woEp4_PVEzXyEHGdWzFcgeuhtnNFDgoCBqEU"
+  },
+  "roles": {
+    "whitelistRoles": [
+      "1037816097929437295"
+    ],
+    "blacklistRoles": [
+      "1038466610530357308"
+    ]
+  },
+  "messages": {
+    "notWhitelistedMessage": "Debe estar en el Whitelist para conectarse a este servidor.",
+    "noGuildMessage": "Debe estar en el Whitelist para conectarse a este servidor. https://discord.gg/nS4cWVVvnt",
+    "blacklistMessage": "Estas en el BlackList."
+  }
+}

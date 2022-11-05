@@ -41,7 +41,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- empty everyone can use
         JobGrade = 0, -- rank allowed
-        category = { "food", "tools", "meds", "fishing", "hunting", "lumberjack" }, -- you need to add the same words to the sellitems and buyitems category you can add new categories as long the items have the category names
+        category = { "food", "tools", "meds", "fishing", "hunting", "lumberjack","drogas" }, -- you need to add the same words to the sellitems and buyitems category you can add new categories as long the items have the category names
         storeType = { "sell", "buy" }, -- choose the storetype if you translate this you must do the same in the client.lua file
         StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         RandomPrices = false,
@@ -63,7 +63,7 @@ Config.Stores = {
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = { "police", "sheriff" }, -- jobs allowed as many as you want
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" },
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -91,7 +91,7 @@ Config.Stores = {
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" },
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -112,7 +112,7 @@ Config.Stores = {
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -133,7 +133,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" },
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -154,7 +154,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -175,7 +175,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -196,7 +196,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "meds", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -217,7 +217,7 @@ Config.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "bait", "tools", "fishing", "lumberjack","hunting" },
+        category = { "bait", "tools", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -238,7 +238,7 @@ Config.Stores = {
         NpcModel = "CS_EagleFlies",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
-        category = { "food", "tools", "fishing", "lumberjack","hunting" },
+        category = { "food", "tools", "fishing", "lumberjack","hunting","drogas" },
         storeType = { "sell", "buy" }, -- only one type
         StoreHoursAllowed = false,
         RandomPrices = false,
@@ -728,12 +728,17 @@ Config.BuyItems = {
         { itemLabel = "Pick Axe", itemName = "pickaxe", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
-        -- { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
+        -- { itemLabel = "Gold nugget", itemName = "goldnugget", currencyType = "gold", buyprice = 2, randomprice = 2, desc = "buy gold nuget", category = "food" },
         { itemLabel = "Bread", itemName = "bread", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy bread", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.50, randomprice = 0.50, desc = "buy bandage", category = "meds" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy water", category = "food" },
         { itemLabel = "Peach", itemName = "consumable_peach", currencyType = "cash", buyprice = 0.2, randomprice = 0.2, desc = "buy water", category = "food" },        
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
 
     Rhodes = {
@@ -742,8 +747,13 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        -- { itemLabel = "Gold nugget", itemName = "golden_nugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Gold nugget", itemName = "goldnugget", currencyType = "gold", buyprice = 10, randomprice = math.random(15), desc = "buy gold nuget", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
 
     Strawberry = {
@@ -752,7 +762,12 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
 
     Blackwater = {
@@ -761,7 +776,12 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -769,7 +789,12 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -777,7 +802,12 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -785,14 +815,24 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
     Vanhorn = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
         { itemLabel = "Hatchet", itemName = "hatchet", currencyType = "cash", buyprice = 3, randomprice = 1, desc = "buy Pick Axe", category = "tools" },
         { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 0.10, randomprice = math.random(12), desc = "buy water", category = "food" },
         { itemLabel = "bandage", itemName = "bandage", currencyType = "cash", buyprice = 0.40, randomprice = math.random(30, 40), desc = "buy bandage", category = "meds" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     },
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
@@ -800,7 +840,12 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 0.10, randomprice = math.random(14), desc = "buy", category = "bait" },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 0.40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
 
     },
     Wapiti = {
@@ -809,6 +854,11 @@ Config.BuyItems = {
         { itemLabel = "Batea", itemName = "goldpan", currencyType = "cash", buyprice = 5, randomprice = 1, desc = "tools", category = "tools" },
         { itemLabel = "Fish Bait", itemName = "fishbait", currencyType = "cash", buyprice = 0.10, randomprice = math.random(14), desc = "buy", category = "bait" },
         { itemLabel = "Bread Bait", itemName = "p_baitBread01x", currencyType = "cash", buyprice = 0.40, randomprice = math.random(34, 49), desc = "buy", category = "bait" },
-        { itemLabel = "Znahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Zanahoria", itemName = "carrots", currencyType = "cash", buyprice = 0.20, randomprice = 0.2, desc = "food", category = "food" },
+        -- { itemLabel = "Puro", itemName = "cigar", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        -- { itemLabel = "Cigarro", itemName = "cigarette", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
     }
 }
