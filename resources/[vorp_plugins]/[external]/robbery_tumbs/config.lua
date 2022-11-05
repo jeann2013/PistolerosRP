@@ -24,7 +24,7 @@ Config.Dig = {
 
 Config.Rewards = {
     {item = "provision_wedding_ring", label = "Golden Ring"},
-    {item = "gold_nugget", label = "Pepita de oro"},
+    {item = "goldnugget", label = "Pepita de oro"},
     {item = "rock", label = "Rock"},
 }
 
@@ -41,7 +41,7 @@ Config.Texts = {
     CantDoThat = "¡No puedes hacer eso ahora!",
     GraveRobbed = "¡La tumba ya está robada!",
     NoShovel = "¡No tienes pala!",
-    FoundItem = "¡Has encontrado un item!",
+    FoundItem = "¡Has encontrado un !",
 }
 
 Config.Textures = {
