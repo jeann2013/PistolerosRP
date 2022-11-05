@@ -1,5 +1,5 @@
-fx_version 'bodacious'
-games { 'gta5', 'rdr3' }
+fx_version "adamant"
+games { 'rdr3' }
 
 author 'KeremWho (kerem.kim)'
 description 'A New Discord Whitelist System for FiveM'
