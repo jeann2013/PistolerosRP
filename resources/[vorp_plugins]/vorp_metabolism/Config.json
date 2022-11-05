@@ -126,21 +126,21 @@
     "PropName": "p_bottlemedicine01x",
     "Animation": "drink"
   },
-  {
-    "Name": "bandage",
-    "Thirst": 0,
-    "Hunger": 0,
-    "Metabolism": 0,
-    "Stamina": 250,
-    "InnerCoreHealth": 60,
-    "OuterCoreHealth": 40,
-    "InnerCoreHealthGold": 500.0,
-    "OuterCoreHealthGold": 1000.0,
-    "InnerCoreStaminaGold": 0.0,
-    "OuterCoreStaminaGold": 0.0,
-    "PropName": "p_cs_bandage01x",
-    "Animation": "drink"
-  },
+  // {
+  //   "Name": "bandage",
+  //   "Thirst": 0,
+  //   "Hunger": 0,
+  //   "Metabolism": 0,
+  //   "Stamina": 250,
+  //   "InnerCoreHealth": 60,
+  //   "OuterCoreHealth": 40,
+  //   "InnerCoreHealthGold": 500.0,
+  //   "OuterCoreHealthGold": 1000.0,
+  //   "InnerCoreStaminaGold": 0.0,
+  //   "OuterCoreStaminaGold": 0.0,
+  //   "PropName": "p_cs_bandage01x",
+  //   "Animation": "drink"
+  // },
   {
     "Name": "consumable_peach",
     "Thirst": 100,
