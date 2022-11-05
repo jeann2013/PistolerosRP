@@ -34,14 +34,14 @@ Config.Prompts = {
 }
 
 Config.Texts = {
-    Prompt1 = "Dig",
-    Prompt2 = "Pray",
-    GraveRobbery = "Grave Robbery",
-    GraveDisplay = "Grave:",
-    CantDoThat = "You cant do that now!",
-    GraveRobbed = "Grave is already robbed!",
-    NoShovel = "No shovel item!",
-    FoundItem = "You have found some item!",
+    Prompt1 = "Cavar",
+    Prompt2 = "Rezar",
+    GraveRobbery = "Robo de tumbas",
+    GraveDisplay = "Tumba:",
+    CantDoThat = "¡No puedes hacer eso ahora!",
+    GraveRobbed = "¡La tumba ya está robada!",
+    NoShovel = "¡No tienes pala!",
+    FoundItem = "¡Has encontrado un item!",
 }
 
 Config.Textures = {
