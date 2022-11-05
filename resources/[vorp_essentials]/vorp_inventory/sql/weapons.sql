@@ -56,12 +56,12 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('carrots', 'Zanahoria', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('cigar', 'Tabaco', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('cigarette', 'Cigarro', 50, 1, 'item_standard', 1);
-
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('rock', 'Roca', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_wedding_ring', 'Anillo de oro', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('shovel', 'Pala', 3, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('SnakeSkin', 'Piel de serpiente', 50, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_eagle_talon', 'Talon de Aquila', 50, 1, 'item_standard', 1);
+
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_eagle_talon', 'Talon de Aguila', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_bull_horns', 'Cuernos de toro', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_deer_hide', 'Piel de ciervo', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_bison_horn', 'Cuernos de buffalo', 50, 1, 'item_standard', 1);
@@ -71,10 +71,10 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_ram_horn', 'Cuernos de carnero', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('bearHeart', 'Corazón de oso', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('bearClaws', 'Garras de oso', 50, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_elk_antlers', 'Cuernos de alce', 50, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_elk_fur', 'Piel de alce', 50, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_buck_antlers', 'Cuernos de ciervo', 50, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_buck_fur', 'Piel de ciervo', 50, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_elk_antlers', 'Cuernos de alce grande', 50, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_elk_fur', 'Piel de alce grande', 50, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_buck_antlers', 'Cuernos de buck', 50, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_buck_fur', 'Piel de buck', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_sheep_wool', 'Piel de obeja', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_rabbit_pelt', 'Piel de conejo', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_pronghorn_fur', 'Piel de berrendo', 50, 1, 'item_standard', 1);
