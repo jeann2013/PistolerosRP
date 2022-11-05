@@ -30,6 +30,15 @@
       "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
       "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
       "AnimFxType": "PlayerDrunk01"
-    }
+    },
+    // {
+    //   "Name": "cigar",
+    //   "Label": "Cigar",
+    //   "CoreType": 0, // -1 To disable core
+    //   "ObjectModel": "p_cigar01x",
+    //   "propId": "p_cigar01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+    //   "itemInteraction": "SMOKE_CIGAR", // You need iteminteractioninfo.meta file
+    //   "AnimFxType": "PlayerDrunk01"
+    // }
   ]
 }
