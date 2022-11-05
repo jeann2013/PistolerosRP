@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@citizenfx/server@^1.0.3439-1":
-  "integrity" "sha512-KU8VvPXn3iMUEWYvuPnYQjmnuLpIAJ6rRFlZ5/zRaE8EaA/71Hz0kfQwHNmCOm4crESmhlcI4/lkJtAjSLYbuA=="
-  "resolved" "https://registry.npmjs.org/@citizenfx/server/-/server-1.0.3439-1.tgz"
-  "version" "1.0.3439-1"
+"@citizenfx/server@^2.0.5990-1":
+  "integrity" "sha512-F7mPhyOpyDjX+2CAXf7z64Uge6p+8FmTHXHxyW4zXGYZbxyET/gaC6lKbpBQh1y/tPMuPINh+/YIBE3R4lak8A=="
+  "resolved" "https://registry.npmjs.org/@citizenfx/server/-/server-2.0.5990-1.tgz"
+  "version" "2.0.5990-1"
 
 "axios@^0.21.1":
   "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="

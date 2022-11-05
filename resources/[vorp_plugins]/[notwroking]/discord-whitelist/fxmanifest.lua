@@ -1,13 +1,14 @@
 fx_version "adamant"
-games { 'rdr3' }
+games {"rdr3"}
 
-author 'KeremWho (kerem.kim)'
-description 'A New Discord Whitelist System for FiveM'
+author 'Jean'
+description 'A New Discord Whitelist System for RedM'
 version '1.0.0'
 
 dependency 'yarn'
 
 server_scripts {
+  'config.json',
   'index.js',
 }
 
