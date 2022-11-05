@@ -25,7 +25,7 @@ Config.Dig = {
 Config.Rewards = {
     {item = "provision_wedding_ring", label = "Golden Ring"},
     {item = "goldnugget", label = "Pepita de oro"},
-    {item = "rock", label = "Rock"},
+    {item = "stone", label = "Rock"},
 }
 
 Config.Prompts = {
