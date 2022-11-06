@@ -29,7 +29,7 @@ function DrawText3D(x, y, z, text)
 	local onScreen, screenX, screenY = GetScreenCoordFromWorldCoord(x, y, z)
 	local dist = #(GetFinalRenderedCamCoord()- vector3(x, y, z))
 
-	local scale = (1/dist)*2
+	local scale = (1/dist)*1
     local fov = (1/GetGameplayCamFov())*100
     local scale = scale*fov
 
