@@ -1,6 +1,6 @@
 Config = {
     --add your language
-    defaultlang = "en_lang",
+    defaultlang = "es_lang",
 
     Key = 0x3C3DD371, --PGDOWN open menu
 
