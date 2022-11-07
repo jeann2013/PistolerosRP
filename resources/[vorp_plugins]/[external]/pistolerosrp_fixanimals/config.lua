@@ -154,8 +154,8 @@ Config.AttackTypes = {
 			name = "attack"
 		},
 		radius = 3.0,
-		force = 3.0,
-		damage = 30
+		force = 1.0,
+		damage = 10
 	},
 	{
 		models = {
