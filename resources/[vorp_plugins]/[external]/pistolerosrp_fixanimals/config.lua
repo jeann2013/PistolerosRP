@@ -116,7 +116,7 @@ Config.AttackTypes = {
 			name = "attack"
 		},
 		radius = 2.5,
-		force = 2.0,
+		force = 0.5,
 		damage = 20
 	},
 	{
