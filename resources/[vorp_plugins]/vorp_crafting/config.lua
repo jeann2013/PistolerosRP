@@ -958,19 +958,15 @@ Config.Crafting = {
     {
         Text = "Revolver Navy ",
         SubText = "InvMax = 1",
-        Desc = "Recipe 1x Revolver barrel, 1x Revolver cylinder, 1x Revolver handle",
+        Desc = "Recipe 20x Iron, 20x Hard wood",
         Items = {
             {
-                name = "revolverbarrel",
-                count = 1
+                name = "iron",
+                count = 20
             },
             {
-                name = "revolvercylinder",
-                count = 1
-            },
-            {
-                name = "revolverhandle",
-                count = 1
+                name = "hwood",
+                count = 20
             },
         },
         Reward = {
