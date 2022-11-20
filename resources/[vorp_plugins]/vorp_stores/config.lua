@@ -37,7 +37,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = -324.628, y = 803.9818, z = 116.88, h = -81.17, --blip/ prompt and npc positions
         distanceOpenStore = 3.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- empty everyone can use
         JobGrade = 0, -- rank allowed
@@ -59,7 +59,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = 1330.227, y = -1293.41, z = 76.021, h = 68.88,
         distanceOpenStore = 5.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = { "police", "sheriff" }, -- jobs allowed as many as you want
         JobGrade = 0,
@@ -87,7 +87,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = -1789.66, y = -387.918, z = 159.32, h = 56.96,
         distanceOpenStore = 5.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
@@ -108,7 +108,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = -784.738, y = -1321.73, z = 42.884, h = 179.63,
         distanceOpenStore = 5.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "S_M_M_UNIBUTCHERS_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
@@ -129,7 +129,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = -3687.34, y = -2623.53, z = -13.43, h = -85.32,
         distanceOpenStore = 3.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
@@ -150,7 +150,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = -5485.70, y = -2938.08, z = -0.299, h = 127.72,
         distanceOpenStore = 3.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
@@ -171,7 +171,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = 2824.863, y = -1319.74, z = 45.755, h = -39.61,
         distanceOpenStore = 2.0,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
@@ -192,7 +192,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = 3025.420, y = 561.7910, z = 43.722, h = -99.20,
         distanceOpenStore = 2.5,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
@@ -234,7 +234,7 @@ Config.Stores = {
         sprite = 1475879922,
         x = 449.7435, y = 2216.437, z = 245.30, h = -73.78,
         distanceOpenStore = 2.5,
-        NpcAllowed = true,
+        NpcAllowed = false,
         NpcModel = "CS_EagleFlies",
         AllowedJobs = {}, -- jobs allowed
         JobGrade = 0,
