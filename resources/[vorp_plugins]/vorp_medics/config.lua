@@ -22,7 +22,7 @@ Config = {
         BlipsDoctorsOnly = false, --Blips of Doctor's office only for doctors
         BlipsHerbalism = true, --Blips of Locations to study herbalism
         BlipsHerbalistsOnly = false, --Only Herbalists have blips of herbalists' camps
-        BlipsHorses = false, --Horses spawned by doctors
+        BlipsHorses = true, --Horses spawned by doctors
         BlipsMedicStables = true, --Medic stables
     },
 
