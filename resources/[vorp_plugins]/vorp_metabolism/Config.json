@@ -9,7 +9,7 @@
   "HowAmountHungerWhileRunning": 2,
   "HowAmountThirst": 2,
   "HowAmountHunger": 1,
-  "HowAmountMetabolismWhileRunning": 8,
+  "HowAmountMetabolismWhileRunning": 1,
   "HowAmountMetabolism": 2,
 
   "FirstHungerStatus": 1000, //100%
