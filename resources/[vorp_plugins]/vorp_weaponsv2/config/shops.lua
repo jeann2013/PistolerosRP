@@ -15,37 +15,37 @@ Config3.Stores = {
         NpcModel = "U_M_M_NbxGeneralStoreOwner_01",
         weapons = {
             ["Melee"] = {
-                ["Tradders Knife"] = {	
-                    hashname = "WEAPON_MELEE_KNIFE_TRADER",
-                    price = 1,    
+                -- ["Tradders Knife"] = {	
+                --     hashname = "WEAPON_MELEE_KNIFE_TRADER",
+                --     price = 1,    
                 
-                },
+                -- },
                 ["Knife"] = {	
                     hashname = "WEAPON_MELEE_KNIFE",  
                     price = 1,      
                 
                 },
-                ["JawBone Knife"] = {	
-                    hashname = "WEAPON_MELEE_KNIFE_JAWBONE",
-                    price = 0.20,
-                },
-                ["Cleaver"] = {
-                    hashname = "WEAPON_MELEE_CLEAVER",
-                    price = 0.20,
+                -- ["JawBone Knife"] = {	
+                --     hashname = "WEAPON_MELEE_KNIFE_JAWBONE",
+                --     price = 0.20,
+                -- },
+                -- ["Cleaver"] = {
+                --     hashname = "WEAPON_MELEE_CLEAVER",
+                --     price = 0.20,
               
-                },
-                ["Hunter Hatchet"] = {	
-                    hashname = "WEAPON_MELEE_HATCHET_HUNTER",
-                    price = 0.80,
-                },
+                -- },
+                -- ["Hunter Hatchet"] = {	
+                --     hashname = "WEAPON_MELEE_HATCHET_HUNTER",
+                --     price = 0.80,
+                -- },
                 ["Machete"] = {
                     hashname = "WEAPON_MELEE_MACHETE",
                     price = 3,
                 },
-                ["Collector Machete"] = {
-                    hashname = "WEAPON_MELEE_MACHETE_COLLECTOR",
-                    price = 3,
-                },
+                -- ["Collector Machete"] = {
+                --     hashname = "WEAPON_MELEE_MACHETE_COLLECTOR",
+                --     price = 3,
+                -- },
                 ["Fishing Rod"] = {	
                     hashname = "WEAPON_FISHINGROD",   
                     price = 2,  
@@ -64,110 +64,109 @@ Config3.Stores = {
                 
                 }, ]]
             },
-            ["Rifles"] = {
-                ["Elephant Rifle"] = {	
-                    hashname = "WEAPON_RIFLE_ELEPHANT",  
-                    price = 400,   
+            -- ["Rifles"] = {
+            --     ["Elephant Rifle"] = {	
+            --         hashname = "WEAPON_RIFLE_ELEPHANT",  
+            --         price = 400,   
                 
-                },
-                ["Varmint Rifle"] = {	
-                    hashname = "WEAPON_RIFLE_VARMINT",   
-                    price = 30.75,  
+            --     },
+            --     ["Varmint Rifle"] = {	
+            --         hashname = "WEAPON_RIFLE_VARMINT",   
+            --         price = 30.75,  
                 
-                },
-                ["Rollingblock Rifle"] = {	
-                    hashname = "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",    
-                    price = 1000, 
+            --     },
+            --     ["Rollingblock Rifle"] = {	
+            --         hashname = "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",    
+            --         price = 1000, 
                 
-                },
-                ["Carcano Rifle"] = {	
-                    hashname = "WEAPON_SNIPERRIFLE_CARCANO",  
-                    price = 1000,   
+            --     },
+            --     ["Carcano Rifle"] = {	
+            --         hashname = "WEAPON_SNIPERRIFLE_CARCANO",  
+            --         price = 1000,   
                 
-                },
-                ["Springfield Rifle"] = {	
-                    hashname = "WEAPON_RIFLE_SPRINGFIELD", 
-                    price = 1000,    
+            --     },
+            --     ["Springfield Rifle"] = {	
+            --         hashname = "WEAPON_RIFLE_SPRINGFIELD", 
+            --         price = 1000,    
                 
-                },
-                ["Boltaction Rifle"] = {	
-                    hashname = "WEAPON_RIFLE_BOLTACTION",    
-                    price = 250, 
+            --     },
+            --     ["Boltaction Rifle"] = {	
+            --         hashname = "WEAPON_RIFLE_BOLTACTION",    
+            --         price = 250, 
                 
-                },
-            },
-            ["Repeaters"] = {
-                ["Winchester Repeater"] = {	
-                    hashname = "WEAPON_REPEATER_WINCHESTER",   
-                    price = 70,  
+            --     },
+            -- },
+            -- ["Repeaters"] = {
+            --     ["Winchester Repeater"] = {	
+            --         hashname = "WEAPON_REPEATER_WINCHESTER",   
+            --         price = 70,  
                 
-                },
-                ["Henry Repeater"] = {	
-                    hashname = "WEAPON_REPEATER_HENRY",    
-                    price = 75.5, 
+            --     },
+            --     ["Henry Repeater"] = {	
+            --         hashname = "WEAPON_REPEATER_HENRY",    
+            --         price = 75.5, 
                 
-                },
-                ["Evans Repeater"] = {	
-                    hashname = "WEAPON_REPEATER_EVANS",    
-                    price = 80, 
+            --     },
+            --     ["Evans Repeater"] = {	
+            --         hashname = "WEAPON_REPEATER_EVANS",    
+            --         price = 80, 
                 
-                },
-                ["Carbine Repeater"] = {	
-                    hashname = "WEAPON_REPEATER_CARBINE",    
-                    price = 50, 
+            --     },
+            --     ["Carbine Repeater"] = {	
+            --         hashname = "WEAPON_REPEATER_CARBINE",    
+            --         price = 50, 
                 
-                },
-            },
+            --     },
+            -- },
             ["Pistols"] = {
-                ["Volcanic Pistol "] = {	
-                    hashname = "WEAPON_PISTOL_VOLCANIC",    
-                    price = 1000, 
+                -- ["Volcanic Pistol "] = {	
+                --     hashname = "WEAPON_PISTOL_VOLCANIC",    
+                --     price = 1000, 
                 
-                },
-                ["M1899 Pistol "] = {	
-                    hashname = "WEAPON_PISTOL_M1899",    
-                    price = 10000, 
+                -- },
+                -- ["M1899 Pistol "] = {	
+                --     hashname = "WEAPON_PISTOL_M1899",    
+                --     price = 10000, 
                 
-                },
-               --[[  ["SemiAuto Pistol "] = {	
-                    hashname = "WEAPON_PISTOL_SEMIAUTO",    
-                    price = 1000, 
+                -- },
+            --    ["SemiAuto Pistol "] = {	
+            --         hashname = "WEAPON_PISTOL_SEMIAUTO",    
+            --         price = 1000, 
                 
-                }, ]]
-             --[[    ["Mauser Pistol "] = {	
+            --     },
+                ["Mauser Pistol "] = {	
                     hashname = "WEAPON_PISTOL_MAUSER",    
                     price = 1000, 
                 
                 },
-                 ]]
 
             },
             ["Revolvers"] = {
-                ["Schofield Revolver"] = {	
-                    hashname = "WEAPON_REVOLVER_SCHOFIELD",    
-                    price = 50, 
+                -- ["Schofield Revolver"] = {	
+                --     hashname = "WEAPON_REVOLVER_SCHOFIELD",    
+                --     price = 50, 
                 
-                },
-                ["Lemat Revolver"] = {	
-                    hashname = "WEAPON_REVOLVER_LEMAT",    
-                    price = 40, 
+                -- },
+                -- ["Lemat Revolver"] = {	
+                --     hashname = "WEAPON_REVOLVER_LEMAT",    
+                --     price = 40, 
                 
-                },
-                ["Double Action Revolver"] = {	
-                    hashname = "WEAPON_REVOLVER_DOUBLEACTION",    
-                    price = 55, 
+                -- },
+                -- ["Double Action Revolver"] = {	
+                --     hashname = "WEAPON_REVOLVER_DOUBLEACTION",    
+                --     price = 55, 
                 
-                },
+                -- },
                 ["Cattleman Revolver"] = {	
                     hashname = "WEAPON_REVOLVER_CATTLEMAN",    
                     price = 25, 
                 
                 },
-                ["Navy Revolver"] = {	
-                    hashname = "WEAPON_REVOLVER_NAVY",    
-                    price = 60, 
+                -- ["Navy Revolver"] = {	
+                --     hashname = "WEAPON_REVOLVER_NAVY",    
+                --     price = 60, 
                 
-                },
+                -- },
             },
             ["Throwable"] = { -- Due to vorp bug, using this weapon never runs out of ammo if u requip. 
             -- in order for throwables to work. the player must buy the throwable weapon then buy and use the related ammo box
@@ -182,16 +181,16 @@ Config3.Stores = {
                     price = 8, 
                 
                 },
-                ["Poison Bottle"] = {	
-                    hashname = "WEAPON_THROWN_POISONBOTTLE",    
-                    price = 15, 
+                -- ["Poison Bottle"] = {	
+                --     hashname = "WEAPON_THROWN_POISONBOTTLE",    
+                --     price = 15, 
                 
-                },
-                ["Bolas"] = {	
-                    hashname = "WEAPON_THROWN_BOLAS",    
-                    price = 4, 
+                -- },
+                -- ["Bolas"] = {	
+                --     hashname = "WEAPON_THROWN_BOLAS",    
+                --     price = 4, 
                 
-                },
+                -- },
                --[[  ["Dynamite"] = {	
                     hashname = "WEAPON_THROWN_DYNAMITE",    
                     price = 100, 
@@ -204,33 +203,33 @@ Config3.Stores = {
                 }, ]]
 
             },
-            ["Shotguns"] = {
-                --[[ ["Semiauto Shotgun"] = {	
-                    hashname = "WEAPON_SHOTGUN_SEMIAUTO",    
-                    price = 100, 
+            -- ["Shotguns"] = {
+            --     --[[ ["Semiauto Shotgun"] = {	
+            --         hashname = "WEAPON_SHOTGUN_SEMIAUTO",    
+            --         price = 100, 
                 
-                }, ]]
-                ["Sawedoff Shotgun"] = {	
-                    hashname = "WEAPON_SHOTGUN_SAWEDOFF",    
-                    price = 250, 
+            --     }, ]]
+            --     ["Sawedoff Shotgun"] = {	
+            --         hashname = "WEAPON_SHOTGUN_SAWEDOFF",    
+            --         price = 250, 
                 
-                },
-                ["Repeating Shotgun"] = {	
-                    hashname = "WEAPON_SHOTGUN_REPEATING",    
-                    price = 1000, 
+            --     },
+            --     ["Repeating Shotgun"] = {	
+            --         hashname = "WEAPON_SHOTGUN_REPEATING",    
+            --         price = 1000, 
                 
-                },
-                ["Pump Shotgun"] = {	
-                    hashname = "WEAPON_SHOTGUN_PUMP",    
-                    price = 1000, 
+            --     },
+            --     ["Pump Shotgun"] = {	
+            --         hashname = "WEAPON_SHOTGUN_PUMP",    
+            --         price = 1000, 
                 
-                },
-                ["Doublebarrel Shotgun"] = {	
-                    hashname = "WEAPON_SHOTGUN_DOUBLEBARREL",    
-                    price = 500, 
+            --     },
+            --     ["Doublebarrel Shotgun"] = {	
+            --         hashname = "WEAPON_SHOTGUN_DOUBLEBARREL",    
+            --         price = 500, 
                 
-                },
-            },
+            --     },
+            -- },
             ["Misc."] = {
                 ["Lasso"] = {	
                     hashname = "WEAPON_LASSO",    
@@ -242,73 +241,73 @@ Config3.Stores = {
                     price = 10, 
                 
                 },
-                ["Improved Binoculars"] = {	
-                    hashname = "WEAPON_KIT_BINOCULARS_IMPROVED",    
-                    price = 10, 
+                -- ["Improved Binoculars"] = {	
+                --     hashname = "WEAPON_KIT_BINOCULARS_IMPROVED",    
+                --     price = 10, 
                 
-                },
-                ["Binoculars"] = {	
-                    hashname = "WEAPON_kIT_BINOCULARS",    
-                    price = 5, 
+                -- },
+                -- ["Binoculars"] = {	
+                --     hashname = "WEAPON_kIT_BINOCULARS",    
+                --     price = 5, 
                 
-                },
+                -- },
                 ["Fishing Rod"] = {	
                     hashname = "WEAPON_FISHINGROD",    
                     price = 3, 
                 
                 },
-                ["Camera"] = {	
-                    hashname = "WEAPON_KIT_CAMERA",    
-                    price = 40, 
+                -- ["Camera"] = {	
+                --     hashname = "WEAPON_KIT_CAMERA",    
+                --     price = 40, 
                 
-                },
-                ["Advanced Camera"] = {	
-                    hashname = "WEAPON_kIT_CAMERA_ADVANCED",    
-                    price = 200, 
+                -- },
+                -- ["Advanced Camera"] = {	
+                --     hashname = "WEAPON_kIT_CAMERA_ADVANCED",    
+                --     price = 200, 
                 
-                },
-                ["Lantern"] = {	
-                    hashname = "WEAPON_MELEE_LANTERN",    
-                    price = 9.75, 
+                -- },
+                -- ["Lantern"] = {	
+                --     hashname = "WEAPON_MELEE_LANTERN",    
+                --     price = 9.75, 
                 
-                },
-                ["Davy Lantern"] = {	
-                    hashname = "WEAPON_MELEE_DAVY_LANTERN",    
-                    price = 15, 
+                -- },
+                -- ["Davy Lantern"] = {	
+                --     hashname = "WEAPON_MELEE_DAVY_LANTERN",    
+                --     price = 15, 
                 
-                },
+                -- },
             },
         }, 
         ammo = {
-            ["Repeater"] = {
-                ["Repeater Ammo Normal"] = {
-                    price = 1, 
-                    item = "ammorepeaternormal",
-                },
-                ["Repeater Ammo Express"] = {
-                    price = 2, 
-                    item = "ammorepeaterexpress",
+            -- ["Repeater"] = {
+            --     ["Repeater Ammo Normal"] = {
+            --         price = 1, 
+            --         item = "ammorepeaternormal",
+            --     },
+            --     ["Repeater Ammo Express"] = {
+            --         price = 2, 
+            --         item = "ammorepeaterexpress",
                     
-                },
-                --[[ ["Repeater Ammo Explosive"] = {
+            --     },
+            --     --[[ ["Repeater Ammo Explosive"] = {
                     
-                    price = 5, 
-                    item = "ammorepeaterexplosive",
+            --         price = 5, 
+            --         item = "ammorepeaterexplosive",
                     
-                }, ]]
-                ["Repeater Ammo Velocity"] = {
+            --     }, ]]
+            --     ["Repeater Ammo Velocity"] = {
                     
-                    price = 5, 
-                    item = "ammorepeatervelocity",
+            --         price = 5, 
+            --         item = "ammorepeatervelocity",
                     
-                },
-                ["Repeater Ammo Splitpoint"] = {
+            --     },
+            --     ["Repeater Ammo Splitpoint"] = {
                     
-                    price = 8, 
-                    item = "ammorepeatersplitpoint",
+            --         price = 8, 
+            --         item = "ammorepeatersplitpoint",
                    
-                },
-            },
+            --     },
+            -- },
 
             ["Revolver"] = {
                 ["Revolver Ammo Normal"] = {
@@ -343,71 +342,71 @@ Config3.Stores = {
                 },
 
             },
-            ["Rifle"] = {
-                ["Rifle Ammo Normal"] = {
+            -- ["Rifle"] = {
+            --     ["Rifle Ammo Normal"] = {
                     
-                    price = 1, 
-                    item = "ammoriflenormal",
+            --         price = 1, 
+            --         item = "ammoriflenormal",
                     
-                },
-                ["Elephant Rifle Ammo"] = {
+            --     },
+            --     ["Elephant Rifle Ammo"] = {
                     
-                    price = 10, 
-                    item = "ammoelephant",
+            --         price = 10, 
+            --         item = "ammoelephant",
                     
-                },
-                ["Rifle Ammo Express"] = {
+            --     },
+            --     ["Rifle Ammo Express"] = {
                    
-                    price = 5, 
-                    item = "ammorifleexpress",
+            --         price = 5, 
+            --         item = "ammorifleexpress",
                     
-                },
-               --[[  ["Rifle Ammo Explosive"] = {
+            --     },
+            --    --[[  ["Rifle Ammo Explosive"] = {
                     
-                    price = 5, 
-                    item = "ammorifleexplosive",
+            --         price = 5, 
+            --         item = "ammorifleexplosive",
                     
-                }, ]]
-                ["Rifle Ammo Velocity"] = {
+            --     }, ]]
+            --     ["Rifle Ammo Velocity"] = {
                    
-                    price = 5, 
-                    item = "ammoriflevelocity",
+            --         price = 5, 
+            --         item = "ammoriflevelocity",
                    
-                },
-                ["Rifle Ammo Splitpoint"] = {
+            --     },
+            --     ["Rifle Ammo Splitpoint"] = {
                     
-                    price = 8, 
-                    item = "ammoriflesplitpoint",
+            --         price = 8, 
+            --         item = "ammoriflesplitpoint",
                    
-                },
+            --     },
 
             },
-            ["Shotgun"] = {
-               --[[  ["Shotgun Ammo Incendiary"] = {
+            -- ["Shotgun"] = {
+            --    --[[  ["Shotgun Ammo Incendiary"] = {
                    
-                    price = 5, 
-                    item = "ammoshotgunincendiary",
+            --         price = 5, 
+            --         item = "ammoshotgunincendiary",
                    
-                }, ]]
-                --[[ ["Shotgun Ammo Explosive"] = {
+            --     }, ]]
+            --     --[[ ["Shotgun Ammo Explosive"] = {
                    
-                    price = 5, 
-                    item = "ammoshotgunexplosive",
+            --         price = 5, 
+            --         item = "ammoshotgunexplosive",
                     
-                }, ]]
-                ["Shotgun Ammo Normal"] = {
+            --     }, ]]
+            --     ["Shotgun Ammo Normal"] = {
                    
-                    price = 1, 
-                    item = "ammoshotgunnormal",
+            --         price = 1, 
+            --         item = "ammoshotgunnormal",
                     
-                },
-                ["Shotgun Ammo Slug"] = {
+            --     },
+            --     ["Shotgun Ammo Slug"] = {
                    
-                    price = 2, 
-                    item = "ammoshotgunslug",
+            --         price = 2, 
+            --         item = "ammoshotgunslug",
                    
-                },
-            },
+            --     },
+            -- },
             ["Pistol"] = {
                 ["Pistol Ammo Normal"] = {
                    
@@ -415,30 +414,30 @@ Config3.Stores = {
                     item = "ammopistolnormal",
                     
                 },
-                ["Pistol Ammo Express"] = {
+                -- ["Pistol Ammo Express"] = {
                    
-                    price = 2, 
-                    item = "ammopistolexpress",
+                --     price = 2, 
+                --     item = "ammopistolexpress",
                     
-                },
+                -- },
                --[[  ["Pistol Ammo Explosive"] = {
                     
                     price = 5, 
                     item = "ammopistolexplosive",
                     
                 }, ]]
-                ["Pistol Ammo Velocity"] = {
+                -- ["Pistol Ammo Velocity"] = {
                    
-                    price = 5, 
-                    item = "ammopistolvelocity",
+                --     price = 5, 
+                --     item = "ammopistolvelocity",
                     
-                },
-                ["Pistol Ammo Splitpoint"] = {
+                -- },
+                -- ["Pistol Ammo Splitpoint"] = {
                    
-                    price = 8, 
-                    item = "ammopistolsplitpoint",
+                --     price = 8, 
+                --     item = "ammopistolsplitpoint",
                    
-                },
+                -- },
 
             },
             ["Arrow"] = {
@@ -460,12 +459,12 @@ Config3.Stores = {
                     item = "ammoarrowfire",
                     
                 }, ]]
-               --[[  ["Arrow Improved"] = {
+                ["Arrow Improved"] = {
                   
                     price = 3, 
                     item = "ammoarrowimproved",
                     
-                }, ]]
+                },
                 ["Arrow Small Game"] = {
                    
                     price = .25, 
@@ -480,21 +479,21 @@ Config3.Stores = {
                 }, ]]
 
             },
-            ["Varmint Ammo"] = {
-                ["Varmint ammo"] = {
+            -- ["Varmint Ammo"] = {
+            --     ["Varmint ammo"] = {
                    
-                    price = 1, 
-                    item = "ammovarmint",
+            --         price = 1, 
+            --         item = "ammovarmint",
                     
-                },
-                --[[ ["Varmint Tranquilizer Ammo"] = {
+            --     },
+            --     --[[ ["Varmint Tranquilizer Ammo"] = {
                     
-                    price = 5, 
-                    item = "ammovarminttranq",
+            --         price = 5, 
+            --         item = "ammovarminttranq",
                     
-                }, ]]
+            --     }, ]]
 
-            },
+            -- },
             ["Throwing"] = {
                 ["Knives ammo"] = {
                     

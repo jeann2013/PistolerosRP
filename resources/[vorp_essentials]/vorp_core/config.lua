@@ -29,7 +29,7 @@ Config = {
   --------------------------- MULTICHARACTER -----------------------------------
   SaveSteamNameDB          = false, -- TRUE if you want save steamname on character DB when player drop (need to update SQL)
   UseCharPermission        = false, --(do not use this right now) TRUE if you want give multicharacter on selected players (need to update SQL) | if you change TRUE to FALSE player logs with first character created
-  MaxCharacters            = 1, --MAX ALLOWED TO BE CREATED [if UseCharPermission = true, SELECTED players(with command) can create MaxCharacters characters / if UseCharPermission = false, players can create MaxCharacters characters]
+  MaxCharacters            = 2, --MAX ALLOWED TO BE CREATED [if UseCharPermission = true, SELECTED players(with command) can create MaxCharacters characters / if UseCharPermission = false, players can create MaxCharacters characters]
 
   ------------------------------------------------------------------------------
   ------------------------------ UI CORES --------------------------------------
