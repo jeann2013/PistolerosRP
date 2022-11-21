@@ -18,13 +18,13 @@ Config = {
   initGroup                = "user", -- leave it like this
   Whitelist                = false,
   AllowWhitelistAutoUpdate = false,
-  maxHealth                = 4, -- 10 is FULL 0 IS EMPTY define max outer core for players
+  maxHealth                = 1, -- 10 is FULL 0 IS EMPTY define max outer core for players
   maxStamina               = 1, -- 10 is FULL 0 IS EMPTY define max outer core for players
   PVP                      = true, -- Can players attack/hurt one another
   PVPToggle                = true, -- If true, players can set their own pvp state
   savePlayersTimer         = 10000, -- this will tell the core in how many miliseconds should all players be saved to the database, decreasing may reduce performance
   showplayerIDwhenfocus    = true, -- set false will show steam name when focus on another player RMB
-  disableAutoAIM           = true, -- if false players with controllers will have autoaim just like in rdr2
+  disableAutoAIM           = false, -- if false players with controllers will have autoaim just like in rdr2
   ------------------------------------------------------------------------------
   --------------------------- MULTICHARACTER -----------------------------------
   SaveSteamNameDB          = false, -- TRUE if you want save steamname on character DB when player drop (need to update SQL)
