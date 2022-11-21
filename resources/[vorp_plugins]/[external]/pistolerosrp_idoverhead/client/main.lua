@@ -14,7 +14,7 @@ Citizen.CreateThread(function()
 						if Citizen.InvokeNative(0xEF6F2A35FAAF2ED7, playerId) then -- N_0xef6f2a35faaf2ed7 (https://vespura.com/doc/natives/?_0xEF6F2A35FAAF2ED7)
 							text = "~d~Hablando~s~("..GetPlayerServerId(playerId)..")"
 						end
-						DrawText3D(bone.x, bone.y, bone.z + 0.9, ''..text..'')
+						DrawText3D(bone.x, bone.y, bone.z + 1.2, ''..text..'')
 					end
 				end
 			end

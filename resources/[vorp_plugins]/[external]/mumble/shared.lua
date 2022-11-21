@@ -16,17 +16,17 @@ Entity = Entity
 
 if GetConvar('voice_useNativeAudio', 'false') == 'true' then
 	Cfg.voiceModes = {
-		{3.0, "Whisper"}, -- Whisper speech distance in gta distance units
+		{3.0, "Susurro"}, -- Susurro speech distance in gta distance units
 		{8.0, "Normal"}, -- Normal speech distance in gta distance units
-		{15.0, "Shouting"}, -- Shout speech distance in gta distance units
-		{32.0, "Riding"}
+		{15.0, "Gritar"}, -- Shout speech distance in gta distance units
+		{32.0, "Cabalgando"}
 	}
 else
 	Cfg.voiceModes = {
-		{3.0, "Whisper"}, -- Whisper speech distance in gta distance units
+		{3.0, "Susurro"}, -- Susurro speech distance in gta distance units
 		{8.0, "Normal"}, -- Normal speech distance in gta distance units
-		{15.0, "Shouting"}, -- Shout speech distance in gta distance units
-		{32.0, "Riding"}
+		{15.0, "Gritar"}, -- Shout speech distance in gta distance units
+		{32.0, "Cabalgando"}
 	}
 end
 
