@@ -4,7 +4,7 @@
 
 local config = {
     pedFrequency = 1.0,
-    trafficFrequency = 0.70,
+    trafficFrequency = 0.50,
     animalFrequency = 1.0,
 }
 
