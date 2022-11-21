@@ -129,17 +129,16 @@ Config3.Stores = {
                 --     price = 10000, 
                 
                 -- },
-            --    ["SemiAuto Pistol "] = {	
-            --         hashname = "WEAPON_PISTOL_SEMIAUTO",    
-            --         price = 1000, 
-                
-            --     },
-                ["Mauser Pistol "] = {	
-                    hashname = "WEAPON_PISTOL_MAUSER",    
+               --[[  ["SemiAuto Pistol "] = {	
+                    hashname = "WEAPON_PISTOL_SEMIAUTO",    
                     price = 1000, 
                 
+                }, ]]
+                ["Mauser Pistol "] = {	
+                    hashname = "WEAPON_PISTOL_MAUSER",    
+                    price = 50, 
+                
                 },
-
             },
             ["Revolvers"] = {
                 -- ["Schofield Revolver"] = {	
@@ -152,11 +151,11 @@ Config3.Stores = {
                 --     price = 40, 
                 
                 -- },
-                -- ["Double Action Revolver"] = {	
-                --     hashname = "WEAPON_REVOLVER_DOUBLEACTION",    
-                --     price = 55, 
+                ["Double Action Revolver"] = {	
+                    hashname = "WEAPON_REVOLVER_DOUBLEACTION",    
+                    price = 55, 
                 
-                -- },
+                },
                 ["Cattleman Revolver"] = {	
                     hashname = "WEAPON_REVOLVER_CATTLEMAN",    
                     price = 25, 
@@ -171,11 +170,11 @@ Config3.Stores = {
             ["Throwable"] = { -- Due to vorp bug, using this weapon never runs out of ammo if u requip. 
             -- in order for throwables to work. the player must buy the throwable weapon then buy and use the related ammo box
             -- only then will the throwable show up in their weapon wheel 
-                ["Tomahawk"] = {	
-                    hashname = "WEAPON_THROWN_TOMAHAWK",    
-                    price = 10, 
+                -- ["Tomahawk"] = {	
+                --     hashname = "WEAPON_THROWN_TOMAHAWK",    
+                --     price = 10, 
                 
-                },
+                -- },
                 ["Knives"] = {	
                     hashname = "WEAPON_THROWN_THROWING_KNIVES",    
                     price = 8, 
@@ -308,7 +307,6 @@ Config3.Stores = {
                    
             --     },
             -- },
-
             ["Revolver"] = {
                 ["Revolver Ammo Normal"] = {
                    
@@ -328,18 +326,18 @@ Config3.Stores = {
                     item = "ammorevolverexplosive",
                     
                 }, ]]
-                ["Revolver Ammo Velocity"] = {
+                -- ["Revolver Ammo Velocity"] = {
                     
-                    price = 5, 
-                    item = "ammorevolvervelocity",
+                --     price = 5, 
+                --     item = "ammorevolvervelocity",
                     
-                },
-                ["Revolver Ammo Splitpoint"] = {
+                -- },
+                -- ["Revolver Ammo Splitpoint"] = {
                    
-                    price = 8, 
-                    item = "ammorevolversplitpoint",
+                --     price = 8, 
+                --     item = "ammorevolversplitpoint",
                    
-                },
+                -- },
 
             },
             -- ["Rifle"] = {
@@ -380,7 +378,7 @@ Config3.Stores = {
                    
             --     },
 
-            },
+            -- },
             -- ["Shotgun"] = {
             --    --[[  ["Shotgun Ammo Incendiary"] = {
                    
@@ -414,12 +412,12 @@ Config3.Stores = {
                     item = "ammopistolnormal",
                     
                 },
-                -- ["Pistol Ammo Express"] = {
+                ["Pistol Ammo Express"] = {
                    
-                --     price = 2, 
-                --     item = "ammopistolexpress",
+                    price = 2, 
+                    item = "ammopistolexpress",
                     
-                -- },
+                },
                --[[  ["Pistol Ammo Explosive"] = {
                     
                     price = 5, 
