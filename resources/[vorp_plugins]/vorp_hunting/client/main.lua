@@ -343,6 +343,7 @@ RegisterCommand("hunt", function(source, args, rawCommand)
 
         animal = CreatePed(animal, playerCoords.x, playerCoords.y, playerCoords.z, true, true, true)
         Citizen.InvokeNative(0x77FF8D35EEC6BBC4, animal, 1, 0)
+        -- animal.SetPedDamaged(true)
         Wait(freeze)
         FreezeEntityPosition(animal,true)
     end
