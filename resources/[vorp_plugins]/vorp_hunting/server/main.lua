@@ -95,7 +95,7 @@ local function giveReward(context, data, skipfinal)
 			TriggerClientEvent("vorp:TipRight", _source, Config.Language.AnimalSold .. table.concat(monies, ", "), 4000)
 		end
 		
-		if skipfinal then
+		if not skipfinal then
 			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 		
