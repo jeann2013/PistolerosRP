@@ -257,6 +257,7 @@ Citizen.CreateThread(function()
                                 if not y.sold then
                                     y.sold = true
                                     local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
+                                    print(q)
                                     DeleteEntity(q)
                                     Citizen.InvokeNative(0x5E94EA09E7207C16, q) --Delete Entity
                                     DeletePed(q)                                    
