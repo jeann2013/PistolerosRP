@@ -111,7 +111,7 @@ Config.SkinnableAnimals = {
     [1458540991] = { name = "North American Racoon", givenItem = {  "meat" }, givenAmount = { 1 }, givenDisplay = {"Carne"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-541762431] = { name = "Black-Tailed Jackrabbit", givenItem = {  "meat","provision_rabbit_pelt" }, givenAmount = { 1,1 }, givenDisplay = {"Carne","Piel"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [1755643085] = { name = "American Pronghorn Doe", givenItem = {  "meat","provision_pronghorn_fur","provision_pronghorn_horn" }, givenAmount = { 1,1,1 }, givenDisplay = {"Carne","Piel","Cuernos"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
-    [1755643085] = { name = "Greater Prairie Chicken", givenItem = {  "provision_meat_gamey_bird","feathers" }, givenAmount = { 1,1 }, givenDisplay = {"Carne de ave","Plumas"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
+    [2079703102] = { name = "Greater Prairie Chicken", givenItem = {  "provision_meat_gamey_bird","feathers" }, givenAmount = { 1,1 }, givenDisplay = {"Carne de ave","Plumas"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-1414989025] = { name = "Wirginia Possum", givenItem = {  "provision_meat_gamey_bird","feathers" }, givenAmount = { 1,1 }, givenDisplay = {"Carne de ave","Plumas"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [1007418994] = { name = "Berkshire Pig", givenItem = { "meat","provision_pig_skin" }, givenAmount = { 1,1 }, givenDisplay = {"Carne","Piel"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [1416324601] = { name = "Ring-Necked Pheasant", givenItem = { "provision_meat_gamey_bird","feathers" }, givenAmount = { 1,1 }, givenDisplay = {"Carne de ave","Plumas"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },

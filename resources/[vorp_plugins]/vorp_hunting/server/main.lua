@@ -96,7 +96,7 @@ local function giveReward(context, data, skipfinal)
 		end
 		
 		if not skipfinal then
-			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
+			-- TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 		
 		local itemsAvailable = true 
