@@ -247,22 +247,24 @@ Citizen.CreateThread(function()
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
                         local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, PlayerPedId())
-                         local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, PlayerPedId())
-                         local model = GetEntityModel(holding)
+                        local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, PlayerPedId())
+                        local model = GetEntityModel(holding)
                         if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, 0) ~= false then
-                        for x = #peltz, 1, -1 do
-                            y = peltz[x]
-                            if not y.sold then
-                                y.sold = true
-                                local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
-                                awardQuality(q, nil, {horse = horse, pelt = q}, function () 
-                                    alreadysoldanimal = true
-                                end)
+                            for x = #peltz, 1, -1 do
+                                y = peltz[x]
+                                if not y.sold then
+                                    y.sold = true
+                                    local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
+                                    awardQuality(q, nil, {horse = horse, pelt = q}, function () 
+                                        alreadysoldanimal = true
+                                    end)
+                                end
+                                table.remove(peltz, x)
+                                TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=x}, false)
                             end
-                            table.remove(peltz, x)
                         end
-                    end
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=holding,horse=nil}, false)
+
+                        
                     end
                 end
             end
