@@ -65,19 +65,19 @@ end
 
 function awardQuality(quality, entity, horse, cb)
     local skinFound = false
-    -- for k, v in pairs(Config.Animals) do
-    --     if (quality == v.perfect) or (quality == v.good) or (quality == v.poor) then
-	-- 		skinFound = k
-	-- 		break -- no need to keep looping through the config; micro-optimizations ftw!
-	-- 	end
-    -- end
+    for k, v in pairs(Config.Animals) do
+        if (quality == v.perfect) or (quality == v.good) or (quality == v.poor) then
+			skinFound = k
+			break -- no need to keep looping through the config; micro-optimizations ftw!
+		end
+    end
 
-    -- if not skinFound then
-    --     -- TriggerEvent("vorp:TipRight", Config.Language.NotInTheButcher, 4000) -- Notification when the animal isn't being sold in the butcher 
-    -- else
+    if not skinFound then
+        --TriggerEvent("vorp:TipRight", Config.Language.NotInTheButcher, 4000) -- Notification when the animal isn't being sold in the butcher 
+    else
     --     TriggerServerEvent("vorp_hunting:giveReward", "pelt", {model=skinFound,quality=quality,entity=entity,horse=horse}, false)
 	-- 	cb()
-    -- end
+    end
 end
 
 function SellAnimal() -- Selling animal function
@@ -246,7 +246,7 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
-                        -- TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, true)
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, true)
                     end
                 end
             end
