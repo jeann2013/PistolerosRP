@@ -247,7 +247,7 @@ Citizen.CreateThread(function()
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
                         local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, PlayerPedId())
-                        if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, 0) ~= false then
+                        if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse) ~= false then
                             for x = #peltz, 1, -1 do
                                 -- y = peltz[x]
                                 -- if not y.sold then
