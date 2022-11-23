@@ -97,7 +97,7 @@ local function giveReward(context, data, skipfinal)
 		print("----- no ", not skipfinal)
 		print("-----", skipfinal)
 		if not skipfinal then
-			print("paso")
+			print("paso",data.entity)
 			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 		
