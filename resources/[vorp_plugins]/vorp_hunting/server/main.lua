@@ -24,7 +24,6 @@ local function giveReward(context, data, skipfinal)
 			gold = animal.gold or 0
 			rolPoints = animal.rolPoints or 0
 			xp = animal.xp or 0
-			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 	elseif context == "pelt" then
 		animal = Config.Animals[data.model]
@@ -48,7 +47,6 @@ local function giveReward(context, data, skipfinal)
 			gold = gold * multiplier
 			rolPoints = rolPoints * multiplier
 			xp = xp * multiplier
-			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 	elseif context == "carcass" then
 		animal = Config.Animals[data.model]
@@ -97,7 +95,7 @@ local function giveReward(context, data, skipfinal)
 			TriggerClientEvent("vorp:TipRight", _source, Config.Language.AnimalSold .. table.concat(monies, ", "), 4000)
 		end
 		
-		if not skipfinal then
+		if skipfinal then
 			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 		
