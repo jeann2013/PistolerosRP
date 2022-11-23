@@ -75,7 +75,7 @@ function awardQuality(quality, entity, horse, cb)
     if not skinFound then
         --TriggerEvent("vorp:TipRight", Config.Language.NotInTheButcher, 4000) -- Notification when the animal isn't being sold in the butcher 
     else
-        TriggerServerEvent("vorp_hunting:giveReward", "pelt", {model=skinFound,quality=quality,entity=entity,horse=horse}, false)
+        --TriggerServerEvent("vorp_hunting:giveReward", "pelt", {model=skinFound,quality=quality,entity=entity,horse=horse}, false)
 		cb()
     end
 end
