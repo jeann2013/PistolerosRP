@@ -74,6 +74,8 @@ function awardQuality(quality, entity, horse, cb)
 		end
     end
 
+    print("skinFound",skinFound)
+    print("skinFound",not skinFound)
     if not skinFound then
         -- TriggerEvent("vorp:TipRight", Config.Language.NotInTheButcher, 4000) -- Notification when the animal isn't being sold in the butcher 
     else
