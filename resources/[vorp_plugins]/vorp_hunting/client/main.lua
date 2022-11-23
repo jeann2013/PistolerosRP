@@ -252,7 +252,7 @@ Citizen.CreateThread(function()
                         local model = GetEntityModel(holding)
                         local type = GetPedType(holding)
                         local hash = GetHashKey(holding)
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {quality=quality,model=model,entity=quality,horse=nil}, false)
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {quality=quality,model=model,entity=quality,horse=nil}, true)
                     end
                 end
             end
