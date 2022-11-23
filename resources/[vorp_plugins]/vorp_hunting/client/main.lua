@@ -250,7 +250,8 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, false)
+                        print("model",model)
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, true)
                     end
                 end
             end
