@@ -18,7 +18,6 @@ end)
 RegisterNetEvent('vorp_hunting:finalizeReward')
 AddEventHandler('vorp_hunting:finalizeReward', function(entity, horse)
     -- Remove Animal/Pelt
-    print("entity",entity)
     if entity ~= nil then    
         DeleteEntity(entity)
         Citizen.InvokeNative(0x5E94EA09E7207C16, entity) --Delete Entity
@@ -247,12 +246,20 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then                        
-                        local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, ped)
-                        local quality = Citizen.InvokeNative(0x31FEF6A20F00B963, holding)
-                        local model = GetEntityModel(holding)
-                        local type = GetPedType(holding)
-                        local hash = GetHashKey(holding)
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {quality=quality,model=model,entity=holding,horse=nil}, true)
+                    if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, 0) ~= false then
+                        for x = #peltz, 1, -1 do
+                            y = peltz[x]
+                            if not y.sold then
+                                y.sold = true
+                                local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
+                                awardQuality(q, nil, {horse = horse, pelt = q}, function () 
+                                    alreadysoldanimal = true
+                                end)
+                            end
+                            table.remove(peltz, x)
+                        end
+                    end
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, true)
                     end
                 end
             end
