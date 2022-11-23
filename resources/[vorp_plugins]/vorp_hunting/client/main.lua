@@ -18,15 +18,15 @@ end)
 RegisterNetEvent('vorp_hunting:finalizeReward')
 AddEventHandler('vorp_hunting:finalizeReward', function(entity, horse)
     -- Remove Animal/Pelt
-    print("entity",entity)
+    
     if entity ~= nil then
+        print("entity",entity)
         DeleteEntity(entity)
         Citizen.InvokeNative(0x5E94EA09E7207C16, entity) --Delete Entity
         DeletePed(entity)
     end
 
-    -- Remove pelt from horse
-    print("horse",horse)
+    -- Remove pelt from horse   
     if horse ~= nil then
         Citizen.InvokeNative(0x627F7F3A0C4C51FF, horse.horse, horse.pelt)
     end
@@ -250,8 +250,7 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
-                        local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, PlayerPedId())
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=model,horse=horse}, false)
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=model,horse=false}, false)
                     end
                 end
             end
