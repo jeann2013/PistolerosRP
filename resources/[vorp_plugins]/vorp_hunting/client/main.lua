@@ -245,8 +245,11 @@ Citizen.CreateThread(function()
                         print('Animal Gathered: ' .. model) --remove this if you want
                     end
                     
-                    if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then                        
-                    if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, 0) ~= false then
+                    if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
+                        local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, PlayerPedId())
+                         local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, PlayerPedId())
+                         local model = GetEntityModel(holding)
+                        if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, 0) ~= false then
                         for x = #peltz, 1, -1 do
                             y = peltz[x]
                             if not y.sold then
@@ -259,7 +262,7 @@ Citizen.CreateThread(function()
                             table.remove(peltz, x)
                         end
                     end
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, true)
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=holding,horse=nil}, false)
                     end
                 end
             end
