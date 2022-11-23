@@ -185,8 +185,8 @@ local function giveReward(context, data, skipfinal)
 	end
 end
 
--- RegisterServerEvent("vorp_hunting:giveReward")
--- AddEventHandler("vorp_hunting:giveReward", giveReward)
+RegisterServerEvent("vorp_hunting:giveReward")
+AddEventHandler("vorp_hunting:giveReward", giveReward)
 
 
 RegisterServerEvent("vorp_hunting:getJob")
