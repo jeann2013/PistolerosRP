@@ -24,6 +24,7 @@ local function giveReward(context, data, skipfinal)
 			gold = animal.gold or 0
 			rolPoints = animal.rolPoints or 0
 			xp = animal.xp or 0
+			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 	elseif context == "pelt" then
 		animal = Config.Animals[data.model]
