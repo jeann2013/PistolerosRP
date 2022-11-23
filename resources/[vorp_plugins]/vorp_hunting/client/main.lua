@@ -250,8 +250,8 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
-                        print("model",model)
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=model}, false)
+                        local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, PlayerPedId())
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=model,horse=horse}, false)
                     end
                 end
             end
