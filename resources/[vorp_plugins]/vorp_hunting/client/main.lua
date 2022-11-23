@@ -206,10 +206,10 @@ Citizen.CreateThread(function()
                         if Citizen.InvokeNative(0xC92AC953F0A982AE, openButcher) then
 
                             TaskPlaceCarriedEntityOnMount(player, holding, horse, 1)
-                            table.insert(peltz, {
-                                holding = holding,
-                                quality = quality
-                            })
+                            -- table.insert(peltz, {
+                            --     holding = holding,
+                            --     quality = quality
+                            -- })
 
                             Wait(500)
                         end
