@@ -14,6 +14,9 @@ local function giveReward(context, data, skipfinal)
 	local givenItem, givenAmount, givenDisplay = {},{},{}
 	local animal, found
 	if context == "skinned" then
+		DeleteEntity(entity)
+        Citizen.InvokeNative(0x5E94EA09E7207C16, entity) --Delete Entity
+        DeletePed(entity)
 		animal = Config.SkinnableAnimals[data.model]
 		if animal then
 			found = true
