@@ -18,6 +18,7 @@ end)
 RegisterNetEvent('vorp_hunting:finalizeReward')
 AddEventHandler('vorp_hunting:finalizeReward', function(entity, horse)
     -- Remove Animal/Pelt
+    print("entity",entity)
     if entity ~= nil then
         DeleteEntity(entity)
         Citizen.InvokeNative(0x5E94EA09E7207C16, entity) --Delete Entity
@@ -25,6 +26,7 @@ AddEventHandler('vorp_hunting:finalizeReward', function(entity, horse)
     end
 
     -- Remove pelt from horse
+    print("horse",horse)
     if horse ~= nil then
         Citizen.InvokeNative(0x627F7F3A0C4C51FF, horse.horse, horse.pelt)
     end
