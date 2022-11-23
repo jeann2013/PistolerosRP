@@ -19,8 +19,7 @@ RegisterNetEvent('vorp_hunting:finalizeReward')
 AddEventHandler('vorp_hunting:finalizeReward', function(entity, horse)
     -- Remove Animal/Pelt
     print("entity",entity)
-    if entity ~= nil then
-    
+    if entity ~= nil then    
         DeleteEntity(entity)
         Citizen.InvokeNative(0x5E94EA09E7207C16, entity) --Delete Entity
         DeletePed(entity)
@@ -74,8 +73,6 @@ function awardQuality(quality, entity, horse, cb)
 		end
     end
 
-    print("skinFound",skinFound)
-    print("skinFound",not skinFound)
     if not skinFound then
         -- TriggerEvent("vorp:TipRight", Config.Language.NotInTheButcher, 4000) -- Notification when the animal isn't being sold in the butcher 
     else
@@ -250,7 +247,9 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
-                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=model,horse=nil}, false)
+                        local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, player())
+                        local holding2 = Citizen.InvokeNative(0xD806CD2A4F2C2996, horse)
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=holding2,horse=horse}, false)
                     end
                 end
             end
