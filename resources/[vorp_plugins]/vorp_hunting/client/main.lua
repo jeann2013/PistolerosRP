@@ -250,17 +250,21 @@ Citizen.CreateThread(function()
                         local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, PlayerPedId())
                         local model = GetEntityModel(holding)
                         if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, 0) ~= false then
+
+                            local _source = source
                             for x = #peltz, 1, -1 do
                                 y = peltz[x]
                                 if not y.sold then
                                     y.sold = true
                                     local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
                                     awardQuality(q, nil, {horse = horse, pelt = q}, function () 
+                                        TriggerClientEvent("vorp_hunting:finalizeReward", _source, q)
                                         alreadysoldanimal = true
                                     end)
                                 end
                                 table.remove(peltz, x)
-                                TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=x}, false)
+                                
+                                --TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=x}, false)
                             end
                         end
 
