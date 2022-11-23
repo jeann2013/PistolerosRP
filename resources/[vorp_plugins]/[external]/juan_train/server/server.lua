@@ -16,7 +16,9 @@ RegisterServerEvent("train:playerActivated")
 
 function ActivateTrain ()
 	if (PlayerCount) == 1 then
-		TriggerClientEvent('Trainroute', GetHostId())
+    if GetHostId() ~= nil then
+		  TriggerClientEvent('Trainroute', GetHostId())
+    end
 	else
 		SetTimeout(15000,ActivateTrain)
 	end
