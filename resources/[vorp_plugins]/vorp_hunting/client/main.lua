@@ -257,11 +257,9 @@ Citizen.CreateThread(function()
                                 if not y.sold then
                                     y.sold = true
                                     local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
-                                    awardQuality(q, nil, {horse = horse, pelt = q}, function () 
-                                        DeleteEntity(1)
-                                        Citizen.InvokeNative(0x5E94EA09E7207C16, q) --Delete Entity
-                                        DeletePed(1)
-                                    end)
+                                    DeleteEntity(q)
+                                    Citizen.InvokeNative(0x5E94EA09E7207C16, q) --Delete Entity
+                                    DeletePed(q)                                    
                                 end
                                 table.remove(peltz, x)
                                 
