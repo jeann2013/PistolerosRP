@@ -6,8 +6,7 @@ function inventorySetup(items) {
         count = item.count;
 
         if (item.limit > 0) {
-            count = count + " / " + item
-                .limit; /*   count = count + "" ;   if you want to disable the count max items add this instead. */
+            count = count /*   count = count + "" ;   if you want to disable the count max items add this instead. */
         }
         if (item.type != "item_weapon") {
             $("#inventoryElement").append("<div data-label='" + item.label +
