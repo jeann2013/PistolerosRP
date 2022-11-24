@@ -71,7 +71,7 @@ end
 CreateThread(function()
     while true do
         Wait(0)
-        if IsControlJustPressed(0, 0x4CC0E2FE) then
+        if IsControlJustPressed(0, 0x80F28E95) then
             isPointing = true
             triggerPointing()
         end
