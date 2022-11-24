@@ -58,14 +58,16 @@ AddEventHandler('playerDropped', function()
     local steamName = GetPlayerName(_source)
 
     if _users[identifier] and not _usersLoading[identifier] then
-        _users[identifier].GetUsedCharacter().HealthOuter(_healthData[identifier].hOuter)
-        _users[identifier].GetUsedCharacter().HealthInner(_healthData[identifier].hInner)
-        _users[identifier].GetUsedCharacter().StaminaOuter(_healthData[identifier].sOuter)
-        _users[identifier].GetUsedCharacter().StaminaInner(_healthData[identifier].sInner)
-        _users[identifier].SaveUser()
-        print("Player ^2", GetPlayerName(_source) .. " ^7steam:^3 " .. identifier .. "^7 saved")
-        Wait(10000)
-        _users[identifier] = nil
+          if _users[identifier].GetUsedCharacter() then
+            _users[identifier].GetUsedCharacter().HealthOuter(_healthData[identifier].hOuter)
+            _users[identifier].GetUsedCharacter().HealthInner(_healthData[identifier].hInner)
+            _users[identifier].GetUsedCharacter().StaminaOuter(_healthData[identifier].sOuter)
+            _users[identifier].GetUsedCharacter().StaminaInner(_healthData[identifier].sInner)
+            _users[identifier].SaveUser()
+            print("Player ^2", GetPlayerName(_source) .. " ^7steam:^3 " .. identifier .. "^7 saved")
+            Wait(10000)
+            _users[identifier] = nil
+         end
     end
 
     if Config.SaveSteamNameDB then -- I dont hink none of this is used and its useless
@@ -185,9 +187,17 @@ AddEventHandler('vorp:SaveHealth', function(healthOuter, healthInner)
     local identifier = GetSteamID(_source)
 
     if healthInner and healthOuter then
-        if _users[identifier] and _users[identifier].GetUsedCharacter() ~= {} then
-            _users[identifier].GetUsedCharacter().HealthOuter(healthOuter - healthInner)
-            _users[identifier].GetUsedCharacter().HealthInner(healthInner)
+    
+        local user = _users[identifier] or nil
+        
+        if user then
+        
+          local used_char = user.GetUsedCharacter() or nil
+          
+          if used_char then
+            used_char.HealthOuter(healthOuter - healthInner)
+            used_char.HealthInner(healthInner)
+          end
         end
     end
 end)
@@ -197,9 +207,17 @@ AddEventHandler('vorp:SaveStamina', function(staminaOuter, staminaInner)
     local _source = source
     local identifier = GetSteamID(_source)
     if staminaOuter and staminaInner then
-        if _users[identifier] and _users[identifier].GetUsedCharacter() ~= {} then
-            _users[identifier].GetUsedCharacter().StaminaOuter(staminaOuter)
-            _users[identifier].GetUsedCharacter().StaminaInner(staminaInner)
+    
+        local user = _users[identifier] or nil
+        
+        if user then
+        
+          local used_char = user.GetUsedCharacter() or nil
+          
+          if used_char then
+            used_char.StaminaOuter(staminaOuter)
+            used_char.StaminaInner(staminaInner)
+          end
         end
     end
 end)

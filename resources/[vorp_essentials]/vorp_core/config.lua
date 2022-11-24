@@ -18,18 +18,18 @@ Config = {
   initGroup                = "user", -- leave it like this
   Whitelist                = false,
   AllowWhitelistAutoUpdate = false,
-  maxHealth                = 1, -- 10 is FULL 0 IS EMPTY define max outer core for players
-  maxStamina               = 1, -- 10 is FULL 0 IS EMPTY define max outer core for players
+  maxHealth                = 0.5, -- 10 is FULL 0 IS EMPTY define max outer core for players
+  maxStamina               = 0.5, -- 10 is FULL 0 IS EMPTY define max outer core for players
   PVP                      = true, -- Can players attack/hurt one another
   PVPToggle                = true, -- If true, players can set their own pvp state
   savePlayersTimer         = 10000, -- this will tell the core in how many miliseconds should all players be saved to the database, decreasing may reduce performance
   showplayerIDwhenfocus    = true, -- set false will show steam name when focus on another player RMB
-  disableAutoAIM           = false, -- if false players with controllers will have autoaim just like in rdr2
+  disableAutoAIM           = true, -- if false players with controllers will have autoaim just like in rdr2
   ------------------------------------------------------------------------------
   --------------------------- MULTICHARACTER -----------------------------------
   SaveSteamNameDB          = false, -- TRUE if you want save steamname on character DB when player drop (need to update SQL)
   UseCharPermission        = false, --(do not use this right now) TRUE if you want give multicharacter on selected players (need to update SQL) | if you change TRUE to FALSE player logs with first character created
-  MaxCharacters            = 2, --MAX ALLOWED TO BE CREATED [if UseCharPermission = true, SELECTED players(with command) can create MaxCharacters characters / if UseCharPermission = false, players can create MaxCharacters characters]
+  MaxCharacters            = 5, --MAX ALLOWED TO BE CREATED [if UseCharPermission = true, SELECTED players(with command) can create MaxCharacters characters / if UseCharPermission = false, players can create MaxCharacters characters]
 
   ------------------------------------------------------------------------------
   ------------------------------ UI CORES --------------------------------------
@@ -42,7 +42,7 @@ Config = {
 
 
   webhookColor = 16711680, --EMBED COLOR
-  name         = "VORP", --NAME OF EMBED
+  name         = "1880RP", --NAME OF EMBED
   logo         = "https://via.placeholder.com/30x30", --HEAD LOGO
   footerLogo   = "https://via.placeholder.com/30x30", --FOOTER LOGO
   Avatar       = "https://via.placeholder.com/30x30", -- AVATAR LOGO
@@ -67,14 +67,8 @@ Config = {
     BanWarnWebhook    = "", --BANS/WARNS
     NewPlayerWebhook  = "", --NEWPLAYER
     CharPermWebhook   = "", --CHARPERMS
+    ChangeNameWebhook = "", -- CHANGECHARNAMES
   },
-
-  ------------------------------------------------------------------------------
-  ---------------------------- VOICE -------------------------------------------
-  ActiveVoiceChat   = false,
-  KeySwapVoiceRange = 0x80F28E95, --[L] KEY
-  DefaultVoiceRange = 5.0,
-  VoiceRanges       = { 2.0, 5.0, 12.0 },
 
   ------------------------------------------------------------------------------
   ------------------------- SHOW OR HIDE UI's ----------------------------------
@@ -93,13 +87,14 @@ Config = {
   DisableRecharge = true, --Disable auto recharge of health outer core (real ped health)
   RespawnTime = 10, --seconds
   RespawnKey = 0xDFF812F9, --[E] KEY
+  RespawnKeyTime = 5000, -- Milliseconds it will take to press the button
   RespawnTitleFont = 1, -- for the draw text message
   RespawnSubTitleFont = 1, -- for the draw text message sub title font
   CombatLogDeath = true, -- people who combat log now spawn in dead rather than force spawned
   ShowUiDeath = true, -- show or hide the UI if player is dead
   camDeath = false, -- enable or disable the camera death function
   sprite = true, --- enable text with sprite or disable
-  spriteGrey = false, -- if set to false will enable RED sprite true will be grey
+  spriteColor = { r = 100, g = 1, b = 1 }, -- sprite rgb color
 
   hospital = {
     Valentine = {
@@ -139,39 +134,34 @@ Config = {
     },
   },
   -----------------------------------------------------------------------------
-  HeadId = true,
-  HeadIdDistance = 15,
-  ModeKey = false,
-  KeyShowIds = "0x8CC9CD42", -- Press X
+
   ActiveEagleEye = true,
   ActiveDeadEye = false,
   TimeZoneDifference = 1, -- Your time zone difference with UTC in winter time
 
   ----------------------------------------------------------------------------
   --------------------------- COMMAND PERMISSION -----------------------------
-  Group = {
-    Admin = "admin", --- group for all commands
-    Mod = "moderator", --- second group for all commands
-
-  },
+  GroupAllowed = { "admin" }, -- add here groups
+  Commands = { "addGroup", "addJob", "addItems", "addWeapons", "addMoney", "delMoney", "healplayer",
+    "reviveplayer", "tpm", "delhorse", "delwagons", "banplayer", "wlplayer", "unwlplayer", "warn",
+    "unban", "unwarn", "changeCharName" }, -- commands available
 
   --------------------------------------------------------------------------------------
   -----------------------------BUILT IN RICH PRESENCE DISCORD --------------------------
   maxplayers = 64, -- change to the number of players that can get in to your server
   appid = nil, -- Application ID (Replace this with you own)
-  biglogo = "synred", -- image assets name for the "large" icon.
+  biglogo = "1880RP", -- image assets name for the "large" icon.
   biglogodesc = " Redm Server Connect: ", -- text when hover over image
-  smalllogo = "smallboy", -- image assets name for the "small" icon.(OPTIONAL)
+  smalllogo = "1880RP", -- image assets name for the "small" icon.(OPTIONAL)
   smalllogodesc = "Join us for a good time", -- text when hover over image
-  discordlink = "https://discord.gg/", -- discord link
+  discordlink = "https://discord.gg/nS4cWVVvnt", -- discord link
   richpresencebutton = "Join Discord", --set button text for Rich Presence Button
-  shownameandid = false, --show player steam name and id
-
+  shownameandid = true, --show player steam name and id
 
   ---------------------------------------------------------------------------------------
   ------------------------------- TRANSLATE ---------------------------------------------
   Langs = {
-    IsConnected        = "🚫 Duplicated account connected (steam | rockstar)",
+    IsConnected        = "🚫 Cuende steam duplicada (steam | rockstar)",
     NoSteam            = "🚫 Tienes que tener Steam abierto, por favor abre Steam y reinicia RedM",
     NoInWhitelist      = "🚫 No estás en la Whitelist. Envía en el canal de discord jeann#9751 tu user-id: ",
     NoPermissions      = "No tienes suficientes permisos",
