@@ -18,8 +18,8 @@ Config = {
   initGroup                = "user", -- leave it like this
   Whitelist                = false,
   AllowWhitelistAutoUpdate = false,
-  maxHealth                = 0.5, -- 10 is FULL 0 IS EMPTY define max outer core for players
-  maxStamina               = 0.5, -- 10 is FULL 0 IS EMPTY define max outer core for players
+  maxHealth                = 1, -- 10 is FULL 0 IS EMPTY define max outer core for players
+  maxStamina               = 1, -- 10 is FULL 0 IS EMPTY define max outer core for players
   PVP                      = true, -- Can players attack/hurt one another
   PVPToggle                = true, -- If true, players can set their own pvp state
   savePlayersTimer         = 10000, -- this will tell the core in how many miliseconds should all players be saved to the database, decreasing may reduce performance
@@ -29,7 +29,7 @@ Config = {
   --------------------------- MULTICHARACTER -----------------------------------
   SaveSteamNameDB          = false, -- TRUE if you want save steamname on character DB when player drop (need to update SQL)
   UseCharPermission        = false, --(do not use this right now) TRUE if you want give multicharacter on selected players (need to update SQL) | if you change TRUE to FALSE player logs with first character created
-  MaxCharacters            = 5, --MAX ALLOWED TO BE CREATED [if UseCharPermission = true, SELECTED players(with command) can create MaxCharacters characters / if UseCharPermission = false, players can create MaxCharacters characters]
+  MaxCharacters            = 2, --MAX ALLOWED TO BE CREATED [if UseCharPermission = true, SELECTED players(with command) can create MaxCharacters characters / if UseCharPermission = false, players can create MaxCharacters characters]
 
   ------------------------------------------------------------------------------
   ------------------------------ UI CORES --------------------------------------
