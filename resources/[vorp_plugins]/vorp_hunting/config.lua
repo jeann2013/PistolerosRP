@@ -10,17 +10,17 @@ Config.Linux = true -- If they use a Linux server, then true
 Config.butcherfunction = true -- set to true if you want to use butcher functions
 ----------------------------- TRANSLATE HERE -------------------------------------
 Config.Language = {
-    NotHoldingAnimal = "You Got Nothing To Sell",
-    NotInTheButcher = "I won't buy that animal",
-    AnimalSold = "Thanks for the deal you got ",
-    SkinnableAnimalstowed = "You obtained ",
+    NotHoldingAnimal = "No tienes nada que vender",
+    NotInTheButcher = "No voy a comprar ese animal!!",
+    AnimalSold = "Gracias por el trato recibido ",
+    SkinnableAnimalstowed = "Obtuvo ",
     stow = "Stow",
-    press = "Press",
-    sell = "Sell",
-    notabutcher = "You Dont Have The Right Job",
+    press = "Presione",
+    sell = "Vender",
+    notabutcher = "No tienes el trabajo adecuado",
     dollar = " $",
-    join = " and ",
-    FullInventory = "Inventory is too full."
+    join = " y ",
+    FullInventory = "Inventario full."
 }
 
 
