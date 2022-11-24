@@ -105,7 +105,7 @@ window.addEventListener('message', function (event) {
         checkxy = event.data.check
         infoxy = event.data.info
         $('#check').html('')
-        $("#check").append(`<button id='check'>${checkxy}/${infoxy}</button>`);
+        $("#check").append(`<button id='check'>${checkxy}</button>`);
     }
     if (event.data.action == "display") {
         $("#inventoryHud").fadeIn();
@@ -117,7 +117,7 @@ window.addEventListener('message', function (event) {
             );
         } else {
             $("#inventoryHud").append(
-                `<div class='controls'><div class='controls-center'><button id='check'>${checkxy} / ${infoxy}</button></div><button id='close'>${LANGUAGE.inventoryclose}</button></div></div>`
+                `<div class='controls'><div class='controls-center'><button id='check'>${checkxy} </button></div><button id='close'>${LANGUAGE.inventoryclose}</button></div></div>`
             );
         }
 
