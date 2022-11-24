@@ -18,13 +18,13 @@ end)
 RegisterNetEvent('vorp_hunting:finalizeReward')
 AddEventHandler('vorp_hunting:finalizeReward', function(entity, horse)
     -- Remove Animal/Pelt
-    if entity ~= nil then    
+    if entity ~= nil then
         DeleteEntity(entity)
         Citizen.InvokeNative(0x5E94EA09E7207C16, entity) --Delete Entity
         DeletePed(entity)
     end
 
-    -- Remove pelt from horse   
+    -- Remove pelt from horse
     if horse ~= nil then
         Citizen.InvokeNative(0x627F7F3A0C4C51FF, horse.horse, horse.pelt)
     end
@@ -199,12 +199,16 @@ Citizen.CreateThread(function()
             if 2 > dist then
                 local model = GetEntityModel(holding)
                 if holding ~= false and Config.Animals[model] == nil then
-                    if Config.maxpelts > Keys(peltz) then
 
+                    local maxpelts = Config.maxpelts
+                    if Config.maxpelts > 3 then --Limit max pelts to 3 as thats what red dead allows on a horse
+                        maxpelts = 3
+                    end
+
+                    if maxpelts > Keys(peltz) then
                         local label = CreateVarString(10, 'LITERAL_STRING', Config.Language.stow)
                         PromptSetActiveGroupThisFrame(prompts, label)
                         if Citizen.InvokeNative(0xC92AC953F0A982AE, openButcher) then
-
                             TaskPlaceCarriedEntityOnMount(player, holding, horse, 1)
                             table.insert(peltz, {
                                 holding = holding,
@@ -246,25 +250,7 @@ Citizen.CreateThread(function()
                     end
                     
                     if model and Config.SkinnableAnimals[model] ~= nil and playergate == true and bool_unk == 1 then
-                        local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, PlayerPedId())
-                        if Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse) ~= false then
-                            for x = #peltz, 1, -1 do
-                                -- y = peltz[x]
-                                -- if not y.sold then
-                                    y.sold = true
-                                    local q = Citizen.InvokeNative(0x0CEEB6F4780B1F2F, horse, x - 1)
-                                    print(q)
-                                    DeleteEntity(q)
-                                    Citizen.InvokeNative(0x5E94EA09E7207C16, q) --Delete Entity
-                                    DeletePed(q)                                    
-                                -- end
-                                table.remove(peltz, x)
-                                
-                                --TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model,entity=x}, false)
-                            end
-                        end
-
-                        
+                        TriggerServerEvent("vorp_hunting:giveReward", "skinned", {model=model}, true)
                     end
                 end
             end
@@ -361,7 +347,6 @@ RegisterCommand("hunt", function(source, args, rawCommand)
 
         animal = CreatePed(animal, playerCoords.x, playerCoords.y, playerCoords.z, true, true, true)
         Citizen.InvokeNative(0x77FF8D35EEC6BBC4, animal, 1, 0)
-        -- animal.SetPedDamaged(true)
         Wait(freeze)
         FreezeEntityPosition(animal,true)
     end

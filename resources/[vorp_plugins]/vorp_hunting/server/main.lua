@@ -14,7 +14,6 @@ local function giveReward(context, data, skipfinal)
 	local givenItem, givenAmount, givenDisplay = {},{},{}
 	local animal, found
 	if context == "skinned" then
-		TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		animal = Config.SkinnableAnimals[data.model]
 		if animal then
 			found = true
@@ -94,8 +93,9 @@ local function giveReward(context, data, skipfinal)
 		
 		if #monies > 0 then
 			TriggerClientEvent("vorp:TipRight", _source, Config.Language.AnimalSold .. table.concat(monies, ", "), 4000)
-		end	
-		if not skipfinal then		
+		end
+		
+		if not skipfinal then
 			TriggerClientEvent("vorp_hunting:finalizeReward", _source, data.entity, data.horse)
 		end
 		
@@ -134,7 +134,7 @@ local function giveReward(context, data, skipfinal)
 				-- Check if there is enough to add, if not send message
 				TriggerEvent("vorpCore:canCarryItem", tonumber(_source), v, nmb, function(canCarryItem)                
 					if canCarryItem ~= true then
-						itemsAvailable = false
+						itemsAvailable = false              
 					end
 					done = true
 				end)
