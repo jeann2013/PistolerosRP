@@ -21,7 +21,7 @@ function triggerPointing()
         Wait(0)
         GetPointRot()
         local dict = "ai_combat@aim_intro@veh_wagon@seat_fr@cowboy@targeted@unholstered@base@1h"
-        if IsControlJustPressed(0, 0x80F28E95) then
+        if IsControlJustPressed(0, 0x4CC0E2FE) then
             isPointing = false
             Wait(150)
             currAnim = nil
@@ -71,7 +71,7 @@ end
 CreateThread(function()
     while true do
         Wait(0)
-        if IsControlJustPressed(0, 0x80F28E95) then
+        if IsControlJustPressed(0, 0x4CC0E2FE) then
             isPointing = true
             triggerPointing()
         end
