@@ -1,0 +1,19 @@
+Locales['es'] = {
+    ["TipOnMessageReceived"]= "¡Oye tú! Acabas de recibir un mensaje de $1",
+    ["TipOnBroadcastReceived"]= "Nuevo Telegrama:\n$1\nMensaje pagado por $2",
+    ["TipOnMessageSent"]= "Telegrama enviado",
+    ["TipOnBroadcastSent"]= "Telegrama enviado",
+    ["TipOnTooRecentMessageSent"]= "Hay que esperar al menos $1 seg antes de enviar un nuevo mensaje", -- don't touch $n, it is replaced with custom values on runtime
+    ["TipOnInsufficientMoneyForMessage"]= "No tienes suficiente dinero. Necesitas $1$", -- don't touch $n, it is replaced with custom values on runtime
+    ["TipOnInsufficientMoneyForBroadcast"]= "No tienes suficiente dinero. Necesitas $1$", -- don't touch $n, it is replaced with custom values on runtime
+    ["TextNearMailboxLocation"]= "Presione $1 para ver sus correos o $2 para enviar un telegrama", -- don't touch $, it is replaced with curent used key on runtime
+    ["UICloseButton"]= "Cerrar",
+    ["UIWriteButton"]= "Escribir",
+    ["UIDeleteButton"]= "Borrar",
+    ["UIAnswerButton"]= "Responder",
+    ["UIAbortButton"]= "Cancelar",
+    ["UISendButton"]= "Enviar",
+    ["UINamePrefix"]= "Desde",
+    ["UITitle"]= "Mailbox",
+    ["UINoMessageReceived"]= "Hay mensajes recibidos"
+}
