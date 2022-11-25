@@ -133,7 +133,8 @@ end
 
 function getIGWindSpeed()
 	-- Get Temperatures
-	local metric = ShouldUseMetricTemperature();
+	-- local metric = ShouldUseMetricTemperature();
+	local metric = true;
 	local windSpeed
 	local windSpeedUnit
 	if metric then
@@ -152,7 +153,8 @@ end
 
 function getIGTemp()
 	-- Get Temperatures
-	local metric = ShouldUseMetricTemperature();
+	-- local metric = ShouldUseMetricTemperature();
+	local metric = true;
 	local temperature
 	local temperatureUnit
 	local windSpeed
