@@ -3,7 +3,7 @@ Config = {}
 -- If you use -1 for testing the fish is very easy to catch --
 Config.Difficulty = 0
 Config.ReelSpeed = 0.125
-Config.defaultlang = "en_lang"
+Config.defaultlang = "es_lang"
 
 Config.DiscordIntegration = false
 Config.DiscordWebHook = ""
