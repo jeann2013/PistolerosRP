@@ -1,5 +1,5 @@
 Config = {
-  defaultlang = "En", -- Set your language, verify that it exists in vorp_clothingstore/languages/
+  defaultlang = "Es", -- Set your language, verify that it exists in vorp_clothingstore/languages/
   debugMode = false,   -- LEAVE SET TO FALSE
 
   Cost = {	-- Category Prices (Each item equiped adds to the total cost)
