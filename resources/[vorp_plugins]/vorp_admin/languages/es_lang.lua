@@ -5,8 +5,8 @@
 Locales["es_lang"] = {
     ------------------------------------------------
     -- MAIN MENU
-    MenuTitle                 = "VORP ADMIN",
-    MenuSubTitle              = "Main menu",
+    MenuTitle                 = "1880RP ADMIN",
+    MenuSubTitle              = "Menu principal",
     Administration            = "Administracion",
     Booster                   = "Boosters",
     Database                  = "Base de datos",
