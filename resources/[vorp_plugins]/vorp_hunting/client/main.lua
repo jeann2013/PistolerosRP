@@ -43,7 +43,7 @@ function StartButchers() -- Loading Butchers Function
                     Wait(100)
                 end
             else
-                print(v.npcmodel .. " is not valid") -- Concatenations
+                print(v.npcmodel .. " no es valido") -- Concatenations
             end
             -- Spawn Ped
             local npc = CreatePed(hashModel, x, y, z, v.heading, false, true, true, true)

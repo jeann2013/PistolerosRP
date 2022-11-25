@@ -24,7 +24,7 @@ AddEventHandler("vorp_mining:pickaxecheck", function(rock)
 			if 0 >= durability then 
 				local random = math.random(1,2)
 				if random == 1 then 
-					TriggerClientEvent("vorp:TipRight", _source, "Your pickaxe broke", 2000)
+					TriggerClientEvent("vorp:TipRight", _source, "Su pico se rompió", 2000)
 					TriggerClientEvent("vorp_mining:nopickaxe", _source)
 				else
 					VorpInv.addItem(_source, Config.Pickaxe, 1,{description = description.."1",durability = 1})
@@ -37,7 +37,7 @@ AddEventHandler("vorp_mining:pickaxecheck", function(rock)
 		end
 	else
 		TriggerClientEvent("vorp_mining:nopickaxe", _source)
-		TriggerClientEvent("vorp:TipRight", _source, "You don't have a pickaxe", 2000)
+		TriggerClientEvent("vorp:TipRight", _source, "No tienes pico", 2000)
 	end
 end)
 
@@ -68,9 +68,9 @@ AddEventHandler('vorp_mining:addItem', function()
 			print("canCarry and canCarry2",canCarry, canCarry2)
 			if canCarry then
 				VorpInv.addItem(_source, reward[chance2].name, count)
-				TriggerClientEvent("vorp:TipRight", _source, "You found "..reward[chance2].label, 3000)
+				TriggerClientEvent("vorp:TipRight", _source, "Conseguistes "..reward[chance2].label, 3000)
 			else
-				TriggerClientEvent("vorp:TipRight", _source, "You can't carry any more "..reward[chance2].label, 3000)
+				TriggerClientEvent("vorp:TipRight", _source, "No puedes llevar más "..reward[chance2].label, 3000)
 			end
 		-- end)
 	end) 

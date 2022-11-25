@@ -163,7 +163,7 @@ local function giveReward(context, data, skipfinal)
 				if context == "skinned" then
 					givenMsg = Config.Language.SkinnableAnimalstowed
 				else
-					givenMsg = "You received "
+					givenMsg = "Recibistes "
 				end
 				if not validDisplays then givenMsg = givenMsg .. "items..." end
 			end

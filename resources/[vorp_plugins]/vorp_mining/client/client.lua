@@ -141,7 +141,7 @@ function FPrompt(text, button, hold)
     Citizen.CreateThread(function()
         proppromptdisplayed=false
         PropPrompt=nil
-        local str = text or "Put Away"
+        local str = text or "Guardar"
         local buttonhash = button or Config.StopMiningKey
         local holdbutton = hold or false
         PropPrompt = PromptRegisterBegin()
@@ -159,7 +159,7 @@ end
 function LMPrompt(text, button, hold)
     Citizen.CreateThread(function()
         UsePrompt=nil
-        local str = text or "Use"
+        local str = text or "Usa"
         local buttonhash = button or Config.MineRockKey
         local holdbutton = hold or false
         UsePrompt = PromptRegisterBegin()
