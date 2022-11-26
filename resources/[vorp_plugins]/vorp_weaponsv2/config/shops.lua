@@ -5,7 +5,7 @@ Config3.Stores = {
         Pos = {x =-280.4646, y = 779.0331, z = 119.2540}, -- location of wep market 
         blipsprite = 202506373, -- blip sprite for wep market
         showblip = true, -- show blip or not 
-        StoreHoursAllowed = true, -- if you want the stores to use opening and closed hours
+        StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         PromptName = "Weapons Shop ",
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
@@ -551,7 +551,7 @@ Config3.Stores = {
         Pos = {x=2716.73, y=-1285.27, z=49.63}, 
         blipsprite = 202506373,
         showblip = true,
-        StoreHoursAllowed = true, -- if you want the stores to use opening and closed hours
+        StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         Name = 'Weapons Shop', -- Store name 
@@ -1097,7 +1097,7 @@ Config3.Stores = {
         blipsprite = 202506373,
         showblip = true,
         Name = 'Weapons Shop', 
-        StoreHoursAllowed = true, -- if you want the stores to use opening and closed hours
+        StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         Name = 'Weapons Shop', -- Store name 
@@ -1639,7 +1639,7 @@ Config3.Stores = {
         Pos = {x=2946.56, y=1319.68, z=44.82}, 
         blipsprite = 202506373,
         showblip = true,
-        StoreHoursAllowed = true, -- if you want the stores to use opening and closed hours
+        StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         Name = 'Weapons Shop', -- Store name 
@@ -2184,7 +2184,7 @@ Config3.Stores = {
         Pos = {x=-5508.327, y=-2964.35, z=-0.6288}, 
         blipsprite = 202506373,
         showblip = true,
-        StoreHoursAllowed = true, -- if you want the stores to use opening and closed hours
+        StoreHoursAllowed = false, -- if you want the stores to use opening and closed hours
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         Name = 'Weapons Shop', -- Store name 
