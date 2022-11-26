@@ -77,6 +77,8 @@ Config.SkinnableAnimals = {
     -- big animals when you skin them it gives you items. if you have it added TO CONFIG.ANIMALS JUST COPY PASTE HERE AND REMOVE THE GIVE MONEY ETC LIKE SHOWN BELOW.
     [1110710183]  = { name = "Deer", givenItem = { "meat" }, givenAmount = { 1 }, givenDisplay = {"Carne"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-1124266369] = { name = "Bear", givenItem = { "meat","bearHeart", "bearClaws" }, givenAmount = { 3, 1, 3 }, givenDisplay = { "Corazon, Carne", "Garras"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
+    [-551216071] = { name = "Bear", givenItem = { "meat","bearHeart", "bearClaws" }, givenAmount = { 1, 1, 2 }, givenDisplay = { "Corazon, Carne", "Garras"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
+    [730092646] = { name = "Bear", givenItem = { "meat","bearHeart", "bearClaws" }, givenAmount = { 1, 1, 1 }, givenDisplay = { "Corazon, Carne", "Garras"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-1568716381] = { name = "Big Horn Ram", givenItem = { "meat","provision_ram_horn" }, givenAmount = { 1, 1 }, givenDisplay = { "Carne", "Cuernos"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [2028722809] = { name = "Boar", givenItem = { "meat","provision_boar_tusk" }, givenAmount = { 1,1 }, givenDisplay = { "Carne", "Colmillo"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-1963605336] = { name = "Buck", givenItem = { "meat","provision_buck_antlers" }, givenAmount = { 1, 1 }, givenDisplay = { "Carne", "Cuernos"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
@@ -141,7 +143,6 @@ Config.SkinnableAnimals = {
     [-1892280447]  = { name = "Alligator Small", givenItem = { "BigGameMeat" },  givenAmount = { 1 }, givenDisplay = {"Carne"}, money = 0, gold = 0, rolPoints = 0, xp = 1},
     [-2004866590]  = { name = "Alligator", givenItem = { "BigGameMeat" },  givenAmount = { 1 },givenDisplay = {"Carne"}, money = 0, gold = 0, rolPoints = 0, xp = 1  },
     [759906147]    = { name = "North American Beaver", givenItem = { "meat" }, givenAmount = { 1 },givenDisplay = {"Carne"}, money = 0, gold = 0, rolPoints = 0, xp = 1  },
-    [730092646]    = { name = "American Black Bear", givenItem = { "bearHeart", "bearClaws", "bear_skin" }, givenAmount = { 1,2,1 },givenDisplay = {"Corazon","Garras"}, money = 0, gold = 0, rolPoints = 0, xp = 1  },
     
     -- [-711779521]   = { name = "Longnose Gar", givenItem = { "fish" }, givenAmount = { 0 }, givenDisplay = {"Pez"}, money = 0.50, gold = 0, rolPoints = 0, xp = 1 },
     -- [-1553593715]  = { name = "Muskie", givenItem = { "fish" }, givenAmount = { 0 }, givenDisplay = {"Pez"}, money = 0.50, gold = 0, rolPoints = 0, xp = 1 },
@@ -165,7 +166,9 @@ Config.SkinnableAnimals = {
 -- Animals that are traded in to the butcher
 Config.Animals = {
     -- Animals
-    [-1124266369]  = { name = "Bear", givenItem = { "bearHeart","bearClaws" }, givenAmount = { 0 }, money = 1.5, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 957520252, good = 143941906, perfect = 1292673537 },
+    [-1124266369]  = { name = "Bear", givenItem = { "bearHeart","bearClaws" }, givenAmount = { 0 }, money = 1.9, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 957520252, good = 143941906, perfect = 1292673537 },
+    [-551216071]  = { name = "Bear", givenItem = { "bearHeart","bearClaws" }, givenAmount = { 0 }, money = 1.7, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 957520252, good = 143941906, perfect = 1292673537 },
+    [730092646]  = { name = "Bear", givenItem = { "bearHeart","bearClaws" }, givenAmount = { 0 }, money = 1.5, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 957520252, good = 143941906, perfect = 1292673537 },
     [-1568716381] = { name = "Big Horn Ram", givenItem = { "meat","provision_ram_hide","provision_ram_horn" }, givenAmount = { 0 }, money = 1, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 1796037447, good = -476045512, perfect = 1795984405 },
     [2028722809]   = { name = "Boar", givenItem = { "meat","provision_boar_skin","provision_boar_tusk" }, givenAmount = { 0 }, money = 1, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 1248540072, good = nil, perfect = -1858513856 },
     [-1963605336]  = { name = "Buck", givenItem = { "provision_buck_antlers","provision_buck_fur" }, givenAmount = { 0 }, money = 1, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 1603936352, good = -868657362, perfect = -702790226 },
@@ -230,7 +233,6 @@ Config.Animals = {
     [-1892280447]  = { name = "Alligator Small", givenItem = { "BigGameMeat" },  givenAmount = { 0 },money = 1.5, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 1806153689, good = -802026654, perfect = -1625078531 },
     [-2004866590]  = { name = "Alligator", givenItem = { "BigGameMeat" },  givenAmount = { 0 },money = 2, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 3, poor = -1243878166, good = nil, perfect = -1475338121 },
     [759906147]    = { name = "North American Beaver", givenItem = { "meat" }, givenAmount = { 0 }, money = 1, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = -1569450319, good = -2059726619, perfect = 854596618 },
-    [730092646]    = { name = "American Black Bear", givenItem = { "meat" }, givenAmount = { 0 }, money = 2, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = 1083865179, good = 1490032862, perfect = 663376218 },
     -- Fish
     [-711779521]   = { name = "Longnose Gar", givenItem = { "fish" }, givenAmount = { 0 }, money = 0.60, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = nil, good = nil, perfect = nil },
     [-1553593715]  = { name = "Muskie", givenItem = { "fish" }, givenAmount = { 0 }, money = 0.60, gold = 0, rolPoints = 0, xp = 3, poorQualityMultiplier = 1.0, goodQualityMultiplier = 1.5, perfectQualityMultiplier = 2, poor = nil, good = nil, perfect = nil },
