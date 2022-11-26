@@ -99,12 +99,17 @@ CreateThread(function()
                 if CheckAceAllowed(Config.AcePerms, _source) or CheckGroupAllowed(Config.GroupAllowed, group) then -- check ace first then group
                     if CurrentCommand == "addGroup" then
                         local target, newgroup = tonumber(args[1]), tostring(args[2])
+                        local UserT = VorpCore.getUser(target)
+                        local CharacterT = UserT.getUsedCharacter
 
                         if CheckArgs(args, _source, 2) then -- if requiered argsuments are not met
                             return
                         end
-
-                        Character.setGroup(newgroup)
+                        if Config.SetUserDBadmin then
+                            UserT.setGroup(newgroup)
+                        else
+                            CharacterT.setGroup(newgroup)
+                        end
                         VorpCore.NotifyRightTip(_source, "You gave Group to ID: " .. target, 4000)
                         VorpCore.NotifyRightTip(_source, "Admin gave you Group of " .. newgroup, 4000)
 
@@ -115,13 +120,15 @@ CreateThread(function()
                         end
                     elseif CurrentCommand == "addJob" then
                         local target, newjob, jobgrade = tonumber(args[1]), tostring(args[2]), tonumber(args[3])
+                        local UserT = VorpCore.getUser(target)
+                        local CharacterT = UserT.getUsedCharacter
 
                         if CheckArgs(args, _source, 3) then
                             return
                         end
 
-                        Character.setJob(newjob)
-                        Character.setJobGrade(jobgrade)
+                        CharacterT.setJob(newjob)
+                        CharacterT.setJobGrade(jobgrade)
                         VorpCore.NotifyRightTip(_source,
                             "you gave  Job " .. newjob .. " to ID " .. target .. " Grade" .. jobgrade, 4000)
                         VorpCore.NotifyRightTip(target, "staff gave you job " .. newjob .. " Grade " .. jobgrade, 4000)
@@ -135,12 +142,13 @@ CreateThread(function()
 
                     elseif CurrentCommand == "addMoney" then
                         local target, montype, quantity = tonumber(args[1]), tonumber(args[2]), tonumber(args[3])
-
+                        local UserT = VorpCore.getUser(target)
+                        local CharacterT = UserT.getUsedCharacter
                         if CheckArgs(args, _source, 3) then
                             return
                         end
 
-                        Character.addCurrency(montype, quantity)
+                        CharacterT.addCurrency(montype, quantity)
                         VorpCore.NotifyRightTip(_source, "You gave currency " .. quantity .. " to ID " .. target, 4000)
                         VorpCore.NotifyRightTip(target, "Received from admin an Amount of" .. quantity, 4000)
 
@@ -153,6 +161,7 @@ CreateThread(function()
 
                     elseif CurrentCommand == "addItems" then
                         local target, item, count = tonumber(args[1]), tostring(args[2]), tonumber(args[3])
+
                         local VORPInv = exports.vorp_inventory:vorp_inventoryApi()
                         local itemCheck = VORPInv.getDBItem(target, item)
                         local canCarry = VORPInv.canCarryItems(target, count) --can carry inv space
@@ -209,12 +218,13 @@ CreateThread(function()
 
                     elseif CurrentCommand == "delMoney" then
                         local target, montype, quantity = tonumber(args[1]), tonumber(args[2]), tonumber(args[3])
-
+                        local UserT = VorpCore.getUser(target)
+                        local CharacterT = UserT.getUsedCharacter
                         if CheckArgs(args, _source, 3) then
                             return
                         end
 
-                        Character.removeCurrency(montype, quantity)
+                        CharacterT.removeCurrency(montype, quantity)
                         VorpCore.NotifyRightTip(_source, "You have removed " .. quantity .. " from ID " .. target, 4000)
 
                         if Config.Logs.DelMoneyWebhook then
@@ -557,7 +567,7 @@ AddEventHandler("vorp:chatSuggestion", function()
             { name = "AddWhiteList", help = ' steam ID like this > 11000010c8aa16e' },
         })
 
-        TriggerClientEvent("chat:addSuggestion", _source, "/additems", " VORPcore command to give items.", {
+        TriggerClientEvent("chat:addSuggestion", _source, "/addItems", " VORPcore command to give items.", {
             { name = "Id", help = 'player ID' }, { name = "Item", help = 'item name' },
             { name = "Quantity", help = 'amount of items to give' },
         })
