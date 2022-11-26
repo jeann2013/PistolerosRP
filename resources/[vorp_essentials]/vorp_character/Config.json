@@ -1,5 +1,5 @@
 {
-  "defaultlang": "Es", // set your language in Languages.json file
+  "defaultlang": "En", // set your language in Languages.json file
 
   "StartingCoords": [ -179.71, 634.19, 114.089 ], //X, Y, Z
   "Heading": [ 55.416 ],
