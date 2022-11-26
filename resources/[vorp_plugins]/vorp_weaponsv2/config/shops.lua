@@ -58,11 +58,11 @@ Config3.Stores = {
                     price = 10.75, 
                 
                 },
-               --[[  ["Improved Bow"] = {	
+               ["Improved Bow"] = {	
                     hashname = "WEAPON_BOW_IMPROVED",   
                     price = 15,  
                 
-                }, ]]
+                },
             },
             -- ["Rifles"] = {
             --     ["Elephant Rifle"] = {	
@@ -240,16 +240,16 @@ Config3.Stores = {
                     price = 10, 
                 
                 },
-                -- ["Improved Binoculars"] = {	
-                --     hashname = "WEAPON_KIT_BINOCULARS_IMPROVED",    
-                --     price = 10, 
+                ["Improved Binoculars"] = {	
+                     hashname = "WEAPON_KIT_BINOCULARS_IMPROVED",    
+                     price = 10, 
                 
-                -- },
-                -- ["Binoculars"] = {	
-                --     hashname = "WEAPON_kIT_BINOCULARS",    
-                --     price = 5, 
+                },
+                ["Binoculars"] = {	
+                     hashname = "WEAPON_kIT_BINOCULARS",    
+                     price = 5, 
                 
-                -- },
+                },
                 ["Fishing Rod"] = {	
                     hashname = "WEAPON_FISHINGROD",    
                     price = 3, 
