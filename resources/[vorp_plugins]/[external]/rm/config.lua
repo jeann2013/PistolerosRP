@@ -41,7 +41,7 @@ menuConfigs = {
                     minRadiusPercent = 0.25,         -- Minimum radius of wheel in percentage
                     maxRadiusPercent = 1.0,         -- Maximum radius of wheel in percentage
                     labels = {"Job", "Stop Anim", "Other", "Reload Char", "Clothing", "Walk Style", "Animations", "Check Gun", "Scenarios","Players", "Mail","Bird"},
-                    commands = {"job", "sa", "other", "rc", "clothingmenu", "walkstyle", "animations", "checkgun", "scenario","list", "mail","callbird"}
+                    commands = {"job", "sa", "other", "rc", "clothingmenu", "walkstyle", "animations", "checkgun", "scenario","list", "mail","bird"}
                 }
             }
         }
