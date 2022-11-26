@@ -71,10 +71,10 @@ Config.CraftingProps = {
         title = "Campfire",
         prop = "p_campfire05x"
     },
-    {
-        title = "Oven",
-        prop = "p_furnace01x"
-    }
+    -- {
+    --     title = "Oven",
+    --     prop = "p_furnace01x"
+    -- }
 }
 -- How long the progressbar will show when crafting
 Config.CraftTime = 15000
