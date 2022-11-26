@@ -302,54 +302,54 @@ end)
 
 -----  useful to get hash from animals or pelts  ------------
 
-RegisterCommand('animal', function(source, args, rawCommand)
-    local ped = PlayerPedId()
-    local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, ped)
-    local quality = Citizen.InvokeNative(0x31FEF6A20F00B963, holding)
-    local model = GetEntityModel(holding)
-    local type = GetPedType(holding)
-    local hash = GetHashKey(holding)
+-- RegisterCommand('animal', function(source, args, rawCommand)
+--     local ped = PlayerPedId()
+--     local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, ped)
+--     local quality = Citizen.InvokeNative(0x31FEF6A20F00B963, holding)
+--     local model = GetEntityModel(holding)
+--     local type = GetPedType(holding)
+--     local hash = GetHashKey(holding)
 
-    if Config.DevMode then
+--     if Config.DevMode then
 
-        print('holding', holding)
-        print('quality', quality)
-        print('model', model)
-        print('type', type)
-        print('hash', hash)
+--         print('holding', holding)
+--         print('quality', quality)
+--         print('model', model)
+--         print('type', type)
+--         print('hash', hash)
 
-    end
-end, false)
+--     end
+-- end, false)
 
------------ spawn an animal to make tests ------------------
+-- ----------- spawn an animal to make tests ------------------
 
-RegisterCommand("hunt", function(source, args, rawCommand)
-    local animal = args[1]
-    local freeze = args[2]
-    local player = PlayerPedId()
-    local playerCoords = GetEntityCoords(player)
+-- RegisterCommand("hunt", function(source, args, rawCommand)
+--     local animal = args[1]
+--     local freeze = args[2]
+--     local player = PlayerPedId()
+--     local playerCoords = GetEntityCoords(player)
     
-    if animal == nil then
-        animal = 'a_c_goat_01'
-    end
+--     if animal == nil then
+--         animal = 'a_c_goat_01'
+--     end
 
-    if freeze == nil then
-        freeze = '2000'
-    end
+--     if freeze == nil then
+--         freeze = '2000'
+--     end
 
-    freeze = tonumber(freeze)
+--     freeze = tonumber(freeze)
 
-    if Config.DevMode then
-        RequestModel(animal)
-        while not HasModelLoaded(animal) do
-            Wait(10)
-        end
+--     if Config.DevMode then
+--         RequestModel(animal)
+--         while not HasModelLoaded(animal) do
+--             Wait(10)
+--         end
 
-        animal = CreatePed(animal, playerCoords.x, playerCoords.y, playerCoords.z, true, true, true)
-        Citizen.InvokeNative(0x77FF8D35EEC6BBC4, animal, 1, 0)
-        Wait(freeze)
-        FreezeEntityPosition(animal,true)
-    end
-end, false)
+--         animal = CreatePed(animal, playerCoords.x, playerCoords.y, playerCoords.z, true, true, true)
+--         Citizen.InvokeNative(0x77FF8D35EEC6BBC4, animal, 1, 0)
+--         Wait(freeze)
+--         FreezeEntityPosition(animal,true)
+--     end
+-- end, false)
 
 
