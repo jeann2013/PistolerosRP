@@ -76,7 +76,7 @@ Config.SkinnableAnimals = {
 
     -- big animals when you skin them it gives you items. if you have it added TO CONFIG.ANIMALS JUST COPY PASTE HERE AND REMOVE THE GIVE MONEY ETC LIKE SHOWN BELOW.
     [1110710183]  = { name = "Deer", givenItem = { "meat" }, givenAmount = { 1 }, givenDisplay = {"Carne"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
-    [-1124266369] = { name = "Bear", givenItem = { "bearHeart", "bearClaws" }, givenAmount = { 1, 3, 0 }, givenDisplay = { "Corazon", "Garras"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
+    [-1124266369] = { name = "Bear", givenItem = { "meat","bearHeart", "bearClaws" }, givenAmount = { 3, 1, 3 }, givenDisplay = { "Corazon, Carne", "Garras"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-1568716381] = { name = "Big Horn Ram", givenItem = { "meat","provision_ram_horn" }, givenAmount = { 1, 1 }, givenDisplay = { "Carne", "Cuernos"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [2028722809] = { name = "Boar", givenItem = { "meat","provision_boar_tusk" }, givenAmount = { 1,1 }, givenDisplay = { "Carne", "Colmillo"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
     [-1963605336] = { name = "Buck", givenItem = { "meat","provision_buck_antlers" }, givenAmount = { 1, 1 }, givenDisplay = { "Carne", "Cuernos"}, money = 0, gold = 0, rolPoints = 0, xp = 1 },
