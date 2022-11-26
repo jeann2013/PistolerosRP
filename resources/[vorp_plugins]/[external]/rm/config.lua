@@ -40,8 +40,8 @@ menuConfigs = {
                     navAngle = 270,                 -- Oritentation of wheel
                     minRadiusPercent = 0.25,         -- Minimum radius of wheel in percentage
                     maxRadiusPercent = 1.0,         -- Maximum radius of wheel in percentage
-                    labels = {"Parar Anim", "Recargar PJ", "Ropa", "Forma de Caminar", "Animaciones", "Dedo"},
-                    commands = {"sa", "rc", "clothingmenu", "walkstyle", "animations", "bird"}
+                    labels = {"Parar Anim", "Recargar PJ", "Ropa", "Forma de Caminar", "Animaciones", "Dedo","Otros"},
+                    commands = {"sa", "rc", "clothingmenu", "walkstyle", "animations", "bird","other"}
                     -- labels = {"Job", "Parar Anim", "Other", "Reload Char", "Clothing", "Walk Style", "Animations", "Check Gun", "Scenarios","Players", "Mail","Bird"},
                     -- commands = {"job", "sa", "other", "rc", "clothingmenu", "walkstyle", "animations", "checkgun", "scenario","list", "mail","bird"}
                 }
@@ -77,8 +77,10 @@ subMenuConfigs = {
                     navAngle = 270,
                     minRadiusPercent = 0.25,
                     maxRadiusPercent = 0.65,
-                    labels = {"My job", "Give ID", "Pay Bills", "Doctor", "Police", "Alert Police", "Alert Doc", "Show Clan","Clan Menu","Remove Alerts"},
+                    labels = {"My job", "ID", "Pay Bills", "Doctor", "Police", "Alert Police", "Alert Doc", "Show Clan","Clan Menu","Remove Alerts"},
                     commands = {"showjob", "idcard", "paybills ","med", "mmenu", "alertpolice", "alertdoctor","showclan", "clanmenu", "calert"}
+                    -- labels = {"My job", "Give ID", "Pay Bills", "Doctor", "Police", "Alert Police", "Alert Doc", "Show Clan","Clan Menu","Remove Alerts"},
+                    -- commands = {"showjob", "idcard", "paybills ","med", "mmenu", "alertpolice", "alertdoctor","showclan", "clanmenu", "calert"}
                 },
             }
         }
@@ -156,8 +158,10 @@ subMenuConfigs = {
                     navAngle = 270,
                     minRadiusPercent = 0.25,
                     maxRadiusPercent = 0.85,
-                    labels = {"Hud", "Delete Horse", "Delete Wagon", "Delete Campfire","Dado 1","Dado 2","Dado 3", "Delete Tent", "moneda", "Forecast", "Hide Chat", "Race Menu", "PPT", "Reload Plants","Horse Emote"},
-                    commands = {"hud", "dh", "dv", "dcampfire","dado 1","dado 2","dado 3", "dtent", "moneda", "forecast", "togglechat", "race", "ppt", "plant_load", "he"}
+                    labels = {"Hud", "Dado 1","Dado 2","Dado 3", "moneda", "Ocultar Chat", "PPT" },
+                    commands = {"hud", "dado 1","dado 2","dado 3", "moneda", "togglechat", "ppt"}
+                    -- labels = {"Hud", "Delete Horse", "Delete Wagon", "Delete Campfire","Dado 1","Dado 2","Dado 3", "Delete Tent", "moneda", "Forecast", "Hide Chat", "Race Menu", "PPT", "Reload Plants","Horse Emote"},
+                    -- commands = {"hud", "dh", "dv", "dcampfire","dado 1","dado 2","dado 3", "dtent", "moneda", "forecast", "togglechat", "race", "ppt", "plant_load", "he"}
                 },
                 
             }
