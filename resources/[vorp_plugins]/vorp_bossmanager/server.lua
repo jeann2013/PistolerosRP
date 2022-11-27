@@ -20,35 +20,27 @@ end)
 
 -- Give a boss license to a player
 RegisterServerEvent('vorp_bossmanager:givelicense')
-AddEventHandler('vorp_bossmanager:givelicense', function(target, job)
+AddEventHandler('vorp_bossmanager:givelicense', function(target, job, jobgrade)
   -- What are the character identifier and charidentifier of the player who will receive the license?
   local Character2 = VorpCore.getUser(target).getUsedCharacter
   local targetidentifier = Character2.identifier
   local targetcharidentifier = Character2.charIdentifier
-  local jobgrade = Character2.jobgrade
+  local jobgrade = jobgrade
   local _source = source
 
   exports.ghmattimysql:execute('SELECT * FROM jobmanager WHERE identifier=@identifier AND charidentifier=@charidentifier', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier}, function(result)
     if result[1] ~= nil then
+      VorpCore.getUser.setJob = Job
+      VorpCore.getUser.setJobGrade = jobgrade
       print("player is already a boss " .. targetidentifier)
-      exports.ghmattimysql:execute('UPDATE characters SET job=@updjob, jobgrade=@updjobgrade  WHERE identifier=@identifier AND charidentifier=@charidentifier', {['updjob'] = job, ['updjobgrade'] = jobgrade, ['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier},function (result)
-        if result.affectedRows < 1 then
-          log("error", "failed to update job for " .. targetidentifier)
-        end
-    
-      end)
     else
       exports.ghmattimysql:execute('INSERT INTO jobmanager (identifier, charidentifier, jobname) VALUES (@identifier, @charidentifier, @job)', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier, ['job'] = job},function (result)
         if result.affectedRows < 1 then
           log("error", "failed to create license for " .. targetidentifier)
+        else
+          VorpCore.getUser.setJob = Job
+          VorpCore.getUser.setJobGrade = jobgrade
         end
-      end)
-
-      exports.ghmattimysql:execute('UPDATE characters SET job=@updjob, jobgrade=@updjobgrade  WHERE identifier=@identifier AND charidentifier=@charidentifier', {['updjob'] = job, ['updjobgrade'] = jobgrade, ['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier},function (result)
-        if result.affectedRows < 1 then
-          log("error", "failed to update job for " .. targetidentifier)
-        end
-    
       end)
     end
 
@@ -68,6 +60,9 @@ AddEventHandler('vorp_bossmanager:revokelicense', function (target)
     if result.affectedRows < 1 then
       log("error", "failed to revoke license for " .. targetidentifier)
     end
+
+    VorpCore.getUser.setJob = "unemployed"
+    VorpCore.getUser.setJobGrade = 0
 
   end)
 end)
