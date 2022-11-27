@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Locale = 'en'
+Config.Locale = 'es'
 
 Config.giveItemCount = 1
 
