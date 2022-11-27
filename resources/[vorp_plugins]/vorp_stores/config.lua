@@ -1230,6 +1230,10 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
+        
     },
 
     Rhodes = {
@@ -1245,6 +1249,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
 
     Strawberry = {
@@ -1259,6 +1266,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
 
     Blackwater = {
@@ -1273,6 +1283,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1286,6 +1299,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1299,6 +1315,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1312,6 +1331,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
     Vanhorn = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1324,6 +1346,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible ", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     },
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
@@ -1337,6 +1362,9 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
 
     },
     Wapiti = {
@@ -1351,5 +1379,8 @@ Config.BuyItems = {
         { itemLabel = "Cerveza", itemName = "beer", currencyType = "cash", buyprice = 0.15, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Whisky", itemName = "whisky", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "drogas", category = "drogas" },
         { itemLabel = "Cognac", itemName = "cognac", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "drogas", category = "drogas" },
+        { itemLabel = "Cepillo de Caballo", itemName = "horsebrush", currencyType = "cash", buyprice = 0.25, randomprice = 0.2, desc = "tools", category = "tools" },
+        { itemLabel = "Cubo consumible para caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
+        { itemLabel = "Estimulante para caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
     }
 }
