@@ -40,8 +40,8 @@ menuConfigs = {
                     navAngle = 270,                 -- Oritentation of wheel
                     minRadiusPercent = 0.25,         -- Minimum radius of wheel in percentage
                     maxRadiusPercent = 1.0,         -- Maximum radius of wheel in percentage
-                    labels = {"Parar Anim", "Recargar PJ", "Ropa", "Forma de Caminar", "Animaciones", "Dedo","Otros","Mi Trabajo","Mascara"},
-                    commands = {"sa", "rc", "clothingmenu", "walkstyle", "animations", "bird","other","myjob","mask"}
+                    labels = {"Parar Anim", "Recargar PJ", "Ropa", "Forma de Caminar", "Animaciones", "Dedo","Otros","Mi Trabajo","Mascara","Mostrar ID","Tomar ID"},
+                    commands = {"sa", "rc", "clothingmenu", "walkstyle", "animations", "bird","other","myjob","mask","id","takeid"}
                     -- labels = {"Job", "Parar Anim", "Other", "Reload Char", "Clothing", "Walk Style", "Animations", "Check Gun", "Scenarios","Players", "Mail","Bird"},
                     -- commands = {"job", "sa", "other", "rc", "clothingmenu", "walkstyle", "animations", "checkgun", "scenario","list", "mail","bird"}
                 }
