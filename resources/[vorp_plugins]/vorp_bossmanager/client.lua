@@ -73,7 +73,7 @@ Citizen.CreateThread( function()
                 end
             end
             WarMenu.Display()
-        elseif IsControlJustReleased(0, 0x3C3DD371) then
+        elseif IsControlJustReleased(0, 0x4BC9DABB) then
             playername = ''
             refreshBossName()
             refreshEmployeeList()
