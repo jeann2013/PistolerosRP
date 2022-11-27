@@ -8,5 +8,5 @@ Locales['fr'] = {
     ['gradelbl'] = 'Grade',
     ['inputgrademsg'] = 'Saisir un grade',
     ['gradeerrormsg'] = 'Grade non valide',
-    ['error_noclosestplayer'] = 'Aucun joueur à proximité'
+    ['error_noclosestplayer'] = 'Aucun joueur à proximité',
 }

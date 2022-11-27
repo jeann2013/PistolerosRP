@@ -8,5 +8,5 @@ Locales['de'] = {
     ['gradelbl'] = 'Rang',
     ['inputgrademsg'] = 'Rang eingeben',
     ['gradeerrormsg'] = 'Ungültiger Rand',
-    ['error_noclosestplayer'] = 'Keine Personen in der Nähe'
+    ['error_noclosestplayer'] = 'Keine Personen in der Nähe',
 }
