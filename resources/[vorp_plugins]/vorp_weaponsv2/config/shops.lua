@@ -340,45 +340,45 @@ Config3.Stores = {
                 -- },
 
             },
-            -- ["Rifle"] = {
-            --     ["Rifle Ammo Normal"] = {
+            ["Rifle"] = {
+                ["Rifle Ammo Normal"] = {
                     
-            --         price = 1, 
-            --         item = "ammoriflenormal",
+                    price = 1, 
+                    item = "ammoriflenormal",
                     
-            --     },
-            --     ["Elephant Rifle Ammo"] = {
+                },
+                -- ["Elephant Rifle Ammo"] = {
                     
-            --         price = 10, 
-            --         item = "ammoelephant",
+                --     price = 10, 
+                --     item = "ammoelephant",
                     
-            --     },
-            --     ["Rifle Ammo Express"] = {
+                -- },
+                ["Rifle Ammo Express"] = {
                    
-            --         price = 5, 
-            --         item = "ammorifleexpress",
+                    price = 5, 
+                    item = "ammorifleexpress",
                     
-            --     },
-            --    --[[  ["Rifle Ammo Explosive"] = {
+                },
+               --[[  ["Rifle Ammo Explosive"] = {
                     
-            --         price = 5, 
-            --         item = "ammorifleexplosive",
+                    price = 5, 
+                    item = "ammorifleexplosive",
                     
-            --     }, ]]
-            --     ["Rifle Ammo Velocity"] = {
+                }, ]]
+                -- ["Rifle Ammo Velocity"] = {
                    
-            --         price = 5, 
-            --         item = "ammoriflevelocity",
+                --     price = 5, 
+                --     item = "ammoriflevelocity",
                    
-            --     },
-            --     ["Rifle Ammo Splitpoint"] = {
+                -- },
+                -- ["Rifle Ammo Splitpoint"] = {
                     
-            --         price = 8, 
-            --         item = "ammoriflesplitpoint",
+                --     price = 8, 
+                --     item = "ammoriflesplitpoint",
                    
-            --     },
+                -- },
 
-            -- },
+            },
             -- ["Shotgun"] = {
             --    --[[  ["Shotgun Ammo Incendiary"] = {
                    
@@ -886,45 +886,45 @@ Config3.Stores = {
                 -- },
 
             },
-            -- ["Rifle"] = {
-            --     ["Rifle Ammo Normal"] = {
+            ["Rifle"] = {
+                ["Rifle Ammo Normal"] = {
                     
-            --         price = 1, 
-            --         item = "ammoriflenormal",
+                    price = 1, 
+                    item = "ammoriflenormal",
                     
-            --     },
-            --     ["Elephant Rifle Ammo"] = {
+                },
+                -- ["Elephant Rifle Ammo"] = {
                     
-            --         price = 10, 
-            --         item = "ammoelephant",
+                --     price = 10, 
+                --     item = "ammoelephant",
                     
-            --     },
-            --     ["Rifle Ammo Express"] = {
+                -- },
+                ["Rifle Ammo Express"] = {
                    
-            --         price = 5, 
-            --         item = "ammorifleexpress",
+                    price = 5, 
+                    item = "ammorifleexpress",
                     
-            --     },
-            --    --[[  ["Rifle Ammo Explosive"] = {
+                },
+               --[[  ["Rifle Ammo Explosive"] = {
                     
-            --         price = 5, 
-            --         item = "ammorifleexplosive",
+                    price = 5, 
+                    item = "ammorifleexplosive",
                     
-            --     }, ]]
-            --     ["Rifle Ammo Velocity"] = {
+                }, ]]
+                -- ["Rifle Ammo Velocity"] = {
                    
-            --         price = 5, 
-            --         item = "ammoriflevelocity",
+                --     price = 5, 
+                --     item = "ammoriflevelocity",
                    
-            --     },
-            --     ["Rifle Ammo Splitpoint"] = {
+                -- },
+                -- ["Rifle Ammo Splitpoint"] = {
                     
-            --         price = 8, 
-            --         item = "ammoriflesplitpoint",
+                --     price = 8, 
+                --     item = "ammoriflesplitpoint",
                    
-            --     },
+                -- },
 
-            -- },
+            },
             -- ["Shotgun"] = {
             --    --[[  ["Shotgun Ammo Incendiary"] = {
                    
@@ -1974,45 +1974,45 @@ Config3.Stores = {
                 -- },
 
             },
-            -- ["Rifle"] = {
-            --     ["Rifle Ammo Normal"] = {
+            ["Rifle"] = {
+                ["Rifle Ammo Normal"] = {
                     
-            --         price = 1, 
-            --         item = "ammoriflenormal",
+                    price = 1, 
+                    item = "ammoriflenormal",
                     
-            --     },
-            --     ["Elephant Rifle Ammo"] = {
+                },
+                -- ["Elephant Rifle Ammo"] = {
                     
-            --         price = 10, 
-            --         item = "ammoelephant",
+                --     price = 10, 
+                --     item = "ammoelephant",
                     
-            --     },
-            --     ["Rifle Ammo Express"] = {
+                -- },
+                ["Rifle Ammo Express"] = {
                    
-            --         price = 5, 
-            --         item = "ammorifleexpress",
+                    price = 5, 
+                    item = "ammorifleexpress",
                     
-            --     },
-            --    --[[  ["Rifle Ammo Explosive"] = {
+                },
+               --[[  ["Rifle Ammo Explosive"] = {
                     
-            --         price = 5, 
-            --         item = "ammorifleexplosive",
+                    price = 5, 
+                    item = "ammorifleexplosive",
                     
-            --     }, ]]
-            --     ["Rifle Ammo Velocity"] = {
+                }, ]]
+                -- ["Rifle Ammo Velocity"] = {
                    
-            --         price = 5, 
-            --         item = "ammoriflevelocity",
+                --     price = 5, 
+                --     item = "ammoriflevelocity",
                    
-            --     },
-            --     ["Rifle Ammo Splitpoint"] = {
+                -- },
+                -- ["Rifle Ammo Splitpoint"] = {
                     
-            --         price = 8, 
-            --         item = "ammoriflesplitpoint",
+                --     price = 8, 
+                --     item = "ammoriflesplitpoint",
                    
-            --     },
+                -- },
 
-            -- },
+            },
             -- ["Shotgun"] = {
             --    --[[  ["Shotgun Ammo Incendiary"] = {
                    
@@ -2519,45 +2519,45 @@ Config3.Stores = {
                 -- },
 
             },
-            -- ["Rifle"] = {
-            --     ["Rifle Ammo Normal"] = {
+            ["Rifle"] = {
+                ["Rifle Ammo Normal"] = {
                     
-            --         price = 1, 
-            --         item = "ammoriflenormal",
+                    price = 1, 
+                    item = "ammoriflenormal",
                     
-            --     },
-            --     ["Elephant Rifle Ammo"] = {
+                },
+                -- ["Elephant Rifle Ammo"] = {
                     
-            --         price = 10, 
-            --         item = "ammoelephant",
+                --     price = 10, 
+                --     item = "ammoelephant",
                     
-            --     },
-            --     ["Rifle Ammo Express"] = {
+                -- },
+                ["Rifle Ammo Express"] = {
                    
-            --         price = 5, 
-            --         item = "ammorifleexpress",
+                    price = 5, 
+                    item = "ammorifleexpress",
                     
-            --     },
-            --    --[[  ["Rifle Ammo Explosive"] = {
+                },
+               --[[  ["Rifle Ammo Explosive"] = {
                     
-            --         price = 5, 
-            --         item = "ammorifleexplosive",
+                    price = 5, 
+                    item = "ammorifleexplosive",
                     
-            --     }, ]]
-            --     ["Rifle Ammo Velocity"] = {
+                }, ]]
+                -- ["Rifle Ammo Velocity"] = {
                    
-            --         price = 5, 
-            --         item = "ammoriflevelocity",
+                --     price = 5, 
+                --     item = "ammoriflevelocity",
                    
-            --     },
-            --     ["Rifle Ammo Splitpoint"] = {
+                -- },
+                -- ["Rifle Ammo Splitpoint"] = {
                     
-            --         price = 8, 
-            --         item = "ammoriflesplitpoint",
+                --     price = 8, 
+                --     item = "ammoriflesplitpoint",
                    
-            --     },
+                -- },
 
-            -- },
+            },
             -- ["Shotgun"] = {
             --    --[[  ["Shotgun Ammo Incendiary"] = {
                    
