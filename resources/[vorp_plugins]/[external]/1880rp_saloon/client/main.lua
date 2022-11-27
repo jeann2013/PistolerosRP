@@ -57,17 +57,15 @@ Citizen.CreateThread(function()
                 WarMenu.Display()
             elseif WarMenu.IsMenuOpened('options_house') then
                 if WarMenu.Button(_U('take_beer')) then
-                    WarMenu.CloseMenu()
-                    -- exports['progressBars']:startUI(8000, "Compra en curso....")
-                    progressbar.start("Compra en curso....", 8000, function ()
+                    WarMenu.CloseMenu()                    
+                    progressbar.start("Trabajando....", 3000, function ()
                     end)
                     
                     Citizen.Wait(8000)
                     TriggerServerEvent('smery_saloon:takebeer')
                 elseif WarMenu.Button(_U('take_cognac')) then
                         WarMenu.CloseMenu()
-                        -- exports['progressBars']:startUI(8000, "Achat en cours...")
-                        progressbar.start("Compra en curso....", 8000, function ()
+                        progressbar.start("Trabajando....", 3000, function ()
                         end)
                     Citizen.Wait(8000)
                     TriggerServerEvent('smery_saloon:takecognac')                        
