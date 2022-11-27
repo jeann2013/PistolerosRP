@@ -17,7 +17,7 @@ AddEventHandler("void_paycheck:getpaycheck",function()
 			for i, j in pairs (v.jobgrade) do
 				if grade == j.grade then
 					Character.addCurrency(0, j.paycheck)
-					TriggerClientEvent('vorp:Tip',_source, string.upper(job).." : Received your paycheck "..j.paycheck.."$", 10000)
+					TriggerClientEvent('vorp:Tip',_source, string.upper(job).." : Te pagaron "..j.paycheck.."$", 10000)
 				end
 			end
 		end
