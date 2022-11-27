@@ -40,8 +40,8 @@ menuConfigs = {
                     navAngle = 270,                 -- Oritentation of wheel
                     minRadiusPercent = 0.25,         -- Minimum radius of wheel in percentage
                     maxRadiusPercent = 1.0,         -- Maximum radius of wheel in percentage
-                    labels = {"Parar Anim", "Recargar PJ", "Ropa", "Forma de Caminar", "Animaciones", "Dedo","Otros"},
-                    commands = {"sa", "rc", "clothingmenu", "walkstyle", "animations", "bird","other"}
+                    labels = {"Parar Anim", "Recargar PJ", "Ropa", "Forma de Caminar", "Animaciones", "Dedo","Otros","Mi Trabajo","Mascara"},
+                    commands = {"sa", "rc", "clothingmenu", "walkstyle", "animations", "bird","other","myjob","mask"}
                     -- labels = {"Job", "Parar Anim", "Other", "Reload Char", "Clothing", "Walk Style", "Animations", "Check Gun", "Scenarios","Players", "Mail","Bird"},
                     -- commands = {"job", "sa", "other", "rc", "clothingmenu", "walkstyle", "animations", "checkgun", "scenario","list", "mail","bird"}
                 }
@@ -78,7 +78,7 @@ subMenuConfigs = {
                     minRadiusPercent = 0.25,
                     maxRadiusPercent = 0.65,
                     labels = {"My job", "ID", "Pay Bills", "Doctor", "Police", "Alert Police", "Alert Doc", "Show Clan","Clan Menu","Remove Alerts"},
-                    commands = {"showjob", "idcard", "paybills ","med", "mmenu", "alertpolice", "alertdoctor","showclan", "clanmenu", "calert"}
+                    commands = {"myjob", "idcard", "paybills ","med", "mmenu", "alertpolice", "alertdoctor","showclan", "clanmenu", "calert"}
                     -- labels = {"My job", "Give ID", "Pay Bills", "Doctor", "Police", "Alert Police", "Alert Doc", "Show Clan","Clan Menu","Remove Alerts"},
                     -- commands = {"showjob", "idcard", "paybills ","med", "mmenu", "alertpolice", "alertdoctor","showclan", "clanmenu", "calert"}
                 },
