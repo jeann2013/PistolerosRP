@@ -14,7 +14,7 @@ server_script {
 shared_scripts {
     'config.lua',
 	'locale.lua',
-	'es.lua',
+	'languages/*.lua',
 }
 
 dependencies {

@@ -1,5 +1,5 @@
 Locales['es'] = {
-    ['title'] = 'Jefe',
+    ['title'] = 'Bossmanager',
     ['subtitle'] = 'Menu de jefe',
     ['subtitle2'] = 'Nombre de empleado',
     ['subtitle3'] = 'Lista de empleado',
