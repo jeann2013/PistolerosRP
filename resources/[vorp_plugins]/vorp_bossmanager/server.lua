@@ -25,6 +25,7 @@ AddEventHandler('vorp_bossmanager:givelicense', function(target, job)
   local Character2 = VorpCore.getUser(target).getUsedCharacter
   local targetidentifier = Character2.identifier
   local targetcharidentifier = Character2.charIdentifier
+  local jobgrade = Character2.jobgrade
   local _source = source
 
   exports.ghmattimysql:execute('SELECT * FROM jobmanager WHERE identifier=@identifier AND charidentifier=@charidentifier', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier}, function(result)
@@ -35,6 +36,13 @@ AddEventHandler('vorp_bossmanager:givelicense', function(target, job)
         if result.affectedRows < 1 then
           log("error", "failed to create license for " .. targetidentifier)
         end
+      end)
+
+      exports.ghmattimysql:execute('UPDATE characters SET job=@updjob, jobgrade=@updjobgrade  WHERE identifier=@identifier AND charidentifier=@charidentifier', {['updjob'] = job, ['updjobgrade'] = jobgrade, ['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier},function (result)
+        if result.affectedRows < 1 then
+          log("error", "failed to update job for " .. targetidentifier)
+        end
+    
       end)
     end
 
