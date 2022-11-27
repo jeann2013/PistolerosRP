@@ -29,17 +29,17 @@ AddEventHandler('vorp_bossmanager:givelicense', function(target, job, jobgrade)
   local _source = source
 
   exports.ghmattimysql:execute('SELECT * FROM jobmanager WHERE identifier=@identifier AND charidentifier=@charidentifier', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier}, function(result)
-    if result[1] ~= nil then
-      VorpCore.getUser.setJob = Job
-      VorpCore.getUser.setJobGrade = jobgrade
+    if result[1] ~= nil then      
+      VorpCore.User.setJobGrade = Job
+      VorpCore.User.setJob = jobgrade
       print("player is already a boss " .. targetidentifier)
     else
       exports.ghmattimysql:execute('INSERT INTO jobmanager (identifier, charidentifier, jobname) VALUES (@identifier, @charidentifier, @job)', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier, ['job'] = job},function (result)
         if result.affectedRows < 1 then
           log("error", "failed to create license for " .. targetidentifier)
         else
-          VorpCore.getUser.setJob = Job
-          VorpCore.getUser.setJobGrade = jobgrade
+          VorpCore.User.setJobGrade = Job
+          VorpCore.User.setJob = jobgrade
         end
       end)
     end
