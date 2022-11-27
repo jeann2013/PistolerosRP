@@ -31,6 +31,12 @@ AddEventHandler('vorp_bossmanager:givelicense', function(target, job)
   exports.ghmattimysql:execute('SELECT * FROM jobmanager WHERE identifier=@identifier AND charidentifier=@charidentifier', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier}, function(result)
     if result[1] ~= nil then
       print("player is already a boss " .. targetidentifier)
+      exports.ghmattimysql:execute('UPDATE characters SET job=@updjob, jobgrade=@updjobgrade  WHERE identifier=@identifier AND charidentifier=@charidentifier', {['updjob'] = job, ['updjobgrade'] = jobgrade, ['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier},function (result)
+        if result.affectedRows < 1 then
+          log("error", "failed to update job for " .. targetidentifier)
+        end
+    
+      end)
     else
       exports.ghmattimysql:execute('INSERT INTO jobmanager (identifier, charidentifier, jobname) VALUES (@identifier, @charidentifier, @job)', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier, ['job'] = job},function (result)
         if result.affectedRows < 1 then
