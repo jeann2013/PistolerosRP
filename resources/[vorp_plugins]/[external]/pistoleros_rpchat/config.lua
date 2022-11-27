@@ -2,5 +2,5 @@ Config = {}
 
 Config.UseDiscord = false
 
-Config.ServerName = 'PISTOLEROSRP'
+Config.ServerName = '1880RP'
 Config.WebHook = 'https://discordapp.com/api/webhooks/762550846495260682/fx9A_DSs3u7-iev5JiW8jmhZKKRDhjoochFOi1nGc6oNqJi3UG7GpqR3ebJ2rwe8owiB'
