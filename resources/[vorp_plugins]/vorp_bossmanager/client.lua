@@ -10,6 +10,8 @@ end)
 RegisterCommand("givelicense", function(source, args)
     TriggerServerEvent("vorp_bossmanager:checkadmin")
     Wait(500)
+
+    print(user_group)
     if user_group == "admin" then
         -- Give boss license for a job : playerId - job
         if args[1] ~= nil and args[2] ~= nil then 
