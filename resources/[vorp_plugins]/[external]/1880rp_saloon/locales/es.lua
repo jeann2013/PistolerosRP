@@ -1,5 +1,5 @@
 Locales['es'] = {
-    ['map_blip'] = 'Doctor',
+    ['map_blip'] = 'Saloon',
     ['medic_options'] = 'Opciones médicas',
     ['no_nearby_players'] = 'No hay jugadores cerca',
     ['press_to'] = 'Pulsa [ESPACIO] para acceder al armario médico',
