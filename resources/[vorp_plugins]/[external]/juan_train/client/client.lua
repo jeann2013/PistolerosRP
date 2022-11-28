@@ -1,6 +1,6 @@
 local TRAIN_HASHES = {
---    -1719006020 -- PASSENGER AND CARGO TRAIN [Carts - 10] -- [This one is pretty fast too]
-    987516329 -- SMALLER PASSENGER TRAIN - [Carts - 6]
+    -1719006020 -- PASSENGER AND CARGO TRAIN [Carts - 10] -- [This one is pretty fast too]
+    -- 987516329 -- SMALLER PASSENGER TRAIN - [Carts - 6]
 }
 
 CURRENT_TRAIN = nil
