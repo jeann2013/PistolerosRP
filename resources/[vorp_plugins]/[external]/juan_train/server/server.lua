@@ -16,8 +16,6 @@ RegisterServerEvent("train:playerActivated")
 
 function ActivateTrain ()
 	if (PlayerCount) == 1 then
-
-    print("GetHostId()",GetHostId())
     if true then
 		  TriggerClientEvent('Trainroute', 1)
     end
