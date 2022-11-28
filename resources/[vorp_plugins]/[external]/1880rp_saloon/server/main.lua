@@ -5,7 +5,7 @@ AddEventHandler('smery_saloon:getjob', function(type)
     local _source = source
     TriggerEvent("vorp:getCharacter", _source, function(user)
         local job = user.job
-        if job == 'unemployed' then
+        if job == 'saloon' then
             TriggerClientEvent('smery_saloon:auth', _source, type)
         end
     end)
