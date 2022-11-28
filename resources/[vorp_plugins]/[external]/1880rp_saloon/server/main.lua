@@ -56,7 +56,7 @@ AddEventHandler('smery_saloon:takecognac', function(user)
     TriggerEvent("vorp:getCharacter", _source, function(user)
         local money = user.money
         if money >= 1 then
-    Inventory.addItem(_source, "whisky", Config.giveItemCount)
+    Inventory.addItem(_source, "cognac", Config.giveItemCount)
     TriggerEvent("vorp:removeMoney", _source, 0, 1)
 else
     TriggerClientEvent("vorp:TipRight", _source, _U('do_not_have', _U('cognac')), 3000)
