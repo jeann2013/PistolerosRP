@@ -1,6 +1,6 @@
 local TRAIN_HASHES = {
-    -1719006020 -- PASSENGER AND CARGO TRAIN [Carts - 10] -- [This one is pretty fast too]
-    -- 987516329 -- SMALLER PASSENGER TRAIN - [Carts - 6]
+    -- -1719006020 -- PASSENGER AND CARGO TRAIN [Carts - 10] -- [This one is pretty fast too]
+    987516329 -- SMALLER PASSENGER TRAIN - [Carts - 6]
 }
 
 CURRENT_TRAIN = nil
@@ -15,10 +15,7 @@ local stops = {
     {["dst"] = 180.0, ["dst2"] = 4.0, ["x"] = 610.54,   ["y"] = 1661.53,  ["z"] = 188.0,  ["time"] = 120000, ["name"] = "Bacchus Station"},
     {["dst"] = 220.0, ["dst2"] = 4.0, ["x"] = 2914.50,  ["y"] = 1238.53,  ["z"] = 44.73,  ["time"] = 120000, ["name"] = "Annesburg Station"},
     {["dst"] = 180.0, ["dst2"] = 4.0, ["x"] = 2879.30,  ["y"] = 592.75,   ["z"] = 57.84,  ["time"] = 120000, ["name"] = "Van Horn Tradin Post"}
-} 
-
-
-
+}
 
 local trainspawned = false
 
