@@ -262,7 +262,7 @@ function WarMenu.CreateMenu(id, title)
 	-- Default settings
 	menus[id] = { }
 	menus[id].title = title or ''
-	menus[id].subTitle = 'Possible Drinks'
+	menus[id].subTitle = 'Bebidas'
 	menus[id].desTitle = ''
 	menus[id].subMenuLeft = ''
 
