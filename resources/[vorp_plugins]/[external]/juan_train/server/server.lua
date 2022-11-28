@@ -16,6 +16,7 @@ RegisterServerEvent("train:playerActivated")
 
 function ActivateTrain ()
 	if (PlayerCount) == 1 then
+    print("paso")
     if true then
 		  TriggerClientEvent('Trainroute', 1)
     end
