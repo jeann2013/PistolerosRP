@@ -18,8 +18,8 @@ function ActivateTrain ()
 	if (PlayerCount) == 1 then
 
     print("GetHostId()",GetHostId())
-    if GetHostId() ~= nil then
-		  TriggerClientEvent('Trainroute', GetHostId())
+    if true then
+		  TriggerClientEvent('Trainroute', 1)
     end
 	else
 		SetTimeout(15000,ActivateTrain)
