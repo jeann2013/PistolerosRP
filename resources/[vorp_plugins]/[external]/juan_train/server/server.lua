@@ -15,7 +15,7 @@ RegisterServerEvent("train:playerActivated")
 --RegisterServerEvent("playerDropped")
 
 function ActivateTrain ()
-	if (PlayerCount) == 1 then
+	if (PlayerCount) >= 1 then
     print("paso")
     if true then
 		  TriggerClientEvent('Trainroute', 1)
