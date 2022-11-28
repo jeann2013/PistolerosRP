@@ -139,7 +139,7 @@ Locales["es_lang"] = {
     --submenu
     playerlist_desc           = "lista de jugadores online",
     adminactions_desc         = "Menú de acciones de admin",
-    objectmenu                = "Manú Objeto",
+    objectmenu                = "Menú Objeto",
     printmodel                = "IMPRIMIR el objeto",
     deletemodel               = "BORRAR el objeto",
     printmodel_desc           = "IMPRIMIER el hash del modelO",

@@ -20,7 +20,7 @@ end)
 
 -- Give a boss license to a player
 RegisterServerEvent('vorp_bossmanager:givelicense')
-AddEventHandler('vorp_bossmanager:givelicense', function(target, job)
+AddEventHandler('vorp_bossmanager:givelicense', function(target, job,jobgrade)
   -- What are the character identifier and charidentifier of the player who will receive the license?
   local Character2 = VorpCore.getUser(target).getUsedCharacter
   local targetidentifier = Character2.identifier
@@ -29,11 +29,14 @@ AddEventHandler('vorp_bossmanager:givelicense', function(target, job)
 
   exports.ghmattimysql:execute('SELECT * FROM jobmanager WHERE identifier=@identifier AND charidentifier=@charidentifier', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier}, function(result)
     if result[1] ~= nil then
+      TriggerEvent("vorp:setJob", _source, job, jobgrade) -- it doesnt update players need to relog
       print("player is already a boss " .. targetidentifier)
     else
       exports.ghmattimysql:execute('INSERT INTO jobmanager (identifier, charidentifier, jobname) VALUES (@identifier, @charidentifier, @job)', {['identifier'] = targetidentifier, ['charidentifier'] = targetcharidentifier, ['job'] = job},function (result)
         if result.affectedRows < 1 then
           log("error", "failed to create license for " .. targetidentifier)
+        else
+          TriggerEvent("vorp:setJob", _source, job, jobgrade) -- it doesnt update players need to relog
         end
       end)
     end
