@@ -1,7 +1,7 @@
 {
   "defaultlang": "Es",
 
-  "drunkTime": 70, //Drunk time in seconds
+  "drunkTime": 25, //Drunk time in seconds
 
   "ItemsToUse": [
     {
