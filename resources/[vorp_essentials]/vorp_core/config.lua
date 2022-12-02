@@ -151,7 +151,7 @@ Config = {
   -----------------------------BUILT IN RICH PRESENCE DISCORD --------------------------
   maxplayers = 64, -- change to the number of players that can get in to your server
   appid = nil, -- Application ID (Replace this with you own)
-  biglogo = "1880RP", -- image assets name for the "large" icon.
+  biglogo = "1880RP", -- image assets name for the "large".
   biglogodesc = " Redm Server Connect: ", -- text when hover over image
   smalllogo = "1880RP", -- image assets name for the "small" icon.(OPTIONAL)
   smalllogodesc = "Join us for a good time", -- text when hover over image
