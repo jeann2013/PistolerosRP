@@ -12,7 +12,7 @@ Config.banks = {
         NpcAllowed = true,
         NpcModel = "S_M_M_BankClerk_01",
         Nx = -308.02, Ny = 773.82, Nz = 116.7, Nh = 18.69, --npc positions {x = -308.02, y = 773.82, z = 118.7}
-        StoreHoursAllowed = true,
+        StoreHoursAllowed = false,
         StoreOpen = 7, -- am
         StoreClose = 22, -- pm
         distOpen = 1.5,
@@ -44,7 +44,7 @@ Config.banks = {
         NpcAllowed = true,
         NpcModel = "S_M_M_BankClerk_01",
         Nx = -813.18, Ny = -1275.42, Nz = 42.64, Nh = 176.86, --npc positions
-        StoreHoursAllowed = true,
+        StoreHoursAllowed = false,
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         distOpen = 1.5,
@@ -74,7 +74,7 @@ Config.banks = {
         NpcAllowed = true,
         NpcModel = "S_M_M_BankClerk_01",
         Nx = 2645.12, Ny = -1294.37, Nz = 51.25, Nh = 30.64, --npc positions
-        StoreHoursAllowed = true,
+        StoreHoursAllowed = false,
         StoreOpen = 7, -- am
         StoreClose = 23, -- pm
         distOpen = 1.5,
@@ -104,7 +104,7 @@ Config.banks = {
         NpcAllowed = true,
         NpcModel = "S_M_M_BankClerk_01",
         Nx = 1292.84, Ny = -1304.74, Nz = 76.04, Nh = 327.08, --npc positions
-        StoreHoursAllowed = true,
+        StoreHoursAllowed = false,
         StoreOpen = 7, -- am
         StoreClose = 21, -- pm
         distOpen = 1.5,
