@@ -4,7 +4,6 @@ game "rdr3"
 this_is_a_map "yes"
 
 files {
-    "stream/CASAMADRUGADA.ymap",
     "vegetationmodifiers.meta"
 }
 
