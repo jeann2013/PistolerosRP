@@ -5,8 +5,10 @@ this_is_a_map "yes"
 
 files {
     "stream/CASAMADRUGADA.ymap",
-    "vegetationmodifiers.meta"   
-  }
+    "vegetationmodifiers.meta"
+}
+
+data_file 'VEGETATIONMODIFIERS_FILE' 'vegetationmodifiers.meta.meta'
 
 
 
