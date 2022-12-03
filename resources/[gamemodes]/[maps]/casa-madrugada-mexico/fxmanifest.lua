@@ -8,7 +8,7 @@ files {
     "vegetationmodifiers.meta"
 }
 
-data_file 'VEGETATIONMODIFIERS_FILE' 'vegetationmodifiers.meta.meta'
+data_file 'VEGETATIONMODIFIERS_FILE' 'vegetationmodifiers.meta'
 
 
 
