@@ -6,8 +6,7 @@ this_is_a_map "yes"
 files {
     "stream/ymap/el_presidio.ymap",
     "stream/ymap/laguna_borrego.ymap",
-    "stream/ymap/sidewinder_gulch.ymap",
-    "stream/ymap/ramita_de_la_baya_final.ymap",
+    "stream/ymap/sidewinder_gulch.ymap"
   }
 
 
