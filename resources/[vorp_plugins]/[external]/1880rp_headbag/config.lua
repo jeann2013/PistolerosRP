@@ -1,8 +1,8 @@
 Config = {}
 
-Config.Item = "Bucket"
+Config.Item = "head_bag"
 
-Config.bucketcommand = "bucket"
+Config.bucketcommand = "tc"
 
 Config.RemoveonDeath = true
 
