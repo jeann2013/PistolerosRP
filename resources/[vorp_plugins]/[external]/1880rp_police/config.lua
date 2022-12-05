@@ -1,6 +1,7 @@
 Config = {}
 
 OffDutyJobs = {
+    'police',
     'offpolice',
     'offmarshal',
     'offlawmen',

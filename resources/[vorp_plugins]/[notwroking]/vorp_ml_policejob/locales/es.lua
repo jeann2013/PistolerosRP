@@ -47,4 +47,5 @@ Locales['es'] = {
     ['cuff'] = 'Sospechoso esposado',
     ['llock'] = 'Lazo atado',
     ['syringe'] = 'jeringa',
+    ['badgeoff'] = 'Quitarse la placa de policía',    
 }
