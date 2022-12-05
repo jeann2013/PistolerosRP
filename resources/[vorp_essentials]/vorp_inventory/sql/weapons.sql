@@ -108,6 +108,9 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_cougar_claw', 'Colmillo de puma', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('provision_cougar_fur', 'Piel de puma', 50, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Indian_Tobbaco', 'Tabaco indio', 50, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('head_bag', 'Tapa cabeza', 2, 1, 'item_standard', 1);
+
+
 
 
 
