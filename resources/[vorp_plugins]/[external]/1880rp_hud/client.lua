@@ -39,8 +39,8 @@ Citizen.CreateThread(function()
         local _source = source 
 		--TriggerServerEvent("hud:checkmoney")
         Citizen.InvokeNative(0x50C803A4CD5932C5 , true)
-        local myhunger = exports["fred_metabolism"]:getHunger()
-        local mythirst = exports["fred_metabolism"]:getThirst()
+        local myhunger = exports["1880rp_metabolism"]:getHunger()
+        local mythirst = exports["1880rp_metabolism"]:getThirst()
 
         local player = PlayerPedId()
         local coords = GetEntityCoords(player)
