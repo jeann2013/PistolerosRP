@@ -69,6 +69,30 @@ Config.ItemsToUse = {
 
 
     },
+    {
+        ["Name"] = "apple", -- Item DB NAME
+        ["DisplayName"] = "Manzana", -- Name on screen (label from DB)
+        ["Hunger"] = 35, -- Food it gives
+        ["Thirst"] = 2, -- Water it gives
+        ["InnerCoreStamina"] = 0, -- Inner Core Stamina effect
+        ["InnerCoreStaminaGold"] = 0.0, -- Inner Core Stamina Gold overpower
+        ["OuterCoreStaminaGold"] = 0.0, -- Outer Core Stamina Gold overpower
+        ["InnerCoreHealth"] = 0, -- Inner Core Health effect
+        ["InnerCoreHealthGold"] = 0.0, -- Inner Core Health Gold overpower
+        ["OuterCoreHealthGold"] = 100.0, -- Outer Core Health Gold overpower
+    },
+    {
+        ["Name"] = "bread", -- Item DB NAME
+        ["DisplayName"] = "Pan", -- Name on screen (label from DB)
+        ["Hunger"] = 35, -- Food it gives
+        ["Thirst"] = 1, -- Water it gives
+        ["InnerCoreStamina"] = 0, -- Inner Core Stamina effect
+        ["InnerCoreStaminaGold"] = 0.0, -- Inner Core Stamina Gold overpower
+        ["OuterCoreStaminaGold"] = 0.0, -- Outer Core Stamina Gold overpower
+        ["InnerCoreHealth"] = 0, -- Inner Core Health effect
+        ["InnerCoreHealthGold"] = 0.0, -- Inner Core Health Gold overpower
+        ["OuterCoreHealthGold"] = 100.0, -- Outer Core Health Gold overpower
+    },
 
     --
     -- DRINKS
@@ -106,9 +130,18 @@ Config.ItemsToUse = {
 
     },
 
+    {
+        ["Name"] = "water", -- DB NAME
+        ["DisplayName"] = "Agua", 
+        ["Hunger"] = 0,
+        ["Thirst"] = 60,
+        ["InnerCoreStamina"] = 0,
+        ["InnerCoreStaminaGold"] = 0.0,
+        ["OuterCoreStaminaGold"] = 100.0,
+        ["InnerCoreHealth"] = 0,
+        ["InnerCoreHealthGold"] = 0.0,
+        ["OuterCoreHealthGold"] = 0.0,
 
 
-
-
-
+    },
 }
