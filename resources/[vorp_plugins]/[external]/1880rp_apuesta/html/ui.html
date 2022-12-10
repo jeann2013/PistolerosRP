@@ -94,15 +94,15 @@
                 let current_match = parse.data.players[0].fake_name + " VS " + parse.data.players[1].fake_name;
                 $(".title").html(current_match)
 
-                let total_pot = "Current pot: $" + parse.data.bets.pot;
+                let total_pot = "Pote actual: $" + parse.data.bets.pot;
                 $(".tp").html(total_pot)
 
                 // your bets
-                let bet = "you have not placed a bet ..";
+                let bet = "no ha realizado ninguna apuesta ..";
                 let yourbet = false;
                 $.each(parse.data.bets.players, function (index, item) {
                     if(index == pid){
-                        bet = "You bet $ " + item.amount + " on " + parse.data.players[item.winner-1].fake_name + " !";
+                        bet = "Tu apuesta $ " + item.amount + " en " + parse.data.players[item.winner-1].fake_name + " !";
                         yourbet = item.winner;
                     }
                 });
@@ -110,16 +110,16 @@
                 $(".bet").html(bet);
 
                 if(parse.data.winner != false){
-                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " won the fight ! ");
+                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " ¡ganó el combate! ");
 
                 if(parse.data.winner == yourbet && parse.data.winner != false){
-                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " won the fight ! ");
+                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " ¡ganó el combate! ");
                     $(".winner").append("bet won !");
                 }else if(yourbet == false && parse.data.winner != false){
-                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " won the fight ! ");
+                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " ¡ganó el combate! ");
                     $(".winner").append("");
                 }else{
-                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " won the fight ! ");
+                    $(".winner").html(parse.data.players[parse.data.winner-1].fake_name + " ¡ganó el combate! ");
                     $(".winner").append("bet lost !");
                 }
 
@@ -160,7 +160,7 @@
 
     function CloseNui(){
         //$.post("http://k_bookie/closeNui", JSON.stringify({ id: _Id, options: _Options }));
-        $.post("https://pistolerosrp_apuesta/closeNui",1);
+        $.post("https://1880rp_apuesta/closeNui",1);
     }
 
 </script>
@@ -189,7 +189,7 @@
         </div>
         </div>
         </div>
-    <div class="bottom">PRESS <b>[Z]</b> TO CLOSE</div>
+    <div class="bottom">PRESIONE <b>[Z]</b> PARA CERRAR</div>
 </div>
 
 </body>

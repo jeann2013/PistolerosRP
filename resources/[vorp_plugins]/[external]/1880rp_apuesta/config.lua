@@ -4,9 +4,9 @@
 -------------------
 Config = {}
 
-Config.max_pot = 200
-Config.min_bet = 10
-Config.max_bet = 50
+Config.max_pot = 20
+Config.min_bet = 5
+Config.max_bet = 10
 Config.step = 5
 Config.time_till_next_match = 60000 -- Ms {1 min}
 Config.prompt_group_name = "Bookie" --Main Prompt Group Name

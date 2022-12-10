@@ -46,7 +46,7 @@ end)
 RegisterNetEvent('clientPayout')
 AddEventHandler('clientPayout', function(payout,amount,winner)
     print("You won " .. payout .. " with: $ " .. amount .. " @ " .. Config.players[winner].fake_name )
-    History[#History+1] = "You won " .. payout .. " with: $ " .. amount .. " @ " .. Config.players[winner].fake_name
+    History[#History+1] = "Ganaste " .. payout .. " con: $ " .. amount .. " @ " .. Config.players[winner].fake_name
     Balance.won = Balance.won + payout
     Balance.diff = Balance.won - Balance.spent
     TriggerServerEvent('k_bookie:addCash', payout)
@@ -56,7 +56,7 @@ end)
 RegisterNetEvent('clientLost')
 AddEventHandler('clientLost', function(payout,amount,winner)
     print("You lost " .. amount .. " @ " .. Config.players[winner].fake_name )
-    History[#History+1] = "You lost " .. amount .. " @ " .. Config.players[winner].fake_name
+    History[#History+1] = "Perdistes " .. amount .. " @ " .. Config.players[winner].fake_name
     Balance.lost = Balance.lost + amount
     Balance.diff = Balance.won - Balance.spent
 end)
@@ -346,7 +346,7 @@ Citizen.CreateThread(function()
 
         if Config.show_bookie_pot and distance_to_bookie < 20 then
             local bookie = Config.bookies[1].pos
-            DrawText3D(bookie.X, bookie.Y, bookie.Z+1, "POT : " .. Data["bets"]["pot"] .. " / " .. Config.max_pot )
+            DrawText3D(bookie.X, bookie.Y, bookie.Z+1, "POTE : " .. Data["bets"]["pot"] .. " / " .. Config.max_pot )
         end
 
         if Config.debugger and client_spawned and distance_to_bookie < 20 then
