@@ -4,7 +4,7 @@ Config.DisableRadarOnFoot = false
 
 
 
-Config.RadarType = 2
+Config.RadarType = 3
 --[[
     0 = Off,
     1 = Regular (Regular Radar),

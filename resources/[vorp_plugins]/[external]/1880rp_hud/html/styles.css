@@ -340,16 +340,31 @@ body {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-.c100.first {
-    margin-top:1em;
+/* .c100.first { radartype = 1
+    margin-top:11.2em;
+    margin-left:3.3em;
 }
 .c100.second {
-    margin-top: .5em;
-    margin-left:.6em;
+    margin-top: 11.2em;
+    margin-left:.2em;
 }
 .c100.third {
-    margin-top:.5em;
-    margin-left:.6em;
+    margin-top:11.2em;
+    margin-left:.2em;
+    
+} */
+.c100.first {
+    margin-top:2.5em;
+    margin-left:0em;
+}
+.c100.second {
+    margin-top: 2.5em;
+    margin-left:.3em;
+}
+.c100.third {
+    margin-top:2.5em;
+    margin-left:.3em;
+    
 }
 .c100.big {
     font-size: 240px;
