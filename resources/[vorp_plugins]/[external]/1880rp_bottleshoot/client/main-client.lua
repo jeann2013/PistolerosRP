@@ -45,7 +45,7 @@ local config = {
 		end,
 		notification_function = function(text, duration) 
 			-- feel free to change this
-			exports['game-bottleshoot']:ShowTooltip(tostring(text), tonumber(duration))
+			exports['1880rp_bottleshoot']:ShowTooltip(tostring(text), tonumber(duration))
 		end
 	}
 }
