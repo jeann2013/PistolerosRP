@@ -111,6 +111,22 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('head_bag', 'Tapa cabeza', 2, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('lockpick', 'Ganzua', 2, 1, 'item_standard', 1);
 
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('consumable_herb_evergreen_huckleberry', 'Baya de hoja perenne', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Black_Currant', 'Suroeste de Johannisbeere', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('blueberry', 'Arándanos', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('currant', 'Johannisbeere', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Red_Raspberry', 'Frambuesa roja', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Wintergreen_Berry', 'Baya Wintergreen', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Black_Berry', 'Baya negra', 200, 1, 'item_standard', 1);
+
+
+
+
+
+
+
+
+
 
 
 
