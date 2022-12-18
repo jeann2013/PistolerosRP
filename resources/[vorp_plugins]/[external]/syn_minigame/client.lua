@@ -2,7 +2,7 @@ local chance = 0
 local skillGap = 20
 
 function openGui(sentLength,taskID,namesent,chancesent,skillGapSent)
-    TriggerEvent("vorp:TipBottom", "Press E At The Spot", 4000)
+    TriggerEvent("vorp:TipBottom", "Presione E aqui", 4000)
     Wait(1000)
     guiEnabled = true
     SetNuiFocus(guiEnabled,false)
@@ -59,13 +59,13 @@ function FactorFunction(pos)
         end
         if factor == 0.5 and calm then
             calm = false
-            TriggerEvent("notification","You are frustrated", 2)
+            TriggerEvent("notification","Está frustrado", 2)
         end
         TriggerEvent("factor:restore")        
     else
         if factor > 1.0 or factor == 0.9 then
             if not calm then
-                TriggerEvent("notification","You are calm again")
+                TriggerEvent("notification","Estás tranquilo")
                 calm = true
             end            
             factor = 1.0
