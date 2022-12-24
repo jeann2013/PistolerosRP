@@ -39,8 +39,8 @@ Citizen.CreateThread(function()
         local _source = source 
 		--TriggerServerEvent("hud:checkmoney")
         Citizen.InvokeNative(0x50C803A4CD5932C5 , true)
-        local myhunger = exports["1880rp_metabolism"]:getHunger()
-        local mythirst = exports["1880rp_metabolism"]:getThirst()
+        -- local myhunger = exports["vorp_metabolism"]:getHunger()
+        -- local mythirst = exports["vorp_metabolism"]:getThirst()
 
         local player = PlayerPedId()
         local coords = GetEntityCoords(player)
@@ -50,8 +50,8 @@ Citizen.CreateThread(function()
         SendNUIMessage({
             action = "updateStatusHud",
                 show = not IsRadarHidden(),
-                hunger = myhunger,
-                thirst = mythirst,
+                hunger = 0,
+                thirst = 0,
                 --stress = mystress,
                 --cash = money,
                 --temp = math.floor(temp * 1.8 + 32.0).."°",
