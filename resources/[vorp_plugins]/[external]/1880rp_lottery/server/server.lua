@@ -22,8 +22,8 @@ Citizen.CreateThread(function ()
 end)
 
 
-RegisterServerEvent("twh_lottery:scratchS")
-AddEventHandler("twh_lottery:scratchS", function(source,item)
+RegisterServerEvent("1880rp_lottery:scratchS")
+AddEventHandler("1880rp_lottery:scratchS", function(source,item)
 	local _source = source
     local _item = item
 	local chance = math.random()	
@@ -39,12 +39,12 @@ AddEventHandler("twh_lottery:scratchS", function(source,item)
         end
     end
 
-    TriggerClientEvent("twh_lottery:clientUpdate", _source, price,_item) 
+    TriggerClientEvent("1880rp_lottery:clientUpdate", _source, price,_item) 
     
 end)
 
-RegisterServerEvent("twh_lottery:setPrice")
-AddEventHandler("twh_lottery:setPrice", function(winning,item)
+RegisterServerEvent("1880rp_lottery:setPrice")
+AddEventHandler("1880rp_lottery:setPrice", function(winning,item)
 	local _source = source
     local _item = item
 	local Character = VORPcore.getUser(_source).getUsedCharacter
@@ -69,8 +69,8 @@ AddEventHandler("twh_lottery:setPrice", function(winning,item)
 end)
 
 
-RegisterServerEvent("twh_lottery:exchange")
-AddEventHandler("twh_lottery:exchange", function()
+RegisterServerEvent("1880rp_lottery:exchange")
+AddEventHandler("1880rp_lottery:exchange", function()
 	local _source = source
 	local Character = VORPcore.getUser(_source).getUsedCharacter
 
@@ -116,7 +116,7 @@ AddEventHandler("twh_lottery:exchange", function()
         end
     
         if Config.Logs then
-            TriggerEvent("twh_lottery:webhook", "`Reward given` ", message)
+            TriggerEvent("1880rp_lottery:webhook", "`Reward given` ", message)
         end
         TriggerClientEvent("vorp:NotifyLeft",_source, _U("title"),_U("success").."~e~"..won.."~q~$", "generic_textures", "tick", 2000)
 		Character.addCurrency(0, won)  
@@ -159,8 +159,8 @@ function Discord(webhook, title, description, text, color)
 end
 
 
-RegisterServerEvent('twh_lottery:webhook')
-AddEventHandler('twh_lottery:webhook', function(title, description, text)
+RegisterServerEvent('1880rp_lottery:webhook')
+AddEventHandler('1880rp_lottery:webhook', function(title, description, text)
     Discord(Config.webhook, title, description, text, Config.webhookColor)
 end)
 

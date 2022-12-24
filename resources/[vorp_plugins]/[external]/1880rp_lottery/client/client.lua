@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
                                                   v.marketName)
                     PromptSetActiveGroupThisFrame(prompts, label)
                     if Citizen.InvokeNative(0xC92AC953F0A982AE, openmenu) then
-                        TriggerServerEvent("twh_lottery:exchange")
+                        TriggerServerEvent("1880rp_lottery:exchange")
                     end
                 end
             end
@@ -62,8 +62,8 @@ end)
 
 
 
-RegisterNetEvent("twh_lottery:clientUpdate")
-AddEventHandler("twh_lottery:clientUpdate", function(prize,item)
+RegisterNetEvent("1880rp_lottery:clientUpdate")
+AddEventHandler("1880rp_lottery:clientUpdate", function(prize,item)
 	if isScratching == false then		
 		isScratching = true
 		Wait(100)
@@ -76,7 +76,7 @@ end)
 
 RegisterNUICallback("closenui", function(data,cb)
 	SetNuiFocus(false, false)
-	TriggerServerEvent("twh_lottery:setPrice", winningamount, itemUsed)
+	TriggerServerEvent("1880rp_lottery:setPrice", winningamount, itemUsed)
 	isScratching = false
 	winningamount = 0
 	if cb then
