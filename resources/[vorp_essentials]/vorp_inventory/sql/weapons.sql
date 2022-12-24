@@ -118,6 +118,9 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Red_Raspberry', 'Frambuesa roja', 200, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Wintergreen_Berry', 'Baya Wintergreen', 200, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Black_Berry', 'Baya negra', 200, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('scratchcard', '1880 Lottery', 20, 1, 'item_standard', 1);
+
+
 
 
 
