@@ -36,7 +36,9 @@ Config.Stops = {
 	{ dst = 180.0, dst2 = 4.0, x = -1291.04, y = 440.69, z = 94.36, time = 30000, name = "Wallace Station" },
 	{ dst = 180.0, dst2 = 4.0, x = 610.54, y = 1661.53, z = 188.0, time = 30000, name = "Bacchus Station" },
 	{ dst = 220.0, dst2 = 4.0, x = 2914.50, y = 1238.53, z = 44.73, time = 60000, name = "Annesburg Station" },
-	{ dst = 180.0, dst2 = 4.0, x = 2879.30, y = 592.75, z = 57.84, time = 60000, name = "Van Horn Tradin Post" }
+	{ dst = 180.0, dst2 = 4.0, x = 2879.30, y = 592.75, z = 57.84, time = 60000, name = "Van Horn Tradin Post" },
+	{ dst = 180.0, dst2 = 4.0, x = -3745.51,y = -2619.23, z = -13.24, time = 60000, name = "Armadillo" }
+	
 }
 
 --  leave in on place theres only one train that can operate at the time
