@@ -4,7 +4,6 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 client_scripts {
   'vorpmetabolism-cl.net.dll',
-  'client/services/MetabolismService.lua'
 }
 
 server_scripts {
@@ -24,9 +23,6 @@ files {
 }
 
 ui_page 'ui/hud.html'
-
-export 'getThirst'
-export 'getHunger'
 
 version '1.0'
 vorp_checker 'yes'
