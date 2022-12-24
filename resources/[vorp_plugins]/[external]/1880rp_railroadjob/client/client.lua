@@ -75,7 +75,7 @@ Citizen.CreateThread(function()
 			TriggerServerEvent("get:PlayerJob") -- run client side check before check for distance. no need to run code that is not meant for the client its optimized this way
 			if PlayerJob == Config.Job then
 				local dist = Vdist2(playercoords, Config.Location, true) --location
-				local dist2 = Vdist2(playercoords, Config.Location2, true) --location
+				
 				if 2.0 > dist then
 					sleep = false
 					local label = CreateVarString(10, 'LITERAL_STRING', TrainPrompt)
@@ -87,7 +87,7 @@ Citizen.CreateThread(function()
 
 					end
 				end
-
+				local dist2 = Vdist2(playercoords, Config.Location2, true) --location
 				if 2.0 > dist2 then
 					sleep = false
 					local label = CreateVarString(10, 'LITERAL_STRING', TrainPrompt)
@@ -269,7 +269,7 @@ function StartTrainArmadillo(hash)
 		-- warp ped into train (valentine)
 		DoScreenFadeOut(500)
 		Wait(1000)
-		Citizen.InvokeNative(0x203BEFFDBE12E96A, PlayerPedId(), -167.4587, 622.33398, 114.6397 - 1, 141.77737)
+		Citizen.InvokeNative(0x203BEFFDBE12E96A, PlayerPedId(), -3749.31, -2641.54, -12.78 - 1, 141.77737)
 		Wait(1000)
 		DoScreenFadeIn(500)
 		SetModelAsNoLongerNeeded(train)
