@@ -38,7 +38,7 @@ Config.Stops = {
 	{ dst = 180.0, dst2 = 4.0, x = 610.54, y = 1661.53, z = 188.0, time = 30000, name = "Bacchus Station" },
 	{ dst = 220.0, dst2 = 4.0, x = 2914.50, y = 1238.53, z = 44.73, time = 60000, name = "Annesburg Station" },
 	{ dst = 180.0, dst2 = 4.0, x = 2879.30, y = 592.75, z = 57.84, time = 60000, name = "Van Horn Tradin Post" },
-	{ dst = 180.0, dst2 = 4.0, x = -3749.5, y = -2650.66, z = -13.94, time = 60000, name = "Armadillo" }
+	{ dst = 180.0, dst2 = 4.0, x = -4135.68, y = -4314.75, z = 1.9, time = 60000, name = "Mexico" }
 	
 }
 
@@ -51,8 +51,8 @@ Config.RailroadNpc = {
 	},
 	armadillo = {
 		Model = "U_M_M_RhdTrainStationWorker_01", -- npc model
-		Pos = vector3(-3746.0, -2622.17, -13.25 - 1), -- npc location add the same as the location of the menu
-		Heading = 175.5 -- heading of the npc
+		Pos = vector3(-4142.74, -4316.87, 2.43 - 1), -- npc location add the same as the location of the menu
+		Heading = 81.13 -- heading of the npc
 	},
 	
 
