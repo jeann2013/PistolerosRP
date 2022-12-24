@@ -76,7 +76,7 @@ Citizen.CreateThread(function()
 			if PlayerJob == Config.Job then
 				local dist = Vdist2(playercoords, Config.Location, true) --location
 				local dist2 = Vdist2(playercoords, Config.Location2, true) --location
-				if 2.0 > dist or 2.0 > dist2 then
+				if 2.0 > dist then
 					sleep = false
 					local label = CreateVarString(10, 'LITERAL_STRING', TrainPrompt)
 					PromptSetActiveGroupThisFrame(prompts, label)
@@ -84,6 +84,18 @@ Citizen.CreateThread(function()
 						inmenu = true
 						--TriggerServerEvent("get:PlayerJob")
 						TrainMenu()
+
+					end
+				end
+
+				if 2.0 > dist2 then
+					sleep = false
+					local label = CreateVarString(10, 'LITERAL_STRING', TrainPrompt)
+					PromptSetActiveGroupThisFrame(prompts, label)
+					if Citizen.InvokeNative(0xC92AC953F0A982AE, openmenu) then
+						inmenu = true
+						--TriggerServerEvent("get:PlayerJob")
+						TrainMenuArmadillo()
 
 					end
 				end
@@ -147,7 +159,96 @@ function TrainMenu()
 		end)
 end
 
+function TrainMenuArmadillo()
+	MenuData.CloseAll()
+	local elements = Config.Elements
+
+	MenuData.Open('default', GetCurrentResourceName(), 'menuapi',
+		{
+			title    = MenuTittle,
+			subtext  = MenuSubTittle,
+			align    = 'top-left',
+			elements = elements,
+		},
+
+			function(data, menu)
+			if (data.current.value == 'hash1') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash2') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash3') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash4') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash5') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash6') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash7') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash8') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash9') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash10') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash11') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash12') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash13') then
+				StartTrainArmadillo(data.current.info)
+			elseif (data.current.value == 'hash14') then
+				StartTrainArmadillo(data.current.info)
+			end
+		
+		end,
+
+
+		function(data, menu)
+			menu.close()
+
+		end)
+end
+
 function StartTrain(hash)
+
+	if trainspawned == false then
+		SetRandomTrains(false)
+		--requestmodel--
+		local trainWagons = N_0x635423d55ca84fc8(hash)
+		for wagonIndex = 0, trainWagons - 1 do
+			local trainWagonModel = N_0x8df5f6a19f99f0d5(hash, wagonIndex)
+			while not HasModelLoaded(trainWagonModel) do
+				Citizen.InvokeNative(0xFA28FE3A6246FC30, trainWagonModel, 1)
+				Citizen.Wait(100)
+			end
+		end
+		--spawn train--
+		local train = N_0xc239dbd9a57d2a71(hash, GetEntityCoords(PlayerPedId()), 0, 1, 1, 1)
+		SetTrainSpeed(train, 0.0)
+		local coords = GetEntityCoords(train)
+		local trainV = vector3(coords.x, coords.y, coords.z)
+		-- warp ped into train (valentine)
+		DoScreenFadeOut(500)
+		Wait(1000)
+		Citizen.InvokeNative(0x203BEFFDBE12E96A, PlayerPedId(), -167.4587, 622.33398, 114.6397 - 1, 141.77737)
+		Wait(1000)
+		DoScreenFadeIn(500)
+		SetModelAsNoLongerNeeded(train)
+		--blip--
+		local bliphash = -399496385
+		local blip = Citizen.InvokeNative(0x23f74c2fda6e7c61, bliphash, train) -- blip for train
+		SetBlipScale(blip, 1.5)
+		CURRENT_TRAIN = train
+		trainspawned = true
+		trainrunning = true
+	else
+		TriggerEvent("vorp:TipRight", "El tren ya ha salido, ¡comprueba el mapa!", 3000)
+	end
+
+end
+function StartTrainArmadillo(hash)
 
 	if trainspawned == false then
 		SetRandomTrains(false)
