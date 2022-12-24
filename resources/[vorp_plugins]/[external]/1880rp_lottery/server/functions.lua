@@ -33,7 +33,7 @@ function CheckData(v,data)
     if not meta.price then 
         VORPInv.CloseInv(data.source)
         VORPInv.subItem(data.source, v.item, 1)
-        TriggerEvent("twh_lottery:scratchS", data.source, v)
+        TriggerEvent("1880rp_lottery:scratchS", data.source, v)
     else
         TriggerClientEvent("vorp:NotifyLeft",data.source, _U("title"),_U("alreadyUsed"), "generic_textures", "lock", 2000)
     end
