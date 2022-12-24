@@ -23,7 +23,7 @@ Config = {
 	-- trainmodel14 = 0x0392C83A,
 }
 Config.Location	 = vector3(-162.8994, 638.43988, 114.03205) -- location of the menu
-Config.Location2 = vector3(-4142.74, -4316.87, 2.43) -- location of the menu
+Config.Location2 = vector3(-2233.48,-3881.23,-16.67) -- location of the menu
 
 --- train stations where the train stops
 -- dont touch if you dont know what you are doing
@@ -51,8 +51,8 @@ Config.RailroadNpc = {
 	},
 	armadillo = {
 		Model = "U_M_M_RhdTrainStationWorker_01", -- npc model
-		Pos = vector3(-4142.74, -4316.87, 2.43 - 1), -- npc location add the same as the location of the menu
-		Heading = 81.13 -- heading of the npc
+		Pos = vector3(-2233.48, -3881.23,-16.67 - 1), -- npc location add the same as the location of the menu
+		Heading = 314.31 -- heading of the npc
 	},
 	
 
@@ -84,4 +84,4 @@ Config.Elements = {
 Press = "Presione"
 TrainPrompt = "Conductor"
 MenuTittle = "RAIL ROAD"
-MenuSubTittle = "Valentine"
+MenuSubTittle = "Train"
