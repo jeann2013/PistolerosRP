@@ -52,7 +52,7 @@ Config.RailroadNpc = {
 	armadillo = {
 		Model = "U_M_M_RhdTrainStationWorker_01", -- npc model
 		Pos = vector3(-3746.0, -2622.17, -13.25 - 1), -- npc location add the same as the location of the menu
-		Heading = 358.8 -- heading of the npc
+		Heading = 175.5 -- heading of the npc
 	},
 	
 
@@ -82,6 +82,6 @@ Config.Elements = {
 }
 --TRANSLATE
 Press = "Presione"
-TrainPrompt = "Conductor de Valentine"
+TrainPrompt = "Conductor"
 MenuTittle = "RAIL ROAD"
 MenuSubTittle = "Valentine"
