@@ -75,7 +75,8 @@ Citizen.CreateThread(function()
 			TriggerServerEvent("get:PlayerJob") -- run client side check before check for distance. no need to run code that is not meant for the client its optimized this way
 			if PlayerJob == Config.Job then
 				local dist = Vdist2(playercoords, Config.Location, true) --location
-				if 2.0 > dist then
+				local dist2 = Vdist2(playercoords, Config.Location2, true) --location
+				if 2.0 > dist or 2.0 > dist2 then
 					sleep = false
 					local label = CreateVarString(10, 'LITERAL_STRING', TrainPrompt)
 					PromptSetActiveGroupThisFrame(prompts, label)
