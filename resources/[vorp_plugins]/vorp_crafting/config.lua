@@ -533,7 +533,7 @@ Config.Crafting = {
     {
         Text = "Plain Cooked Bird ",
         SubText = "InvMax = 10",
-        Desc = "Recipe: 1x Raw Bird Meat",
+        Desc = "Recipe: 1x Raw Bird Meat, 1x Salt",
         Items = {
             {
                 name = "provision_meat_gamey_bird",
@@ -557,160 +557,160 @@ Config.Crafting = {
         CurrencyType = 0,
         Category = "food"
     },
-    {
-        Text = "Refined Gold Ore ",
-        SubText = "InvMax = 15",
-        Desc = "Recipe: 1x Gold Ore",
-        Items = {
-            {
-                name = "goldnugget",
-                count = 14
-            }
-        },
-        Reward ={
-            {
-                --name = "gold", -- if you use the currency mode, you don't need a name section inside the reward section
-                count = 1
-            }
-        },
-        Type = "item", -- indicate if it is 'weapon' or 'item'
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = true,
-        CurrencyType = 1,
-        Category = "items"
-    },
-    {
-        Text = "Plain Small Game ",
-        SubText = "InvMax = 10 ",
-        Desc = "Recipe: 1x Small Game Meat",
-        Items = {
-            {
-                name = "consumable_game",
-                count = 1
-            }
-        },
-        Reward ={
-            {
-                name = "plainsmallgame",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food"
-    },
-    {
-        Text = "Rope ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 10x Fibers",
-        Items = {
-            {
-                name = "fibers",
-                count = 10
-            }
-        },
-        Reward ={
-            {
-                name = "rope",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "items"
-    },
-    {
-        Text = "Cloth ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 10x Wool",
-        Items = {
-            {
-                name = "wool",
-                count = 10
-            }
-        },
-        Reward ={
-            {
-                name = "cloth",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "items"
-    },
-    {
-        Text = "Tent ",
-        SubText = "InvMax = 5 ",
-        Desc = "Recipe: 4x Cloth, 3x Rope, 2x Wood",
-        Items = {
-            {
-                name = "cloth",
-                count = 4
-            },
-            {
-                name = "rope",
-                count = 3
-            },
-            {
-                name = "wood",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "tent",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "items"
-    },
-    {
-        Text = "Bedroll ",
-        SubText = "InvMax = 5",
-        Desc = "Recipe: 4x Pelt, 1x Cloth, 2x Wood",
-        Items = {
-            {
-                name = "pelt",
-                count = 4
-            },
-            {
-                name = "cloth",
-                count = 1
-            },
-            {
-                name = "wood",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "bedroll",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "items"
-    }, 
+    -- {
+    --     Text = "Refined Gold Ore ",
+    --     SubText = "InvMax = 15",
+    --     Desc = "Recipe: 1x Gold Ore",
+    --     Items = {
+    --         {
+    --             name = "goldnugget",
+    --             count = 14
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             --name = "gold", -- if you use the currency mode, you don't need a name section inside the reward section
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item", -- indicate if it is 'weapon' or 'item'
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = true,
+    --     CurrencyType = 1,
+    --     Category = "items"
+    -- },
+    -- {
+    --     Text = "Plain Small Game ",
+    --     SubText = "InvMax = 10 ",
+    --     Desc = "Recipe: 1x Small Game Meat",
+    --     Items = {
+    --         {
+    --             name = "consumable_game",
+    --             count = 1
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "plainsmallgame",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food"
+    -- },
+    -- {
+    --     Text = "Rope ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 10x Fibers",
+    --     Items = {
+    --         {
+    --             name = "fibers",
+    --             count = 10
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "rope",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "items"
+    -- },
+    -- {
+    --     Text = "Cloth ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 10x Wool",
+    --     Items = {
+    --         {
+    --             name = "wool",
+    --             count = 10
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "cloth",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "items"
+    -- },
+    -- {
+    --     Text = "Tent ",
+    --     SubText = "InvMax = 5 ",
+    --     Desc = "Recipe: 4x Cloth, 3x Rope, 2x Wood",
+    --     Items = {
+    --         {
+    --             name = "cloth",
+    --             count = 4
+    --         },
+    --         {
+    --             name = "rope",
+    --             count = 3
+    --         },
+    --         {
+    --             name = "wood",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "tent",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "items"
+    -- },
+    -- {
+    --     Text = "Bedroll ",
+    --     SubText = "InvMax = 5",
+    --     Desc = "Recipe: 4x Pelt, 1x Cloth, 2x Wood",
+    --     Items = {
+    --         {
+    --             name = "pelt",
+    --             count = 4
+    --         },
+    --         {
+    --             name = "cloth",
+    --             count = 1
+    --         },
+    --         {
+    --             name = "wood",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "bedroll",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "items"
+    -- }, 
     {
         Text = "Cigar",
         SubText = "InvMax = 20",
@@ -718,7 +718,7 @@ Config.Crafting = {
         Items = {
             {
                 name = "Indian_Tobbaco",
-                count = 1
+                count = 2
             },
             {
                 name = "fibers",
@@ -765,76 +765,76 @@ Config.Crafting = {
         CurrencyType = 0,
         Category = "items"
     }, 
-    {
-        Text = "Steak n' Eggs ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 2x Meat, 2x Eggs, 2x potatoes",
-        Items = {
-            {
-                name = "meat",
-                count = 2
-            },
-            {
-                name = "eggs",
-                count = 2
-            },
-            {
-                name = "potato",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "steakeggs",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food"
-    }, 
-    {
-        Text = "Veggie Stew ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 2x Carrots, 2x Corn, 2x Potatoes, 1xwater, 2x Salt",
-        Items = {
-            {
-                name = "carrot",
-                count = 2
-            },
-            {
-                name = "corn",
-                count = 2
-            },
-            {
-                name = "potato",
-                count = 2
-            },
-            {
-                name = "water",
-                count = 1
-            },
-            {
-                name = "salt",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "vegstew",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food"
-    },   
+    -- {
+    --     Text = "Steak n' Eggs ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 2x Meat, 2x Eggs, 2x potatoes",
+    --     Items = {
+    --         {
+    --             name = "meat",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "eggs",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "potato",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "steakeggs",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food"
+    -- }, 
+    -- {
+    --     Text = "Veggie Stew ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 2x Carrots, 2x Corn, 2x Potatoes, 1xwater, 2x Salt",
+    --     Items = {
+    --         {
+    --             name = "carrot",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "corn",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "potato",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "water",
+    --             count = 1
+    --         },
+    --         {
+    --             name = "salt",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "vegstew",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food"
+    -- },   
     {
         Text = "Porkchops and Applesauce ",
         SubText = "InvMax = 10",
@@ -862,84 +862,84 @@ Config.Crafting = {
         CurrencyType = 0,
         Category = "food"
     },
-    {
-        Text = "Bird Stew ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
-        Items = {
-            {
-                name = "rawbirdmeat",
-                count = 2
-            },
-            {
-                name = "carrot",
-                count = 2
-            },
-            {
-                name = "corn",
-                count = 1
-            },
-            {
-                name = "water",
-                count = 2
-            },
-            {
-                name = "salt",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "birdstew",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food"
-    },
-    {
-        Text = "Bird Stew ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
-        Items = {
-            {
-                name = "rawbirdmeat",
-                count = 2
-            },
-            {
-                name = "carrot",
-                count = 2
-            },
-            {
-                name = "corn",
-                count = 1
-            },
-            {
-                name = "water",
-                count = 2
-            },
-            {
-                name = "salt",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "birdstew",
-                count = 1
-            }
-        },
-        Type = "item",
-        Job = 0,
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food"
-    },
+    -- {
+    --     Text = "Bird Stew ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
+    --     Items = {
+    --         {
+    --             name = "rawbirdmeat",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "carrot",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "corn",
+    --             count = 1
+    --         },
+    --         {
+    --             name = "water",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "salt",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "birdstew",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food"
+    -- },
+    -- {
+    --     Text = "Bird Stew ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 2x Raw Bird, 2x Carrots, 1x Corn, 2x Water, 2x Salt",
+    --     Items = {
+    --         {
+    --             name = "rawbirdmeat",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "carrot",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "corn",
+    --             count = 1
+    --         },
+    --         {
+    --             name = "water",
+    --             count = 2
+    --         },
+    --         {
+    --             name = "salt",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "birdstew",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item",
+    --     Job = 0,
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food"
+    -- },
 
     {
         Text = "Bow ",
@@ -967,32 +967,32 @@ Config.Crafting = {
         Category = "weapons",
         Animation = 'craft' -- set what animation should play when crafting (if this is not set it has a default animation). Animations can be found below in Config.Animations
     },
-    {
-        Text = "Revolver Navy ",
-        SubText = "InvMax = 1",
-        Desc = "Recipe 20x Iron, 20x Hard wood",
-        Items = {
-            {
-                name = "iron",
-                count = 20
-            },
-            {
-                name = "hwood",
-                count = 20
-            },
-        },
-        Reward = {
-            {
-                name = "WEAPON_REVOLVER_NAVY",
-                count = 1
-            }
-        },
-        Type = "weapon", -- indicate if it is 'weapon' or 'item'
-        Job = 0, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction
-        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
-        Category = "weapons",
-        Animation = 'craft' -- set what animation should play when crafting (if this is not set it has a default animation). Animations can be found below in Config.Animations
-    },
+    -- {
+    --     Text = "Revolver Navy ",
+    --     SubText = "InvMax = 1",
+    --     Desc = "Recipe 20x Iron, 20x Hard wood",
+    --     Items = {
+    --         {
+    --             name = "iron",
+    --             count = 20
+    --         },
+    --         {
+    --             name = "hwood",
+    --             count = 20
+    --         },
+    --     },
+    --     Reward = {
+    --         {
+    --             name = "WEAPON_REVOLVER_NAVY",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "weapon", -- indicate if it is 'weapon' or 'item'
+    --     Job = 0, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction
+    --     Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+    --     Category = "weapons",
+    --     Animation = 'craft' -- set what animation should play when crafting (if this is not set it has a default animation). Animations can be found below in Config.Animations
+    -- },
     {
         Text = "Knife ",
         SubText = "InvMax = 1",
