@@ -55,7 +55,7 @@ Config3.Stores = {
             ["Bows"] = {
                 ["Bow"] = {	
                     hashname = "WEAPON_BOW",    
-                    price = 10.75, 
+                    price = 10, 
                 
                 },
                ["Improved Bow"] = {	

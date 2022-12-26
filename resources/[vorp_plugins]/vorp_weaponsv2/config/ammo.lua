@@ -700,6 +700,4 @@ Config5.ammo = { -- both crafting and shops
 
         },
     
-    
-    
 }

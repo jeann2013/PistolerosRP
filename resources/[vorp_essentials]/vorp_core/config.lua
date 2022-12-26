@@ -10,7 +10,7 @@ Config = {
   ----------------------------------------------------------------------------
   ----------------------- STARTING POINT -------------------------------------
   initGold                 = 0.0,
-  initMoney                = 200.0,
+  initMoney                = 100.0,
   initRol                  = 0.0,
   initXp                   = 0,
   initJob                  = "unemployed", -- leave it like this

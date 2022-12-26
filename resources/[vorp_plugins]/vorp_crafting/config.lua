@@ -445,60 +445,60 @@ Config.Crafting = {
     --     Category = "food",
     --     Animation = 'knifecooking'
     -- },
-    {
-        Text = "PickAxe ",
-        SubText = "InvMax = 5",
-        Desc = "Recipe: 10x Iron, 2x Wood",
-        Items = {
-            {
-                name = "iron",
-                count = 10
-            },
-            {
-                name = "wood",
-                count = 2
-            }
-        },
-        Reward = {
-            {
-                name = "pickaxe",
-                count = 1
-            }
-        },
-        Type = "item", -- indicate if it is 'weapon' or 'item'
-        Job = 0,
-        Location = 0,
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "items"
-    },
-    {
-        Text = "Axe ",
-        SubText = "InvMax = 5",
-        Desc = "Recipe: 10x Iron, 2x Wood",
-        Items = {
-            {
-                name = "iron",
-                count = 10
-            },
-            {
-                name = "wood",
-                count = 2
-            }
-        },
-        Reward ={
-            {
-                name = "Axe",
-                count = 1
-            }
-        },
-        Type = "item", -- indicate if it is 'weapon' or 'item'
-        Job = 0,
-        Location = 0,
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "items"
-    },
+    -- {
+    --     Text = "PickAxe ",
+    --     SubText = "InvMax = 5",
+    --     Desc = "Recipe: 10x Iron, 2x Wood",
+    --     Items = {
+    --         {
+    --             name = "iron",
+    --             count = 10
+    --         },
+    --         {
+    --             name = "wood",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward = {
+    --         {
+    --             name = "pickaxe",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item", -- indicate if it is 'weapon' or 'item'
+    --     Job = 0,
+    --     Location = 0,
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "items"
+    -- },
+    -- {
+    --     Text = "Axe ",
+    --     SubText = "InvMax = 5",
+    --     Desc = "Recipe: 10x Iron, 2x Wood",
+    --     Items = {
+    --         {
+    --             name = "iron",
+    --             count = 10
+    --         },
+    --         {
+    --             name = "wood",
+    --             count = 2
+    --         }
+    --     },
+    --     Reward ={
+    --         {
+    --             name = "Axe",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item", -- indicate if it is 'weapon' or 'item'
+    --     Job = 0,
+    --     Location = 0,
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "items"
+    -- },
     {
         Text = "Campfire ",
         SubText = "InvMax = 5",
