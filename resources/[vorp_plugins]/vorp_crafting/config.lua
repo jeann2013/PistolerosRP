@@ -158,7 +158,15 @@ Config.Crafting = {
                 name = "salt",
                 count = 1,
                 take = false -- This determines if recipe items will be taken from inventory after crafting. If ommited, it will default to true.
-            }
+            },
+            {
+                name = "eggs",
+                count = 1
+            },
+            {
+                name = "water",
+                count = 1
+            },
         },
         Reward = {
             {
@@ -191,7 +199,7 @@ Config.Crafting = {
         },
         Reward ={
             {
-                name = "cookedsmallgame",
+                name = "consumable_meat_stringy_cooked",
                 count = 2
             }
         },
@@ -255,7 +263,7 @@ Config.Crafting = {
         },
         Reward = {
             {
-                name = "steak",
+                name = "consumable_meat_mature_venison_cooked",
                 count = 1
             }
         },
