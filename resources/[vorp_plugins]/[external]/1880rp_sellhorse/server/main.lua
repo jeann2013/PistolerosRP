@@ -16,13 +16,15 @@ RegisterServerEvent("vorp_sellhorse:salecompletesv", function(animal)
 
            if amountmoney then
         Character.addCurrency(0, amountmoney)
-            VORPcore.NotifyRightTip(_source,"You got "..amountmoney,4000)
+            -- VORPcore.NotifyRightTip(_source,"You got "..amountmoney,4000)
+            TriggerEvent("vorp:TipRight", _source,"You got "..amountmoney,4000)
           VorpCore.AddWebhook(Config.WebhookTitle, Config.Webhook, fname.. lname.. "has sold a horse for " ..amountmoney, Config.Webhookcolor, Config.Webhookname, Config.Webhooklogo, Config.Webhookfooterlogo, Config.Webhookavatar)
           end
         
             if amountgold then 
         Character.addCurrency(1, amountgold)
-            VORPcore.NotifyRightTip(_source,"You got "..amountgold,4000)
+            -- VORPcore.NotifyRightTip(_source,"You got "..amountgold,4000)
+            TriggerEvent("vorp:TipRight",_source,"You got "..amountgold,4000)
             VorpCore.AddWebhook(Config.WebhookTitle, Config.Webhook, fname.. lname.. "has sold a horse for " ..amountmoney, Config.Webhookcolor, Config.Webhookname, Config.Webhooklogo, Config.Webhookfooterlogo, Config.Webhookavatar)    
             end
       

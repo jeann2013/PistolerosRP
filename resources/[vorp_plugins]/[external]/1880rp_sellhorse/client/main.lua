@@ -96,7 +96,9 @@ function sellAnimal() -- Selling horse function
             if Config.Animals[model] ~= nil then -- Paying for animals
                 local animal = Config.Animals[model]          
                 TriggerServerEvent("vorp_sellhorse:giveReward", animal)   
-		VORPcore.NotifyRightTip(Config.Language.AnimalSold,4000)
+		-- VORPcore.NotifyRightTip(Config.Language.AnimalSold,4000)
+        TriggerEvent("vorp:TipRight", Config.Language.AnimalSold, 4000)
+        
 		DeletePed(horse)
                 if Config.usecooldown then
                 TriggerEvent('vorp_sellhorse:loggedtime', Config.sellcooldown)
@@ -107,14 +109,16 @@ function sellAnimal() -- Selling horse function
                 tamestate = 0	
                 end
             else
-		VORPcore.NotifyRightTip("No voy a comprar ese animal",4000)
+		-- VORPcore.NotifyRightTip("No voy a comprar ese animal",4000)
+            TriggerEvent("vorp:TipRight", "No voy a comprar ese animal", 4000)
             end
         else
 	    -- VORPcore.NotifyRightTip("Este caballo no se puede Domar",4000)
-        TriggerEvent("vorp:TipBottom", "Este caballo no se puede Domar", 4000)
+            TriggerEvent("vorp:TipRight", "Este caballo no se puede Domar", 4000)
         end
     else
-    	VORPcore.NotifyRightTip("No estás montado en un caballo",4000)
+    	-- VORPcore.NotifyRightTip("No estás montado en un caballo",4000)
+            TriggerEvent("vorp:TipRight", "No estás montado en un caballo", 4000)
     end
 end
 
@@ -147,7 +151,8 @@ Citizen.CreateThread(function()
                             sellAnimal()     
                             Citizen.Wait(200)
                         else
-			    VORPcore.NotifyRightTip("No tiene el trabajo adecuado".." : "..v.trainerjob,4000)
+			    -- VORPcore.NotifyRightTip("No tiene el trabajo adecuado".." : "..v.trainerjob,4000)
+                        TriggerEvent("vorp:TipRight", "No tiene el trabajo adecuado".." : "..v.trainerjob,4000)
                         end
                     else
                         sellAnimal()  
