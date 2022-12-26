@@ -110,7 +110,8 @@ function sellAnimal() -- Selling horse function
 		VORPcore.NotifyRightTip("No voy a comprar ese animal",4000)
             end
         else
-	    VORPcore.NotifyRightTip("Esta lesionado el caballo",4000)
+	    -- VORPcore.NotifyRightTip("Este caballo no se puede Domar",4000)
+        TriggerEvent("vorp:TipBottom", "Este caballo no se puede Domar", 4000)
         end
     else
     	VORPcore.NotifyRightTip("No estás montado en un caballo",4000)
