@@ -2,14 +2,14 @@ local VORPCore = {}
 local sold = false
 local Playerjob
 
-Citizen.CreateThread(function()
-    while not VORPCore do        
+-- Citizen.CreateThread(function()
+--     while not VORPCore do        
         TriggerEvent("getCore", function(core)
-            VORPCore = core
+           VORPCore = core
         end)
-        Citizen.Await(200)
-    end
-end)
+--         Citizen.Await(200)
+--     end
+-- end)
 
 RegisterNetEvent("vorp:SelectedCharacter") -- NPC loads after selecting character
 AddEventHandler("vorp:SelectedCharacter", function(charid)
