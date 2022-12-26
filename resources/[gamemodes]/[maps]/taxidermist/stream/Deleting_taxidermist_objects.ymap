@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CMapData>
+  <flags value="2"/>
+  <contentFlags value="65"/>
+  <streamingExtentsMin x="NaN" y="NaN" z="NaN"/>
+  <streamingExtentsMax x="NaN" y="NaN" z="NaN"/>
+  <entitiesExtentsMin x="NaN" y="NaN" z="NaN"/>
+  <entitiesExtentsMax x="NaN" y="NaN" z="NaN"/>
+  <entities/>
+</CMapData>
