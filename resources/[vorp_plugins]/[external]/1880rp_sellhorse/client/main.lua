@@ -106,13 +106,13 @@ function sellAnimal() -- Selling horse function
                 tamestate = 0	
                 end
             else
-		VORPcore.NotifyRightTip(Config.Language.NotInTheTrainer,4000)
+		VORPcore.NotifyRightTip("No voy a comprar ese animal",4000)
             end
         else
-	    VORPcore.NotifyRightTip(Config.Language.NotBroken,4000)
+	    VORPcore.NotifyRightTip("Esta lesionado el caballo",4000)
         end
     else
-    	VORPcore.NotifyRightTip(Config.Language.NoMount,4000)
+    	VORPcore.NotifyRightTip("No estás montado en un caballo",4000)
     end
 end
 
@@ -145,7 +145,7 @@ Citizen.CreateThread(function()
                             sellAnimal()     
                             Citizen.Wait(200)
                         else
-			    VORPcore.NotifyRightTip(Config.Language.notatrainer.." : "..v.trainerjob,4000)
+			    VORPcore.NotifyRightTip("No tiene el trabajo adecuado".." : "..v.trainerjob,4000)
                         end
                     else
                         sellAnimal()  
