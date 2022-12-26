@@ -1,12 +1,12 @@
 money = 0
 -- mystress = nil
 
- RegisterNetEvent("gui:getItems")
- AddEventHandler("gui:getItems", function(THEITEMS)
-     SendNUIMessage({
-        items = THEITEMS,
-     })
- end)
+--  RegisterNetEvent("gui:getItems")
+--  AddEventHandler("gui:getItems", function(THEITEMS)
+--      SendNUIMessage({
+--         items = THEITEMS,
+--      })
+--  end)
 
 -- RegisterNetEvent("gui:getStress") --[[ THIS FUNCTION SHIFTS THE STRESS VARIABLE FROM THE SERVER SIDE TO THE CLIENT SIDE ]]
 -- AddEventHandler("gui:getStress", function(stress)
@@ -36,7 +36,7 @@ money = 0
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
-        local _source = source 
+        -- local _source = source 
 		--TriggerServerEvent("hud:checkmoney")
         Citizen.InvokeNative(0x50C803A4CD5932C5 , true)
         -- local myhunger = exports["vorp_metabolism"]:getHunger()
