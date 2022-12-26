@@ -357,7 +357,7 @@ Config.Crafting = {
         },
         Reward ={
             {
-                name = "knifecooking",
+                name = "consumable_pork_cooked",
                 count = 1
             }
         },
@@ -375,7 +375,7 @@ Config.Crafting = {
         Desc = "Recipe 1x Big Game Meat, 1x Salt",
         Items = {
             {
-                name = "BigGameMeat",
+                name = "provision_meat_big_game",
                 count = 1
             },
             {
@@ -385,34 +385,10 @@ Config.Crafting = {
         },
         Reward = {
             {
-                name = "SaltedCookedBigGameMeat",
-                count = 1
-            }
-        },
-        Type = "item", -- indicate if it is 'weapon' or 'item'
-        Job = 0,
-        Location = 0,
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food",
-        Animation = 'spindlecook'
-    },
-    {
-        Text = "Plain Big Game Meat",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 1x Big Game Meat",
-        Items = {
-            {
                 name = "BigGameMeat",
                 count = 1
             }
         },
-        Reward = {
-            {
-                name = "CookedBigGameMeat",
-                count = 1
-            }
-        },
         Type = "item", -- indicate if it is 'weapon' or 'item'
         Job = 0,
         Location = 0,
@@ -421,30 +397,54 @@ Config.Crafting = {
         Category = "food",
         Animation = 'spindlecook'
     },
-    {
-        Text = "PorkChop ",
-        SubText = "InvMax = 10",
-        Desc = "Recipe: 1x Pork",
-        Items = {
-            {
-                name = "Pork",
-                count = 1
-            }
-        },
-        Reward = {
-            {
-                name = "cookedpork",
-                count = 1
-            }
-        },
-        Type = "item", -- indicate if it is 'weapon' or 'item'
-        Job = 0,
-        Location = 0,
-        UseCurrencyMode = false,
-        CurrencyType = 0,
-        Category = "food",
-        Animation = 'knifecooking'
-    },
+    -- {
+    --     Text = "Plain Big Game Meat",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 1x Big Game Meat",
+    --     Items = {
+    --         {
+    --             name = "provision_meat_big_game",
+    --             count = 1
+    --         }
+    --     },
+    --     Reward = {
+    --         {
+    --             name = "CookedBigGameMeat",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item", -- indicate if it is 'weapon' or 'item'
+    --     Job = 0,
+    --     Location = 0,
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food",
+    --     Animation = 'spindlecook'
+    -- },
+    -- {
+    --     Text = "PorkChop ",
+    --     SubText = "InvMax = 10",
+    --     Desc = "Recipe: 1x Pork",
+    --     Items = {
+    --         {
+    --             name = "Pork",
+    --             count = 1
+    --         }
+    --     },
+    --     Reward = {
+    --         {
+    --             name = "consumable_pork_cooked",
+    --             count = 1
+    --         }
+    --     },
+    --     Type = "item", -- indicate if it is 'weapon' or 'item'
+    --     Job = 0,
+    --     Location = 0,
+    --     UseCurrencyMode = false,
+    --     CurrencyType = 0,
+    --     Category = "food",
+    --     Animation = 'knifecooking'
+    -- },
     {
         Text = "PickAxe ",
         SubText = "InvMax = 5",
@@ -536,13 +536,17 @@ Config.Crafting = {
         Desc = "Recipe: 1x Raw Bird Meat",
         Items = {
             {
-                name = "rawbirdmeat",
+                name = "provision_meat_gamey_bird",
+                count = 1
+            },
+            {
+                name = "salt",
                 count = 1
             }
         },
         Reward ={
             {
-                name = "cookedbird",
+                name = "consumable_meat_bird",
                 count = 1
             }
         },
