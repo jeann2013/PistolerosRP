@@ -22,7 +22,6 @@ files {
   'ui/img/water.png',
   'ui/img/water1.png',
 }
-}
 ui_page 'ui/hud.html'
 
 version '1.0'

@@ -35,7 +35,7 @@ Config = {
       OuterCoreStaminaGold = 0.0,
       PropName = "p_food01x_eaten",
       Animation = "eat"
-    },  
+    },
     {
       Name = "consumable_meat_bird",
       Thirst = 0,
@@ -65,7 +65,7 @@ Config = {
       OuterCoreStaminaGold = 0.0,
       PropName = "p_food01x_eaten",
       Animation = "eat"
-    },  
+    },
     {
       Name = "consumable_breakfast",
       Thirst = 0,
@@ -80,7 +80,7 @@ Config = {
       OuterCoreStaminaGold = 0.0,
       PropName = "p_food01x_eaten",
       Animation = "eat"
-    }, 
+    },
     {
       Name = "consumable_meat_stringy_cooked",
       Thirst = 0,
@@ -95,7 +95,7 @@ Config = {
       OuterCoreStaminaGold = 0.0,
       PropName = "p_food01x_eaten",
       Animation = "eat"
-    },  
+    },
     {
       Name = "consumable_applepie",
       Thirst = 0,
@@ -110,7 +110,7 @@ Config = {
       OuterCoreStaminaGold = 0.0,
       PropName = "p_food01x_eaten",
       Animation = "eat"
-    },    
+    },
     {
       Name = "consumable_meat_mature_venison_cooked",
       Thirst = 0,
@@ -125,7 +125,7 @@ Config = {
       OuterCoreStaminaGold = 0.0,
       PropName = "p_food01x_eaten",
       Animation = "eat"
-    },  
+    },
     {
         Name = "bread",
         Thirst = 0,
@@ -200,7 +200,7 @@ Config = {
     OuterCoreStaminaGold = 0.0,
     PropName = "p_food01x_eaten",
     Animation = "eat"
-  },  
+  },
   {
       Name = "apple",
       Thirst = 0,
