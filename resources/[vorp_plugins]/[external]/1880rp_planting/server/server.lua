@@ -84,48 +84,63 @@ RegisterServerEvent('poke_planting:giveitem')
 AddEventHandler('poke_planting:giveitem', function(tipo)
     local _source = source
 	local count = math.random(3, 8)
+	local countseed = math.random(0, 2)
 	if tipo == "CRP_TOBACCOPLANT_AC_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de tabaco', 3000)
 		Inventory.addItem(_source, "tobacco", count)
+		Inventory.addItem(_source, "tobaccoseed", countseed)
 	elseif tipo == "CRP_SUGARCANE_AC_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de de azucar', 3000)
 		Inventory.addItem(_source, "sugar", count)
+		Inventory.addItem(_source, "sugarcaneseed", countseed)
 	elseif tipo == "CRP_CORNSTALKS_AB_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de maiz', 3000)
 		Inventory.addItem(_source, "corn", count)
+		Inventory.addItem(_source, "cornseed", countseed)
 	elseif tipo == "CRP_LETTUCE_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de lechuga', 3000)
 		Inventory.addItem(_source, "lettuce", count)
+		Inventory.addItem(_source, "lettuceseed", countseed)
 	elseif tipo == "CRP_TOMATOES_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de tomates', 3000)
 		Inventory.addItem(_source, "tomatoes", count)
+		Inventory.addItem(_source, "tomatoesseed", countseed)
 	elseif tipo == "CRP_BROCCOLI_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de brocoli', 3000)
 		Inventory.addItem(_source, "broccoli", count)
+		Inventory.addItem(_source, "broccolisseed", countseed)
 	elseif tipo == "CRP_WHEAT_DRY_LONG_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de trigo', 3000)
-		Inventory.addItem(_source, "wheat", count)
+		Inventory.addItem(_source, "weat", count)
+		Inventory.addItem(_source, "weatsseed", countseed)
 	elseif tipo == "CRP_POTATO_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de papa', 3000)
 		Inventory.addItem(_source, "potato", count)
+		Inventory.addItem(_source, "potatosseed", countseed)
 	elseif tipo == "OREGANO_P" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de oregano', 3000)
 		Inventory.addItem(_source, "oregano", count)
+		Inventory.addItem(_source, "oreganosseed", countseed)
 	elseif tipo == "RDR_BUSH_YUCCA_DEAD_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de yuca', 3000)
 		Inventory.addItem(_source, "yucca", count)
+		Inventory.addItem(_source, "yuccasseed", countseed)
 	elseif tipo == "CRP_BERRY_AA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de arandano', 3000)
 		Inventory.addItem(_source, "berry", count)
+		Inventory.addItem(_source, "berrysseed", countseed)
 	elseif tipo == "CRP_GINSENG_BA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de ginseng', 3000)
 		Inventory.addItem(_source, "ginseng", count)
+		Inventory.addItem(_source, "ginsengsseed", countseed)
 	elseif tipo == "CRP_COTTON_BE_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de algodon', 3000)
-		Inventory.addItem(_source, "cotton", count)		
+		Inventory.addItem(_source, "cotton", count)
+		Inventory.addItem(_source, "cottonsseed", countseed)
 	elseif tipo == "CRP_CARROTS_BA_SIM" then
 		TriggerClientEvent("vorp:TipRight", _source, 'Has recolectado [X'..count..'] de zanahoria', 3000)
 		Inventory.addItem(_source, "carrots", count)
+		Inventory.addItem(_source, "carrotsseed", countseed)
 
 	end
 end)

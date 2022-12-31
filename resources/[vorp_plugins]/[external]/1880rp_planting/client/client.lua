@@ -174,7 +174,7 @@ end
 
 Citizen.CreateThread(function()
     SetupPlantPrompt()
-    SetupDelPrompt()
+    -- SetupDelPrompt()
     while true do
         Wait(1000)
         local pos = GetEntityCoords(PlayerPedId(), true)
