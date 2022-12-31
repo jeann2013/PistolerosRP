@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Map>
-	<MapMeta Creator="**Invalid**"/>
+	<MapMeta Creator="**1880rp**"/>
 	<Object Hash="-583599145" Position_x="-792.32257080078" Position_y="-1206.2058105469" Position_z="42.495105743408" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="179.41137695313" Collision="true" Visible="true"/>
 	<Object Hash="-583599145" Position_x="-789.37689208984" Position_y="-1209.6989746094" Position_z="42.495838165283" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="-88.589317321777" Collision="true" Visible="true"/>
 	<Object Hash="-583599145" Position_x="-791.22003173828" Position_y="-1206.2194824219" Position_z="42.495105743408" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="179.41137695313" Collision="true" Visible="true"/>

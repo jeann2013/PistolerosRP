@@ -132,6 +132,13 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('consumable_meat_bird', 'Carne de ave', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('porknapples', 'Puerco con manzanas', 20, 1, 'item_standard', 1);
 
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('consumable_corn', 'Maiz', 100, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('consumable_herb_burdock_root', 'Raíz de bardana', 100, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('wheat', 'Trigo', 100, 1, 'item_standard', 1);
+
+
+
+
 
 
 
