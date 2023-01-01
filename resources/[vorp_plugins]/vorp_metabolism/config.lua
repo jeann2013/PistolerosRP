@@ -173,7 +173,7 @@ Config = {
     },
     {
       Name = "water",
-      Thirst = 500,
+      Thirst = 250,
       Hunger = 0,
       Metabolism = 0,
       Stamina = 0,
@@ -183,7 +183,7 @@ Config = {
       OuterCoreHealthGold = 0.0,
       InnerCoreStaminaGold = 0.0,
       OuterCoreStaminaGold = 0.0,
-      PropName = "p_bottlebeer01a",
+      PropName = "p_mugCoffee01x",
       Animation = "drink"
   },
   {
