@@ -1234,7 +1234,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1246,7 +1246,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         
     },
 
@@ -1267,7 +1267,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1279,7 +1279,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
 
     Strawberry = {
@@ -1298,7 +1298,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1310,7 +1310,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
 
     Blackwater = {
@@ -1329,7 +1329,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1341,7 +1341,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1359,7 +1359,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1371,7 +1371,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1389,7 +1389,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1401,7 +1401,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1419,7 +1419,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1431,7 +1431,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
     Vanhorn = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1448,7 +1448,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible ", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1460,7 +1460,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     },
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
@@ -1478,7 +1478,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1490,7 +1490,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
 
     },
     Wapiti = {
@@ -1509,7 +1509,7 @@ Config.BuyItems = {
         { itemLabel = "Cubo consumible/caballo", itemName = "consumable_haycube", currencyType = "cash", buyprice = 0.10, randomprice = 0.2, desc = "food", category = "food" },
         { itemLabel = "Estimulante/caballo", itemName = "stim", currencyType = "cash", buyprice = 0.80, randomprice = 0.2, desc = "tools", category = "tools" },
         { itemLabel = "Semilla de maiz", itemName = "cornseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de caña de azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla caña/azucar", itemName = "sugarcaneseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tabaco", itemName = "tobaccoseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de lechuga", itemName = "lettuceseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de tomate", itemName = "tomatoesseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
@@ -1521,6 +1521,6 @@ Config.BuyItems = {
         { itemLabel = "Semilla de arandano", itemName = "berrysseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
-        { itemLabel = "Semilla de zanahoria", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
     }
 }
