@@ -276,6 +276,34 @@ Config.Crafting = {
         Animation = 'spindlecook'
     },
     {
+        Text = "Cup of coffee ",
+        SubText = "InvMax = 10",
+        Desc = "Recipe: 3x Semilla de cafe, 1x Agua",
+        Items = {
+            {
+                name = "coffeeseed",
+                count = 3
+            },
+            {
+                name = "water",
+                count = 1
+            }
+        },
+        Reward = {
+            {
+                name = "cupcoffee",
+                count = 1
+            }
+        },
+        Type = "item",
+        Job = 0,
+        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+        UseCurrencyMode = false,
+        CurrencyType = 0,
+        Category = "food",
+        Animation = 'spindlecook'
+    },
+    {
         Text = "Breakfast ",
         SubText = "InvMax = 5",
         Desc = "Recipe: 1x Pork, 2x Eggs",

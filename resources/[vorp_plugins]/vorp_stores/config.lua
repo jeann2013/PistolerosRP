@@ -1247,6 +1247,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
         
     },
 
@@ -1280,6 +1281,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
 
     Strawberry = {
@@ -1311,6 +1313,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
 
     Blackwater = {
@@ -1342,6 +1345,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
     Armadillo = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1372,6 +1376,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
     Tumbleweed = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1402,6 +1407,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
     StDenis = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1432,6 +1438,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
     Vanhorn = {
         { itemLabel = "Apple", itemName = "apple", currencyType = "cash", buyprice = 0.50, randomprice = math.random(30, 52), desc = "buy apple", category = "food" },
@@ -1461,6 +1468,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     },
     BlackwaterFishing = {
         { itemLabel = "Bait", itemName = "bait", currencyType = "cash", buyprice = 0.50, randomprice = math.random(45, 55), desc = "buy Bait", category = "bait" },
@@ -1491,6 +1499,7 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
 
     },
     Wapiti = {
@@ -1522,5 +1531,6 @@ Config.BuyItems = {
         { itemLabel = "Semilla de algodon", itemName = "cottonsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla de ginseng", itemName = "ginsengsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
         { itemLabel = "Semilla zanaho.", itemName = "carrotsseed", currencyType = "cash", buyprice = 1, randomprice = 0.2, desc = "planting", category = "planting" },
+        { itemLabel = "Semilla cafe", itemName = "coffeeseed", currencyType = "cash", buyprice = 0.35, randomprice = 0.2, desc = "food", category = "food" },
     }
 }
