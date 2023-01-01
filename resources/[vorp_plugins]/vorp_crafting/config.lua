@@ -291,7 +291,7 @@ Config.Crafting = {
         },
         Reward = {
             {
-                name = "cupcoffee",
+                name = "consumable_coffee",
                 count = 1
             }
         },
