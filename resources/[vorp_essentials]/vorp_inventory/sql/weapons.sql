@@ -138,6 +138,8 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('coffeeseed', 'Semilla de Cafe', 100, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('coffeegrinder', 'Molino de Cafe', 100, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('groundcoffee', 'Cafe molido', 100, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('groundcoffee', 'Cafe molido', 100, 1, 'item_standard', 1);
+
 
 
 
