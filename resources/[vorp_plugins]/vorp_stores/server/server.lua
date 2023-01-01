@@ -52,7 +52,7 @@ AddEventHandler('vorp_stores:sell', function(label, name, type, price, qty, stor
                         sellItems(_source,Character,ItemName,quantity,ItemLabel,total,total2,currencyType)
                         items.amount = items.amount-quantity --update amount left for store
                     else
-                        VORPcore.NotifyLeftTip( _source, _U("limitSell"), 3000)
+                        VORPcore.NotifyBottomRight( _source, _U("limitSell"), 3000)
                     end
                 end
             end
@@ -64,7 +64,7 @@ AddEventHandler('vorp_stores:sell', function(label, name, type, price, qty, stor
             dynamicStoreHandler(storeconfig,storeId,ItemName,quantity)
         end
     else
-        VORPcore.NotifyLeftTip( _source,_U("youdontsell"), 3000)
+        VORPcore.NotifyBottomRight( _source,_U("youdontsell"), 3000)
     end
 end)
 
@@ -78,7 +78,7 @@ function sellItems(_source,Character,ItemName,quantity,ItemLabel,total,total2,cu
         if Config.UseWebhook then
         VORPcore.AddWebhook(Config.WebhookTitle,Config.Webhook, fname .. " " .. lname .. _U("hassold") .. " " .. quantity .. ItemLabel .. _U("frcash") .. total2 .. _U("ofcash") , Config.WebhookColor, Config.WebhookName, Config.WebhookLogo, Config.WebhookLogo2, Config.WebhookAvatar)
         end
-            VORPcore.NotifyLeftTip( _source, _U("yousold") .. quantity .. " " .. ItemLabel .. _U("frcash") .. total2 .. _U("ofcash"), 3000)
+            VORPcore.NotifyBottomRight( _source, _U("yousold") .. quantity .. " " .. ItemLabel .. _U("frcash") .. total2 .. _U("ofcash"), 3000)
     end
 
     if currencyType == "gold" then
@@ -90,7 +90,7 @@ function sellItems(_source,Character,ItemName,quantity,ItemLabel,total,total2,cu
         if Config.UseWebhook then
         VORPcore.AddWebhook(Config.WebhookTitle,Config.Webhook, fname .. " " .. lname .. _U("hassold") .. " " .. quantity .. ItemLabel .. _U("fr") .. total2 .. _U("ofgold") , Config.WebhookColor, Config.WebhookName, Config.WebhookLogo, Config.WebhookLogo2, Config.WebhookAvatar)
         end
-        VORPcore.NotifyLeftTip( _source, _U("yousold") .. quantity .. "" .. ItemLabel .. _U("fr") .. total2 .. _U("ofgold"), 3000)
+        VORPcore.NotifyBottomRight( _source, _U("yousold") .. quantity .. "" .. ItemLabel .. _U("fr") .. total2 .. _U("ofgold"), 3000)
     end
     
 end
@@ -137,7 +137,7 @@ AddEventHandler('vorp_stores:buy', function(label, name, type, price, qty,storeI
                             buyItems(_source,Character,money,gold,currencyType,ItemPrice, total,ItemName,quantity,ItemLabel,total2)
                             items.amount = items.amount-quantity --update amount left for store
                         else
-                            VORPcore.NotifyLeftTip(_source, _U("limitBuy"), 3000)
+                            VORPcore.NotifyBottomRight(_source, _U("limitBuy"), 3000)
                         end
                     end
                 end
@@ -146,10 +146,10 @@ AddEventHandler('vorp_stores:buy', function(label, name, type, price, qty,storeI
                 end
             end
         else
-            VORPcore.NotifyLeftTip(_source, _U("cantcarry"), 3000)
+            VORPcore.NotifyBottomRight(_source, _U("cantcarry"), 3000)
         end
     else
-        VORPcore.NotifyLeftTip(_source, "item does not exist", 3000)
+        VORPcore.NotifyBottomRight(_source, "item does not exist", 3000)
     end
 end)
 
@@ -163,11 +163,11 @@ function buyItems(_source,Character,money,gold,currencyType,ItemPrice, total,Ite
             if Config.UseWebhook then
             VORPcore.AddWebhook(Config.WebhookTitle,Config.Webhook, fname .." " .. lname .. _U("hasbought") .. " " .. quantity .. ItemLabel .. _U("frcash") .. total2 .. _U("ofcash") , Config.WebhookColor, Config.WebhookName, Config.WebhookLogo, Config.WebhookLogo2, Config.WebhookAvatar)
             end
-                VORPcore.NotifyLeftTip( _source, _U("youbought") .. quantity .. " " .. ItemLabel .. _U("frcash") .. total2 .. _U("ofcash"),3000)
+                VORPcore.NotifyBottomRight( _source, _U("youbought") .. quantity .. " " .. ItemLabel .. _U("frcash") .. total2 .. _U("ofcash"),3000)
 
         end
     else
-        VORPcore.NotifyLeftTip(_source, _U("youdontcash"), 3000)
+        VORPcore.NotifyBottomRight(_source, _U("youdontcash"), 3000)
     end
 
     if gold >= total then
@@ -180,9 +180,9 @@ function buyItems(_source,Character,money,gold,currencyType,ItemPrice, total,Ite
             if Config.UseWebhook then
             VORPcore.AddWebhook(Config.WebhookTitle,Config.Webhook, fname .." " .. lname .. _U("hasbought") .. " " .. quantity .. ItemLabel .. _U("fr") .. total2 .. _U("ofgold") , Config.WebhookColor, Config.WebhookName, Config.WebhookLogo, Config.WebhookLogo2, Config.WebhookAvatar)
             end
-                VORPcore.NotifyLeftTip(_source, _U("youbought") .. quantity .. "" .. ItemLabel .. _U("fr") .. total2 .. _U("ofgold"),3000)
+                VORPcore.NotifyBottomRight(_source, _U("youbought") .. quantity .. "" .. ItemLabel .. _U("fr") .. total2 .. _U("ofgold"),3000)
             else
-                VORPcore.NotifyLeftTip(_source, _U("youdontgold"), 3000)
+                VORPcore.NotifyBottomRight(_source, _U("youdontgold"), 3000)
             end
         end
     end
