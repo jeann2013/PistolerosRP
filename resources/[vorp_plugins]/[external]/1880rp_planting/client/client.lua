@@ -102,7 +102,7 @@ AddEventHandler('poke_planting:regar1', function(source)
     local hash1, hash2, hash3 = nil, nil, nil
     local planta = GetEntityCoords(object, true)
     local x, y, z = nil, nil, nil
-    
+
     for k, v in ipairs(myPlants) do
         if v.stage == 1 then
             if GetDistanceBetweenCoords(v.x, v.y, v.z, pos.x, pos.y, pos.z, true) < 2.0 then
@@ -114,9 +114,8 @@ AddEventHandler('poke_planting:regar1', function(source)
             end
         end
     end
-    
+
     local plant2 = hash2
-    
     if DoesEntityExist(object) then
         animacion2()
 
@@ -139,7 +138,6 @@ end)
 
 RegisterNetEvent('poke_planting:fin2')
 AddEventHandler('poke_planting:fin2', function(object2, x, y, z, key, hash1, hash2, hash3)
-    --local plant3 = GetHashKey("CRP_TOBACCOPLANT_AC_SIM")
     local planta2 = GetEntityCoords(object2, true)
     
     TriggerEvent("vorp:TipRight", "¡Tu planta ha madurado!", 4000)
@@ -174,7 +172,7 @@ end
 
 Citizen.CreateThread(function()
     SetupPlantPrompt()
-    -- SetupDelPrompt()
+    SetupDelPrompt()
     while true do
         Wait(1000)
         local pos = GetEntityCoords(PlayerPedId(), true)
@@ -188,13 +186,12 @@ Citizen.CreateThread(function()
                             local key = k
                             TriggerEvent('poke_planting:fin2', v.object, v.x, v.y, v.z, key, v.hash, v.hash2, v.hash3)
                         end
-                    end    
+                    end
                     if v.stage == 3 and GetDistanceBetweenCoords(v.x, v.y, v.z, pos.x, pos.y, pos.z, true) <= 2 then
                         if not v.prompt then
                             v.prompt = true
                         end
                     end
-                        
                     if v.stage == 3 and GetDistanceBetweenCoords(v.x, v.y, v.z, pos.x, pos.y, pos.z, true) > 3 then
                         if v.prompt then
                             v.prompt = false
