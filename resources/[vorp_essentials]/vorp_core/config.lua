@@ -162,7 +162,7 @@ Config = {
   ---------------------------------------------------------------------------------------
   ------------------------------- TRANSLATE ---------------------------------------------
   Langs = {
-    IsConnected        = "🚫 Cuende steam duplicada (steam | rockstar)",
+    IsConnected        = "🚫 Cuenta steam duplicada (steam | rockstar)",
     NoSteam            = "🚫 Tienes que tener Steam abierto, por favor abre Steam y reinicia RedM",
     NoInWhitelist      = "🚫 No estás en la Whitelist. Envía en el canal de discord jeann#9751 tu user-id: ",
     NoPermissions      = "No tienes suficientes permisos",
