@@ -5,7 +5,7 @@ local PlantPrompt
 
 function SetupDelPrompt()
     Citizen.CreateThread(function()
-        local str = 'Cosechar'
+        local str = _U("harvest")
         DelPrompt = PromptRegisterBegin()
         PromptSetControlAction(DelPrompt, 0xE8342FF2)
         str = CreateVarString(10, 'LITERAL_STRING', str)
@@ -19,7 +19,7 @@ end
 
 function SetupPlantPrompt()
     Citizen.CreateThread(function()
-        local str = 'Plantar'
+        local str = _U("plant")
         PlantPrompt = PromptRegisterBegin()
         PromptSetControlAction(PlantPrompt, 0x07CE1E61)
         str = CreateVarString(10, 'LITERAL_STRING', str)
@@ -95,8 +95,7 @@ end)
 
 RegisterNetEvent('poke_planting:regar1')
 AddEventHandler('poke_planting:regar1', function(source)
-    local pos = GetEntityCoords(PlayerPedId(), true)
-    --local plant2 = GetHashKey("CRP_TOBACCOPLANT_AB_SIM")
+    local pos = GetEntityCoords(PlayerPedId(), true)    
     local object = nil
     local key = nil
     local hash1, hash2, hash3 = nil, nil, nil
@@ -129,7 +128,7 @@ AddEventHandler('poke_planting:regar1', function(source)
         table.remove(myPlants, key)
         Wait(800)
         local object = CreateObject(plant2, x, y, z, true, true, false)
-        myPlants[#myPlants+1] = {["object"] = object, ['x'] = x, ['y'] = y, ['z'] = z, ['stage'] = 2, ['timer'] = 150, ['hash'] = hash1, ['hash2'] = hash2, ['hash3'] = hash3}
+        myPlants[#myPlants+1] = {["object"] = object, ['x'] = x, ['y'] = y, ['z'] = z, ['stage'] = 2, ['timer'] = Config.timer, ['hash'] = hash1, ['hash2'] = hash2, ['hash3'] = hash3}
         local plantCount = #myPlants
         PlaceObjectOnGroundProperly(myPlants[plantCount].object)
         SetEntityAsMissionEntity(myPlants[plantCount].object, true)
@@ -140,7 +139,7 @@ RegisterNetEvent('poke_planting:fin2')
 AddEventHandler('poke_planting:fin2', function(object2, x, y, z, key, hash1, hash2, hash3)
     local planta2 = GetEntityCoords(object2, true)
     
-    TriggerEvent("vorp:TipRight", "¡Tu planta ha madurado!", 4000)
+    TriggerEvent("vorp:TipRight", _U("yourPlantMatured"), 4000)
     
     local plant3 = hash3
     
@@ -163,7 +162,7 @@ end)
 
 function harvestPlant(key)
 	TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_CROUCH_INSPECT'), 10000, true, false, false, false)
-    TriggerEvent("vorp:TipBottom", "Cosechando...", 10000)
+    TriggerEvent("vorp:TipBottom", _U("harvesting"), 10000)
     Wait(10000)
     ClearPedTasksImmediately(PlayerPedId())
 	DeleteObject(myPlants[key].object)
@@ -211,13 +210,13 @@ Citizen.CreateThread(function()
 			for k, v in ipairs(myPlants) do
 				if GetDistanceBetweenCoords(v.x, v.y, v.z, pos.x, pos.y, pos.z, true) < 7.0 then
 					if v.stage == 1 then
-						DrawText3D(v.x, v.y, v.z, '¡Necesita agua!')
+						DrawText3D(v.x, v.y, v.z, _U('needWater'))
 					end
 					if v.stage == 2 then
-						DrawText3D(v.x, v.y, v.z, 'En crecimiento: ' .. v.timer)
+						DrawText3D(v.x, v.y, v.z, _U('growing') .. v.timer)
 					end
 					if v.stage == 3 then
-						DrawText3D(v.x, v.y, v.z, '¡Listo para cosechar! [E]')
+						DrawText3D(v.x, v.y, v.z, _U('readyHarvest'))
 					end
 					if v.prompt then
 						if Citizen.InvokeNative(0x91AEF906BCA88877, 0, 0xCEFD9220) then
@@ -236,12 +235,12 @@ function animacion()
 	PromptSetEnabled(prompt, true)
 	PromptSetVisible(prompt, true)
 	TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_FARMER_RAKE'), 10000, true, false, false, false)
-    TriggerEvent("vorp:TipBottom", "Rastrilleando...", 10000)
+    TriggerEvent("vorp:TipBottom", _U('raking'), 10000)
     Wait(10000)
     ClearPedTasksImmediately(PlayerPedId())
 	Wait(1000)
     TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_CROUCH_INSPECT'), 20000, true, false, false, false)
-    TriggerEvent("vorp:TipBottom", "Plantando...", 20000)
+    TriggerEvent("vorp:TipBottom", _U('planting'), 20000)
     Wait(20000)
     ClearPedTasksImmediately(PlayerPedId())
 	PromptSetEnabled(prompt, false)
@@ -250,7 +249,7 @@ end
 
 function animacion2()
 	TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_BUCKET_POUR_LOW'), 7000, true, false, false, false)
-    TriggerEvent("vorp:TipBottom", "Regando la planta...", 7000)
+    TriggerEvent("vorp:TipBottom", _U('wateringPlant'), 7000)
     Wait(7000)
     ClearPedTasksImmediately(PlayerPedId())
 end

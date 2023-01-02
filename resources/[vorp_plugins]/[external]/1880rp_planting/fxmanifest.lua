@@ -11,3 +11,9 @@ server_scripts {
     'config.lua',
     'server/server.lua'
 }
+
+shared_scripts {
+    'locale.lua',
+    'config.lua',
+    'languages/*.lua',
+  }
