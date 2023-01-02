@@ -24,5 +24,5 @@ Locales["en"] = {
     ["berry"] = "berry",
     ["cotton"] = "cotton",
     ["ginseng"] = "ginseng",
-    ["carrot"] = "carrot",
+    ["carrots"] = "carrot",
 }

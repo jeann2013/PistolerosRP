@@ -24,5 +24,5 @@ Locales["es"] = {
     ["berry"] = "arandano",
     ["cotton"] = "algodon",
     ["ginseng"] = "ginseng",
-    ["carrot"] = "zanahoria",
+    ["carrots"] = "zanahoria",
 }

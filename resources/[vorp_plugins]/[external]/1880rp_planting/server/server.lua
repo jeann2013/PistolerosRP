@@ -110,7 +110,7 @@ AddEventHandler('poke_planting:giveitem', function(tipo)
 	elseif tipo == "CRP_COTTON_BE_SIM" then
 		GiveSeedAndVegetable(countseed,'cotton',_source, countVegetable, 'cottonsseed')
 	elseif tipo == "CRP_CARROTS_BA_SIM" then
-		GiveSeedAndVegetable(countseed,'carrot', _source, countVegetable, 'carrotsseed')
+		GiveSeedAndVegetable(countseed,'carrots', _source, countVegetable, 'carrotsseed')
 	end
 end)
 
