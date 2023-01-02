@@ -4,7 +4,7 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('sugarcaneseed', 'Semilla de caña de azucar', 100, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('tobacco', 'Tabaco', 100, 1, 'item_standard', 0);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('tobaccoseed', 'Semilla de tabaco', 100, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('wateringcan', 'Regadera', 100, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('wateringcan', 'Regadera con agua', 100, 1, 'item_standard', 1);
 
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('lettuceseed', 'Semilla de lechuga', 100, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('lettuce', 'Lechuga', 100, 1, 'item_standard', 1);

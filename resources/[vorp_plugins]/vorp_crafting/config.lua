@@ -276,6 +276,54 @@ Config.Crafting = {
         Animation = 'spindlecook'
     },
     {
+        Text = "Water ",
+        SubText = "InvMax = 100",
+        Desc = "Recipe: 4x Agua sucia",
+        Items = {
+            {
+                name = "seauplein",
+                count = 4
+            }
+        },
+        Reward = {
+            {
+                name = "water",
+                count = 1
+            }
+        },
+        Type = "item",
+        Job = 0,
+        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+        UseCurrencyMode = false,
+        CurrencyType = 0,
+        Category = "food",
+        Animation = 'craft'
+    },
+    {
+        Text = "Agua para vegetales ",
+        SubText = "InvMax = 100",
+        Desc = "Recipe: 1x Agua sucia",
+        Items = {
+            {
+                name = "seauplein",
+                count = 1
+            }
+        },
+        Reward = {
+            {
+                name = "wateringcan",
+                count = 1
+            }
+        },
+        Type = "item",
+        Job = 0,
+        Location = 0, -- set to 0 to allow any locations from Config.Locations, or like { "butcher" } to job restriction
+        UseCurrencyMode = false,
+        CurrencyType = 0,
+        Category = "items",
+        Animation = 'craft'
+    },
+    {
         Text = "Cup of coffee ",
         SubText = "InvMax = 10",
         Desc = "Recipe: 3x Semilla de cafe, 1x Agua",

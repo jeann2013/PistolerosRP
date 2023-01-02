@@ -1,3 +1,5 @@
+
+
 local keys = { ['G'] = 0x760A9C6F, ['S'] = 0xD27782E3, ['W'] = 0x8FD015D8, ['H'] = 0x24978A28, ['G'] = 0x5415BE48, ["ENTER"] = 0xC7B5340A, ['E'] = 0xDFF812F9,["BACKSPACE"] = 0x156F7119 }
 local WaterTypes = {
     [1] =  {["name"] = "Sea of Coronado",       ["waterhash"] = -247856387, ["watertype"] = "lake"},
@@ -41,17 +43,26 @@ Citizen.CreateThread(function()
             if Water == WaterTypes[k]["waterhash"]  then
                 if IsPedOnFoot(PlayerPedId()) then
                     if IsEntityInWater(PlayerPedId()) then
-                        DrawTxt("Presione [~e~G~q~] para lavar, [~e~ENTER~q~] para beber agua", 0.15, 0.30, 0.1, 0.3, true, 255, 255, 255, 255, true, 10000)
+                        DrawTxt("Presione [~e~G~q~] para lavar, [~e~ENTER~q~] para tomar el agua", 0.15, 0.30, 0.1, 0.3, true, 255, 255, 255, 255, true, 10000)
                         if IsControlJustReleased(0, 0x760A9C6F) then -- wash G
                             StartWash("amb_misc@world_human_wash_face_bucket@ground@male_a@idle_d", "idle_l")
                         end
                         if IsControlJustReleased(0, 0xC7B5340A) then -- drink enter
-                        TriggerEvent("drp:rio")
-                        Citizen.Wait(10000)
-                        TriggerEvent('fred_meta:consume', 0,20,0,0,0.0,0,0,0,0.0,0.0)
-                        PlaySoundFrontend("Core_Fill_Up", "Consumption_Sounds", true, 0)
+                            -- TriggerEvent("drp:rio")
+                            -- Citizen.Wait(10000)
+                            -- TriggerEvent('fred_meta:consume', 0,20,0,0,0.0,0,0,0,0.0,0.0)
+                            -- PlaySoundFrontend("Core_Fill_Up", "Consumption_Sounds", true, 0)
+                            -- Inventory.RegisterUsableItem("tobaccoseed", function(data)
+                            Citizen.Wait(0)
+                            ClearPedTasksImmediately(PlayerPedId())
+                            TaskStartScenarioInPlace(playerPed, GetHashKey('WORLD_HUMAN_BUCKET_DRINK_GROUND'), -1, true, false, false, false)
+                            Citizen.Wait(17000)
+                            ClearPedTasks(PlayerPedId())
 
-                    end
+                            TriggerServerEvent("1880rp_river:giveitem", 'seauplein')                            
+                            -- end)
+
+                        end
                 end
                 
             end
