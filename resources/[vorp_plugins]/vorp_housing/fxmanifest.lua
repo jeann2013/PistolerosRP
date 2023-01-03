@@ -13,4 +13,5 @@ server_scripts {
 
 files {
   'Newtonsoft.Json.dll',
+  'Config.json',
 }
